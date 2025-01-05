@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RF3-05-T-00-50-G
+D Conn SMB 0Hz to 8GHz 50Ohm Solder ST Thru-Hole RCP Gold
+K
+F https://app.adam-tech.com/products/download/data_sheet/198066/rf3-05-t-00-50-g-data-sheet.pdf
+$ENDCMP
+#
+#End Doc Library

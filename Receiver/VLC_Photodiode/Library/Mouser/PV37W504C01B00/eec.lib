@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Bourns PV37W504C01B00
+#
+DEF PV37W504C01B00 R 0 40 Y Y 1 L N
+F0 "R" 0 100 50 H V L CNN 
+F1 "PV37W504C01B00" 0 200 50 H V L CNN 
+F2 "Bourns-PV37W-0-0-*" 0 300 50 H I L CNN 
+F3 "https://www.bourns.com/docs/Product-Datasheets/pv37.pdf" 0 400 50 H I L CNN 
+F4 "No" 0 500 50 H I L CNN "automotive"
+F5 "Res" 0 600 50 H I L CNN "category"
+F6 "Cermet" 0 700 50 H I L CNN "composition"
+F7 "Passive Components" 0 800 50 H I L CNN "device class L1"
+F8 "Resistors" 0 900 50 H I L CNN "device class L2"
+F9 "Variable Resistors and Potentiometers" 0 1000 50 H I L CNN "device class L3"
+F10 "TRIMMER 500KOHM 0.25W PC PIN TOP" 0 1100 50 H I L CNN "digikey description"
+F11 "490-2985-ND" 0 1200 50 H I L CNN "digikey part number"
+F12 "9.02mm" 0 1300 50 H I L CNN "height"
+F13 "Yes" 0 1400 50 H I L CNN "lead free"
+F14 "963cedd6cdedb456" 0 1500 50 H I L CNN "library id"
+F15 "Bourns" 0 1600 50 H I L CNN "manufacturer"
+F16 "Res Cermet Trimmer 500K Ohm 10% 1/4W 12(Elec)Turn 1.8mm (6.4 X 4 X 7.7mm) Pin Thru-Hole Bulk" 0 1700 50 H I L CNN "mouser description"
+F17 "81-PV37W504C01B00" 0 1800 50 H I L CNN "mouser part number"
+F18 "PTH_3" 0 1900 50 H I L CNN "package"
+F19 "0.25W" 0 2000 50 H I L CNN "power rating"
+F20 "500kΩ" 0 2100 50 H I L CNN "resistance"
+F21 "Yes" 0 2200 50 H I L CNN "rohs"
+F22 "PV37" 0 2300 50 H I L CNN "series"
+F23 "0.33mm" 0 2400 50 H I L CNN "standoff height"
+F24 "150ppm/°C" 0 2500 50 H I L CNN "temperature coefficient"
+F25 "+125°C" 0 2600 50 H I L CNN "temperature range high"
+F26 "-55°C" 0 2700 50 H I L CNN "temperature range low"
+F27 "10%" 0 2800 50 H I L CNN "tolerance"
+DRAW
+X 1 1 100 -200 100 R 40 0 1 1 P 
+X 3 3 600 -200 100 L 40 0 1 1 P 
+X 2 2 100 0 100 R 40 0 1 1 P 
+P 2 1 1 0 200 -200 230 -150 N
+P 2 1 1 0 230 -150 280 -250 N
+P 2 1 1 0 280 -250 330 -150 N
+P 2 1 1 0 330 -150 380 -250 N
+P 2 1 1 0 380 -250 430 -150 N
+P 2 1 1 0 430 -150 480 -250 N
+P 2 1 1 0 480 -250 500 -200 N
+P 2 1 1 0 200 0 300 0 N
+P 2 1 1 0 330 -130 330 0 N
+P 2 1 1 0 330 0 300 0 N
+P 2 1 1 0 330 -130 300 -100 N
+P 2 1 1 0 330 -130 360 -100 N
+ENDDRAW
+ENDDEF
+#
+# End Library

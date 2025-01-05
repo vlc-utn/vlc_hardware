@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Lumicom_Photodiode")(type "KiCad")(uri "${KIPRJMOD}/Library/Lumicom_Photodiode.pretty")(options "")(descr ""))
+)

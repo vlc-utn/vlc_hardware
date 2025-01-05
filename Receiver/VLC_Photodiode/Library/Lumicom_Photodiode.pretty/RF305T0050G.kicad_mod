@@ -1,0 +1,292 @@
+(footprint "RF305T0050G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RF3-05-T-00-50-G-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -6.7 0 0)
+		(layer "F.SilkS")
+		(uuid "9409d019-7d8b-49dc-acf6-3f47923d9976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RF305T0050G"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "40bc5cbf-1018-430a-b429-7a5e2595d070")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a52184f-9dd4-4104-8ec8-a2ef57904698")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83d122e6-514a-4e79-9a16-622e287d09f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mouser: https://ar.mouser.com/ProductDetail/Adam-Tech/RF3-05-T-00-50-G?qs=HoCaDK9Nz5cB8uP03FP3GA%3D%3D"
+		(at 0 -9.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bfb85eb-236a-48da-9581-ccff750fd796")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.2 0)
+		(end -4.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ec1da59-a091-492d-96b4-f6249e19d0b1")
+	)
+	(fp_line
+		(start -4.1 0)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11522ec9-c16c-489f-bb1a-963d913dd5b7")
+	)
+	(fp_line
+		(start -3.5 -1.2)
+		(end -3.5 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e4e6c4b-348a-4504-9eba-461236d06367")
+	)
+	(fp_line
+		(start -1.2 -3.5)
+		(end 1.2 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59578133-ee11-4bae-9e48-b898acdd482f")
+	)
+	(fp_line
+		(start -1.2 3.5)
+		(end 1.2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04e3284a-fd82-401e-bedb-f2931df25720")
+	)
+	(fp_line
+		(start 3.5 -1.2)
+		(end 3.5 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad40b4f3-aa4c-4fd1-9e6f-f76949eb00ea")
+	)
+	(fp_arc
+		(start -4.2 0)
+		(mid -4.15 -0.05)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62fd277b-9dec-4cb1-a27b-818959f87ed2")
+	)
+	(fp_arc
+		(start -4.1 0)
+		(mid -4.15 0.05)
+		(end -4.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46d52702-91ac-4499-981e-fc17e6a961b0")
+	)
+	(fp_line
+		(start -4.815 -4.815)
+		(end 4.815 -4.815)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53fc6eaf-b287-4357-9697-a6f49ae56c63")
+	)
+	(fp_line
+		(start -4.815 4.815)
+		(end -4.815 -4.815)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec781175-aaeb-4a8c-84c5-f09e84de8454")
+	)
+	(fp_line
+		(start 4.815 -4.815)
+		(end 4.815 4.815)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47d07a5a-7588-4a7d-b637-ae349eb2db1c")
+	)
+	(fp_line
+		(start 4.815 4.815)
+		(end -4.815 4.815)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32cd14a0-f59d-4ef3-91d9-5b957959adce")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31bfdf89-6058-43a0-b231-c50981c3d380")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4060eb2-4762-4c21-9d0a-ca4a55195595")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f57dfac-1ceb-4329-9ace-5effed336d72")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1934619-f90e-40ab-a8f7-c0eb3f5e7c8d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "edb22385-9e01-4fcd-8626-7c4e56d81161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb145de8-732c-4acc-8335-958cc4c59f9e")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd55cb38-1ed7-4173-acf3-c7ac0acc29f8")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "472cd8f5-5ecc-41d7-bc6e-0a8da567b5a9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b98aa2da-0fbb-4515-8d1c-5f7cacca1ebb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1130dbb-ce72-422b-a738-fdfdd0097097")
+	)
+	(model "${KIPRJMOD}/Library/Mouser/LIB_RF3-05-T-00-50-G/RF3-05-T-00-50-G/3D/RF3-05-T-00-50-G.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Lumicom_Photodiode")(type "KiCad")(uri "${KIPRJMOD}/Lumicom_Photodiode.kicad_sym")(options "")(descr ""))
+)
