@@ -1,0 +1,202 @@
+(footprint "Inductor_Murata_5x5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2020 (5050) T=2.0±0.2mm")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2720526d-fa43-4e3d-be44-e904be308474")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Inductor_Murata_5x5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ced5523-8db8-4d8d-aabc-f791fb9a92e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Inductor_Murata_5x5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b57adc8-6ce3-472a-9563-6d57fb102ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4beda3-a28b-4a6d-a4fd-491b889141ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e538258-6da1-4e5a-8934-ee583d465069")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -2.5)
+		(end 2.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed78f9aa-e95f-4654-ab80-d6d4f1c6666f")
+	)
+	(fp_line
+		(start -2.1 2.5)
+		(end 2.1 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcc70dac-00fa-4bd0-824e-3b3d4cce751f")
+	)
+	(fp_line
+		(start -3.75 -3.5)
+		(end 3.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "035eaec4-2ff1-448e-ada4-ecdf95a70992")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end -3.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20eb5125-d66d-469a-abad-d43448ed7aee")
+	)
+	(fp_line
+		(start 3.75 -3.5)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "932b262e-204e-49e2-b914-dd6056b949dc")
+	)
+	(fp_line
+		(start 3.75 3.5)
+		(end -3.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da60d93e-4fd8-4c08-8412-ae640bee5fab")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25be05e4-3e91-4512-8dda-9d9fbefa97af")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d58063fd-31ee-4519-8d21-b7f9f8f168be")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44dc8d79-3735-4426-9cec-0d6ca78e9038")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a21a103f-0b71-4c0f-8a44-a49e115e7a4d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "171dd46f-edd2-49a7-91ba-a6747929d5bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.825 0)
+		(size 1.85 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d60ca212-76c3-4221-89cb-e42fc8a18f7a")
+	)
+	(pad "2" smd rect
+		(at 1.825 0)
+		(size 1.85 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "273541b3-8e11-420c-a7f6-0688a99780d1")
+	)
+	(model "E:/Onedrive/Universidad/UTN/Materias/6/proyecto_final/Kicad/Bibliotecas/LumiCom/inductor_morata_5x5/LQH5BPN1R5NT0L/3D/LQH5BPN1R5NT0L.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

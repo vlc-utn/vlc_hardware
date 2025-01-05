@@ -1,0 +1,58 @@
+
+**** 12/23/24 01:18:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-ac"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-pspicefil
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ac.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LMH34400.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\Modelos\Leds\Led_Chino.lib" 
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1k 10G
+.STEP V_ALC LIST 0 3.3 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source LMH34400
+X_U1         N03860 VDD 0 N05609 0 OUT LMH34400
+C_Cj         VAPD N01514  1e-12  TC=0,0 
+V_Vdd         VDD 0 3.3Vdc
+V_Vapd         VAPD 0 0Vdc
+I_I1         N01514 VAPD DC 0Adc AC 1
++SIN 0 20e-6 100e6 0 0 0
+R_Rload         N05063 OUT  50 TC=0,0 
+R_Rload2         N03340 0  50 TC=0,0 
+T_T2         N01514 0 N03860 0 Z0=50 TD=0.1ns  
+C_Cj1         N05067 N05063  1uf  TC=0,0 
+C_Cj2         VDD 0  1uF  TC=0,0 
+T_T3         N05067 0 N03340 0 Z0=50 TD=0.1ns  
+V_V1         N05609 0 {V_ALC}
+.PARAM  v_alc=0
+
+**** RESUMING ac.cir ****
+.END
+
+ERROR(ORPSIM-15090): STEP device V_ALC is undefined
+

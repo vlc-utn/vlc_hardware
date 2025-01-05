@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LumiCom_Transmitter")(type "KiCad")(uri "${KIPRJMOD}/Library/LumiCom_Transmitter.pretty")(options "")(descr ""))
+)

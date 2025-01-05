@@ -1,0 +1,525 @@
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Noise.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LMH34400.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\Modelos\Leds\Led_Chino.lib" 
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1K 10G
+.NOISE V([OUT]) I_I1 1K
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Noise.net" 
+
+
+
+**** INCLUDING Noise.net ****
+* source LMH34400
+I_I1         N06325 VAPD DC 0Adc AC 1
++SIN 0 20e-6 100e6 0 0 0
+X_U1         N06343 VDD 0 VDD 0 OUT LMH34400
+V_Vapd         VAPD 0 0Vdc
+V_Vdd         VDD 0 3.3Vdc
+T_T2         N06325 0 N06343 0 Z0=50 TD=0.1ns  
+C_Cj2         VDD 0  1uF  TC=0,0 
+C_Cj         VAPD N06325  1e-12  TC=0,0 
+R_Rload         N06479 OUT  50 TC=0,0 
+R_Rload2         OUT 0  50 TC=0,0 
+C_Cj1         N07229 N06479  1uf  TC=0,0 
+T_T3         N07229 0 OUT 0 Z0=50 TD=0.1ns  
+
+**** RESUMING Noise.cir ****
+.END
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVNF  X_U1.X_U2.DVN   
+          IS  100.000000E-18  100.000000E-18 
+          KF    1.000000E-09    1.000000E-09 
+
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISE    X_U1.R_NOISELESS 
+  T_Measured   27              27            
+   T_Current   25            -273.15         
+           R    1               1            
+
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S11._S11 X_U1.X_S12._S12 X_U1.X_S20._S20 X_U1.X_S21._S21 
+         RON    1.000000E-03    1.000000E-03    1.000000E-03    1.000000E+06 
+        ROFF    1               1               1.000000E+06    1.000000E-03 
+         VON     .085            .05            1.6             1.6          
+        VOFF     .07             .045           1.2             1.2          
+
+
+               X_U1.X_S29._S29 X_U1.X_S30._S30 X_U1.X_S31._S31 X_U1.X_S36._S36 
+         RON    1.000000E+09    1               1               1.000000E-03 
+        ROFF    1               1.000000E-06    1.000000E-06    1.000000E+03 
+         VON    1.6           100.000000E-06  100.000000E-06     .02         
+        VOFF    1.2             0               0               -.02         
+
+
+               X_U1.X_S37._S37 X_U1.X_S38._S38 X_U1.X_S39._S39 X_U1.X_S40._S40 
+         RON    1.000000E-03     .1           400              10.000000E+06 
+        ROFF    1.000000E+03    1.000000E+06   81.5             9            
+         VON     .02            1.6           300               1.6          
+        VOFF    -.02            1.2           -40               1.2          
+
+
+               X_U1.X_S41._S41 
+         RON    1            
+        ROFF   10.000000E+06 
+         VON    1.6          
+        VOFF    1.2          
+
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_W1._W1   X_U1.X_W2._W2   
+         RON    1.000000E+06    1.000000E+06 
+        ROFF    1.000000E-03    1.000000E-03 
+         ION     .35             .35         
+        IOFF     .346            .346        
+
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)     .9252  (  VDD)    3.3000  ( VAPD)    0.0000  (N06325)    2.5278     
+
+(N06343)    2.5278 (N06479)     .9252 (N07229)     .9252 (X_U1.MID)    1.6500   
+
+(X_U1.ZIN)    2.5278                  (X_U1.NEND)    0.0000                     
+
+(X_U1.VAMB)-2.528E-12                 (X_U1.PSRRN)    1.6490                    
+
+(X_U1.PSRRP)    1.6501                (X_U1.TEMPC)   27.0000                    
+
+(X_U1.TEMPS)    1.0000                (X_U1.VCC_B)    3.2983                    
+
+(X_U1.VEE_B)     .0017                (X_U1.VIMON)     .0185                    
+
+(X_U1.ZOINP)    1.0918                (X_U1.PREOUT)     .9252                   
+
+(X_U1.X_U1.3)    0.0000               (X_U1.X_U1.4)    0.0000                   
+
+(X_U1.X_U1.5)    0.0000               (X_U1.X_U1.6)    0.0000                   
+
+(X_U1.X_U1.7)     .8338               (X_U1.X_U1.8)     .8338                   
+
+(X_U1.X_U2.3)    0.0000               (X_U1.X_U2.4)    0.0000                   
+
+(X_U1.X_U2.5)    0.0000               (X_U1.X_U2.6)    0.0000                   
+
+(X_U1.X_U2.7)     .8338               (X_U1.X_U2.8)     .8338                   
+
+(X_U1.N460322)     .0185              (X_U1.N460572)    3.3000                  
+
+(X_U1.N461004)-18.50E-09              (X_U1.N463960) 2.528E-06                  
+
+(X_U1.N465370)     .0180              (X_U1.N465482) 19.48E-06                  
+
+(X_U1.N516672)     .0328              (X_U1.N517170)     .1092                  
+
+(X_U1.N634613)     .0328              (X_U1.N634649)     .0328                  
+
+(X_U1.N635794)     .3276              (X_U1.N635870)     .1093                  
+
+(X_U1.N635892)     .1093              (X_U1.N665548)     .9826                  
+
+(X_U1.N681007)     .0328              (X_U1.N681058)     .0328                  
+
+(X_U1.N689434)    2.5278              (X_U1.N689440)    2.5280                  
+
+(X_U1.N689510)    2.5280              (X_U1.N699068)    2.4983                  
+
+(X_U1.N707559)    1.6772              (X_U1.N707569)    1.6501                  
+
+(X_U1.N707579)    1.6541              (X_U1.N707589)    1.6501                  
+
+(X_U1.N707599)    1.6509              (X_U1.N707651)    1.6490                  
+
+(X_U1.N707661)    1.6490              (X_U1.N707671)    1.5997                  
+
+(X_U1.N707681)    1.6490              (X_U1.N707691)     .5293                  
+
+(X_U1.N708033)    1.6500              (X_U1.N709328)    1.0000                  
+
+(X_U1.N709380)     .9826              (X_U1.POSTMID)    1.6500                  
+
+(X_U1.VCC_CLP)    2.1800              (X_U1.VEE_CLP)    -.0555                  
+
+(X_U1.N1694592)    2.5278             (X_U1.N1694772)    2.5278                 
+
+(X_U1.N1694894)-252.8E-18             (X_U1.N1694904)-6.319E-24                 
+
+(X_U1.N1694918)-6.319E-24             (X_U1.N1807837)    1.0000                 
+
+(X_U1.N1807909)    1.0000             (X_U1.N1810125)     .9252                 
+
+(X_U1.IN_POST_ALC)    2.5278          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vapd       2.528E-12
+    V_Vdd       -3.798E-02
+    X_U1.V_VINPUT_BIAS   2.528E-06
+    X_U1.V_VOUTPUT_BIAS  -1.850E-02
+    X_U1.V_VTEMPAMB  -2.703E-08
+    X_U1.X_F1.VF_F1  -2.528E-16
+    X_U1.X_H4.VH_H4   1.850E-02
+    X_U1.X_H5.VH_H5  -2.528E-06
+    X_U1.X_H6.VH_H6  -2.528E-16
+    X_U1.X_W1.VW_W1  -1.639E-02
+    X_U1.X_W2.VW_W2   1.639E-02
+
+    TOTAL POWER DISSIPATION   1.13E-01  WATTS
+
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     NOISE ANALYSIS                   TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+     FREQUENCY =  1.000E+03 HZ
+
+
+
+
+ **** DIODE SQUARED NOISE VOLTAGES (SQ V/HZ)
+
+
+
+
+          X_U1.X_U1.D1
+                     X_U1.X_U1.D2
+                                X_U1.X_U2.D1
+                                           X_U1.X_U2.D2
+                                                      
+
+ RS       0.000E+00  0.000E+00  0.000E+00  0.000E+00
+
+ ID       1.004E-19  1.004E-19  5.384E-23  5.384E-23
+
+ FN       3.134E-13  3.134E-13  1.680E-16  1.680E-16
+
+ TOTAL    3.134E-13  3.134E-13  1.680E-16  1.680E-16
+
+
+
+ **** RESISTOR SQUARED NOISE VOLTAGES (SQ V/HZ)
+
+
+
+
+          R_Rload    R_Rload2   X_U1.R_R1  X_U1.R_R10 X_U1.R_R11 X_U1.R_R15 
+
+ TOTAL    0.000E+00  2.302E-20  4.628E-21  2.838E-20  1.277E-19  1.277E-21
+
+
+
+
+          X_U1.R_R17 X_U1.R_R19 X_U1.R_R2  X_U1.R_R20 X_U1.R_R21 X_U1.R_R219
+                                                                            
+
+ TOTAL    1.277E-18  1.036E-16  1.011E-26  4.624E-23  4.596E-21  0.000E+00
+
+
+
+
+          X_U1.R_R22 X_U1.R_R23 X_U1.R_R24 X_U1.R_R246
+                                                      X_U1.R_R247
+                                                                 X_U1.R_R25 
+
+ TOTAL    4.674E-21  5.191E-20  4.596E-24  0.000E+00  0.000E+00  2.256E-19
+
+
+
+
+          X_U1.R_R252
+                     X_U1.R_R253
+                                X_U1.R_R26 X_U1.R_R27 X_U1.R_R3  X_U1.R_R31 
+
+ TOTAL    2.272E-30  0.000E+00  1.151E-20  9.425E-30  5.141E-20  0.000E+00
+
+
+
+
+          X_U1.R_R35 X_U1.R_R4  X_U1.R_R6  X_U1.R_R61 X_U1.R_R65 X_U1.R_R66 
+
+ TOTAL    0.000E+00  4.128E-22  6.853E-20  5.240E-29  4.579E-23  8.171E-21
+
+
+
+
+          X_U1.R_R67 X_U1.R_R68 X_U1.R_R69 X_U1.R_R70 X_U1.R_R71 X_U1.R_R72 
+
+ TOTAL    4.129E-25  8.171E-24  2.988E-19  5.677E-20  5.109E-21  2.555E-21
+
+
+
+
+          X_U1.R_R9  X_U1.R_RINM1
+                                X_U1.R_RINM3
+                                           X_U1.R_RINM4
+                                                      X_U1.R_RINM5
+                                                                 X_U1.R_RINM7
+                                                                            
+
+ TOTAL    1.151E-20  3.009E-23  5.319E-25  0.000E+00  1.557E-24  2.158E-21
+
+
+
+
+          X_U1.R_RIQ X_U1.R_RQ  X_U1.X_S11.RS_S11
+                                           X_U1.X_S12.RS_S12
+                                                      X_U1.X_S20.RS_S20
+                                                                 
+
+ TOTAL    0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00
+
+
+
+
+          X_U1.X_S21.RS_S21
+                     X_U1.X_S29.RS_S29
+                                X_U1.X_S30.RS_S30
+                                           X_U1.X_S31.RS_S31
+                                                      X_U1.X_S36.RS_S36
+                                                                 
+
+ TOTAL    0.000E+00  0.000E+00  0.000E+00  0.000E+00  1.224E-27
+
+
+
+
+          X_U1.X_S37.RS_S37
+                     X_U1.X_S38.RS_S38
+                                X_U1.X_S39.RS_S39
+                                           X_U1.X_S40.RS_S40
+                                                      X_U1.X_S41.RS_S41
+                                                                 
+
+ TOTAL    1.140E-27  0.000E+00  0.000E+00  0.000E+00  0.000E+00
+
+
+
+
+          X_U1.X_U1.R1
+                     X_U1.X_U1.R2
+                                X_U1.X_U1.R3
+                                           X_U1.X_U1.R4
+                                                      X_U1.X_U1.R5
+                                                                 X_U1.X_U1.R6
+                                                                            
+
+ TOTAL    0.000E+00  0.000E+00  0.000E+00  3.972E-15  3.972E-15  0.000E+00
+
+
+
+
+          X_U1.X_U1.R7
+                     X_U1.X_U2.R1
+                                X_U1.X_U2.R2
+                                           X_U1.X_U2.R3
+                                                      X_U1.X_U2.R4
+                                                                 X_U1.X_U2.R5
+                                                                            
+
+ TOTAL    0.000E+00  0.000E+00  0.000E+00  0.000E+00  1.882E-18  1.882E-18
+
+
+
+
+          X_U1.X_U2.R6
+                     X_U1.X_U2.R7
+                                
+
+ TOTAL    0.000E+00  0.000E+00
+
+
+
+ **** VOLTAGE CONTROLLED SWITCH SQUARED NOISE VOLTAGES (SQ V/HZ)
+
+
+
+
+          X_U1.X_S11.S_S11
+                     X_U1.X_S12.S_S12
+                                X_U1.X_S20.S_S20
+                                           X_U1.X_S21.S_S21
+                                                      X_U1.X_S29.S_S29
+                                                                 X_U1.X_S30.S_S30
+                                                                            
+
+ TOTAL    0.000E+00  0.000E+00  2.147E-26  2.147E-17  0.000E+00  0.000E+00
+
+
+
+
+          X_U1.X_S31.S_S31
+                     X_U1.X_S36.S_S36
+                                X_U1.X_S37.S_S37
+                                           X_U1.X_S38.S_S38
+                                                      X_U1.X_S39.S_S39
+                                                                 X_U1.X_S40.S_S40
+                                                                            
+
+ TOTAL    0.000E+00  1.280E-18  1.280E-18  2.147E-17  2.056E-21  1.036E-19
+
+
+
+
+          X_U1.X_S41.S_S41
+                     
+
+ TOTAL    3.229E-26
+
+
+
+ **** CURRENT CONTROLLED SWITCH SQUARED NOISE VOLTAGES (SQ V/HZ)
+
+
+
+
+          X_U1.X_W1.W_W1
+                     X_U1.X_W2.W_W2
+                                
+
+ TOTAL    0.000E+00  0.000E+00
+
+
+
+
+
+ **** Top Contributors To Output Noise [DeviceName = TotalDeviceNoise (Contribution percentage)] ***
+X_U1.X_U1.D1 =   3.134E-13 (49.34 %)
+X_U1.X_U1.R4 =   3.972E-15 ( 0.63 %)
+X_U1.X_U2.D1 =   1.680E-16 ( 0.03 %)
+ X_U1.R_R19 =   1.036E-16 ( 0.02 %)
+X_U1.X_S38.S_S38 =   2.147E-17 ( 0.00 %)
+
+
+
+
+
+
+
+ **** TOTAL OUTPUT NOISE VOLTAGE         =  6.352E-13 SQ V/HZ
+
+                                         =  7.970E-07 V/RT HZ
+
+      TRANSFER FUNCTION VALUE:
+
+        V(OUT)/I_I1                    =  3.599E+04
+
+      EQUIVALENT INPUT NOISE AT I_I1 =  2.214E-11 A/RT HZ
+
+
+          JOB CONCLUDED
+
+**** 12/23/24 00:11:54 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .33
+

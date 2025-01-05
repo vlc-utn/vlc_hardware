@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LumiCom_TIA")(type "KiCad")(uri "${KIPRJMOD}/Library/LumiCom_TIA.kicad_sym")(options "")(descr ""))
+)

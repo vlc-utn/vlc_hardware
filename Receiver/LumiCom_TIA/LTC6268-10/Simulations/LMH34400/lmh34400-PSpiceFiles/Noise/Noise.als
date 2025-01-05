@@ -1,0 +1,17 @@
+.ALIASES
+I_I1            I1(+=N06325 -=VAPD ) CN @LMH34400.Noise(sch_1):INS6413@SOURCE.ISIN.Normal(chips)
+X_U1            U1(IN=N06343 +=VDD SD=0 alc=VDD Gnd=0 OUT=OUT ) CN @LMH34400.Noise(sch_1):INS6261@LMH34400.LMH34400.Normal(chips)
+V_Vapd          Vapd(+=VAPD -=0 ) CN @LMH34400.Noise(sch_1):INS6111@SOURCE.VDC.Normal(chips)
+V_Vdd           Vdd(+=VDD -=0 ) CN @LMH34400.Noise(sch_1):INS6147@SOURCE.VDC.Normal(chips)
+T_T2            T2(A+=N06325 A-=0 B+=N06343 B-=0 ) CN @LMH34400.Noise(sch_1):INS6231@ANALOG.T.Normal(chips)
+C_Cj2           Cj2(1=VDD 2=0 ) CN @LMH34400.Noise(sch_1):INS6131@ANALOG.C.Normal(chips)
+C_Cj            Cj(1=VAPD 2=N06325 ) CN @LMH34400.Noise(sch_1):INS6441@ANALOG.C.Normal(chips)
+R_Rload          Rload(1=N06479 2=OUT ) CN @LMH34400.Noise(sch_1):INS6375@ANALOG.R.Normal(chips)
+R_Rload2          Rload2(1=OUT 2=0 ) CN @LMH34400.Noise(sch_1):INS6597@ANALOG.R.Normal(chips)
+C_Cj1           Cj1(1=N07229 2=N06479 ) CN @LMH34400.Noise(sch_1):INS6397@ANALOG.C.Normal(chips)
+T_T3            T3(A+=N07229 A-=0 B+=OUT B-=0 ) CN @LMH34400.Noise(sch_1):INS7104@ANALOG.T.Normal(chips)
+_    _(GND=0)
+_    _(OUT=OUT)
+_    _(Vapd=VAPD)
+_    _(Vdd=VDD)
+.ENDALIASES

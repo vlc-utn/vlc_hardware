@@ -1,0 +1,12 @@
+STATUS: PSpice Schematics to Capture translator (23.1.0.d001)
+STATUS:  
+STATUS: Translator started at Monday, December 23, 2024 17:52:32
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_TIA\LumiCom_TIA\Simulations\LT6269\library\ltc6268-10.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\analog.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\abm.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\special.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\cdn_psp_tipspice.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\dig_prim.olb'.
+STATUS: Translator stopped at Monday, December 23, 2024 17:56:33
+STATUS: 0 Error messages, 0 Warning messages

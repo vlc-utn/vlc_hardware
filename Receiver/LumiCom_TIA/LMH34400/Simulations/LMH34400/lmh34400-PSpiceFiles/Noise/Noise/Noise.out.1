@@ -1,0 +1,56 @@
+
+**** 12/22/24 21:34:12 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Noise-Noise"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\PSpice\LMH34400\Archive\lmh34400-PSp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Noise.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LMH34400.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Simulaciones\Modelos\Leds\Led_Chino.lib" 
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1K 10G
+.NOISE V([OUT]) I(I1) 1K
+-----------------$
+ERROR(ORPSIM-16151): Invalid integer
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Noise.net" 
+
+
+
+**** INCLUDING Noise.net ****
+* source LMH34400
+I_I1         N06325 VAPD DC 0Adc AC 1
++SIN 0 20e-6 100e6 0 0 0
+X_U1         N06343 VDD 0 VDD 0 OUT LMH34400
+V_Vapd         VAPD 0 0Vdc
+V_Vdd         VDD 0 3.3Vdc
+T_T2         N06325 0 N06343 0 Z0=50 TD=0.1ns  
+C_Cj2         VDD 0  1uF  TC=0,0 
+C_Cj         VAPD N06325  1e-12  TC=0,0 
+R_Rload         N06479 OUT  50 TC=0,0 
+R_Rload2         OUT 0  50 TC=0,0 
+C_Cj1         N06485 N06479  1uf  TC=0,0 
+T_T3         N06485 0 OUT 0 Z0=50 TD=0.1ns  
+
+**** RESUMING Noise.cir ****
+.END
+

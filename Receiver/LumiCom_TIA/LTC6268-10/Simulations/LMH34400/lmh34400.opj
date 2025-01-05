@@ -1,0 +1,195 @@
+(ExpressProject "LMH34400"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[12/23/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\lmh34400.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215")
+    (NoModify)
+    (File ".\lmh34400.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lmh34400-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\lmh34400-pspicefiles\trans\trans.net"
+      (Type "Report"))
+    (File ".\lmh34400-pspicefiles\ac\ac.net"
+      (Type "Report"))
+    (File ".\lmh34400-pspicefiles\noise\noise.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lmh34400-pspicefiles\trans\transientanalysis.sim"
+        (DisplayName "Trans-TransientAnalysis")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lmh34400-pspicefiles\ac\ac.sim"
+        (DisplayName "AC-AC")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lmh34400-pspicefiles\noise\noise.sim"
+        (DisplayName "Noise-Noise")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lmh34400-pspicefiles\trans\transientanalysis.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lmh34400.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\LMH34400.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (IPRINT
+      (FullPartName "IPRINT.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (IPLOT
+      (FullPartName "IPLOT.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (Cbreak
+      (FullPartName "Cbreak.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (ADC12break
+      (FullPartName "ADC12break.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (OPT101
+      (FullPartName "OPT101.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\OPT101.OLB")
+      (DeviceIndex "0"))
+    (LMH5401
+      (FullPartName "LMH5401.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\LMH5401.OLB")
+      (DeviceIndex "0"))
+    (RES11A40
+      (FullPartName "RES11A40.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\RES11A40.OLB")
+      (DeviceIndex "0"))
+    (W
+      (FullPartName "W.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Sbreak
+      (FullPartName "Sbreak.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (S_ST
+      (FullPartName "S_ST.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (S
+      (FullPartName "S.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LOG10
+      (FullPartName "LOG10.Normal")
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (PWR
+      (FullPartName "PWR.Normal")
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ISIN
+      (FullPartName "ISIN.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IAC
+      (FullPartName "IAC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ISRC
+      (FullPartName "ISRC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (T
+      (FullPartName "T.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LMH34400
+      (FullPartName "LMH34400.Normal")
+      (LibraryName "C:\USERS\A0232073\DESKTOP\GWL_MODELS\LMH34400\LMH34400.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "juanc")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lmh34400.dsn")
+      (Path "Design Resources" ".\lmh34400.dsn" "Trans")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" ".\lmh34400.dsn" "Trans" "Trans"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 567 0 557"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 576 24 585")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\SIMULACIONES\PSPICE\LMH34400\LMH34400.DSN")
+      (Schematic "Trans")
+      (Page "Trans"))))
