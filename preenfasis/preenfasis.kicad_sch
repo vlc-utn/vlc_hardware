@@ -7,7 +7,7 @@
 	(title_block
 		(title "Filtro de preenfasis")
 		(date "2025-01-06")
-		(rev "v1.0")
+		(rev "v1.1")
 		(company "Cotti Nicolas Gabriel")
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
@@ -756,12 +756,6 @@
 		(uuid "861833fe-1977-4d72-849d-0106d165ac4e")
 	)
 	(junction
-		(at 125.73 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93b2b08b-862e-4b45-99c4-1f082bdd2be8")
-	)
-	(junction
 		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -796,12 +790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8a30488-34a0-4330-8eda-023e4f3f656e")
-	)
-	(junction
-		(at 162.56 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb341912-bd9c-4ca5-9502-ce3c2f89d316")
 	)
 	(junction
 		(at 196.85 91.44)
@@ -942,16 +930,6 @@
 			(type default)
 		)
 		(uuid "2df67063-0d18-49d9-a19c-c9f42b5c6d3b")
-	)
-	(wire
-		(pts
-			(xy 125.73 129.54) (xy 162.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e48f5fd-3372-47d7-8ea0-1f202c3c534d")
 	)
 	(wire
 		(pts
