@@ -1762,7 +1762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RF3-05-T-00-50-G"
+		(property "Value" "SMA H"
 			(at 201.93 72.6831 0)
 			(effects
 				(font
@@ -1771,7 +1771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lumicom_Photodiode:RF305T0050G"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25a105ea-fe16-420f-a77c-e3792a54f25b")
+		(uuid "7ce504bb-7022-4afa-9c8d-a5413c253084")
 		(property "Reference" "J3"
 			(at 201.93 98.0831 0)
 			(effects
@@ -2032,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RF3-05-T-00-50-G"
+		(property "Value" "SMA H"
 			(at 201.93 100.6231 0)
 			(effects
 				(font
@@ -2041,7 +2041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lumicom_Photodiode:RF305T0050G"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 198.12 99.06 0)
 			(effects
 				(font
@@ -2069,85 +2069,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e15dfc06-73b6-44e2-82a6-140225a4864c")
+			(uuid "9b192869-f942-407d-a984-5c32b41bda41")
 		)
 		(pin "1"
-			(uuid "2f9a4ce3-5c37-4548-b890-52abb6db61ce")
+			(uuid "e2b2ec1d-bf29-4c5f-9cb3-472637c4657d")
 		)
 		(instances
 			(project "VLC_Photodiode"
 				(path "/43100d71-c391-405d-9a3f-a9fcd4b54745"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 198.12 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4daa2668-638c-4b2e-8180-5bd3dde9ea79")
-		(property "Reference" "J4"
-			(at 201.93 117.1331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF3-05-T-00-50-G"
-			(at 201.93 119.6731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Lumicom_Photodiode:RF305T0050G"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08bf590a-8a10-4385-a2d7-2825937d0a8b")
-		)
-		(pin "1"
-			(uuid "56ceb7f3-f4b9-43b0-a84e-57e3daf41e6e")
-		)
-		(instances
-			(project "VLC_Photodiode"
-				(path "/43100d71-c391-405d-9a3f-a9fcd4b54745"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2214,6 +2144,76 @@
 			(project "VLC_Photodiode"
 				(path "/43100d71-c391-405d-9a3f-a9fcd4b54745"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 198.12 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8942e8be-d0fc-4b79-9e13-d4fd5e416048")
+		(property "Reference" "J4"
+			(at 201.93 117.1331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA H"
+			(at 201.93 119.6731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8fecf41-8639-4f9b-a1f7-905240da7acc")
+		)
+		(pin "1"
+			(uuid "a1953e93-e341-462f-9eb8-9cc0995fba86")
+		)
+		(instances
+			(project "VLC_Photodiode"
+				(path "/43100d71-c391-405d-9a3f-a9fcd4b54745"
+					(reference "J4")
 					(unit 1)
 				)
 			)
