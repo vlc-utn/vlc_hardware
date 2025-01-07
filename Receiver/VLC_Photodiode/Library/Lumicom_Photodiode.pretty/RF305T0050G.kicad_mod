@@ -280,13 +280,13 @@
 	)
 	(model "${KIPRJMOD}/Library/Mouser/LIB_RF3-05-T-00-50-G/RF3-05-T-00-50-G/3D/RF3-05-T-00-50-G.stp"
 		(offset
-			(xyz 0 0 0.5)
+			(xyz 0 0 -1.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 180 0)
 		)
 	)
 )
