@@ -1710,7 +1710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic9/00101656_0.pdf/SFH%20203,%20SFH%20203%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf"
+		(property "Datasheet" "https://ar.mouser.com/datasheet/2/588/asset_pdf_5174114-3419302.pdf"
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -1720,6 +1720,33 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "SFH 203 P"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "720-SFH203P"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "ams OSRAM"
 			(at 142.24 118.11 0)
 			(effects
 				(font
@@ -2387,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PDB-C154SM"
+		(property "Datasheet" "https://www.advancedphotonix.com/wp-content/uploads/2022/03/DS-PDB-C154SM.pdf"
 			(at 140.462 93.726 0)
 			(effects
 				(font
@@ -2398,6 +2425,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "PDB-C154SM"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "846-PDB-C154SM"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Advanced Photonix"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -2539,6 +2593,33 @@
 			)
 		)
 		(property "Description" "Si PIN Photodiode, 0.1 GHz, TO-18-3"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" " S5971"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Newark P/N" "62M0262"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Hamamatsu"
 			(at 142.24 71.12 0)
 			(effects
 				(font
