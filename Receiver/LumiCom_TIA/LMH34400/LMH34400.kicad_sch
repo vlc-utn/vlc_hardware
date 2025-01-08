@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "097f94e3-7e5f-4bad-84ce-56f7a5ba970d")
+	(uuid "27381ed8-96e6-4041-ba7f-c08f9d949351")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -2157,628 +2157,628 @@
 		)
 	)
 	(junction
-		(at 118.11 97.79)
+		(at 140.335 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40c1b529-4114-41bd-aca3-1ab9d8a21c7e")
+		(uuid "1384bb18-40c1-4c50-ba24-88dc6bcbe2f5")
 	)
 	(junction
-		(at 147.32 49.53)
+		(at 182.245 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "667b1383-02f3-4e1e-86e3-871352fc073a")
+		(uuid "1d29b81b-deac-417d-a3d5-ccc94d48602d")
 	)
 	(junction
-		(at 134.62 49.53)
+		(at 219.075 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a7db46b8-68df-4369-8191-0895e1c16d73")
+		(uuid "2ffd0c04-cb9e-4de2-b09c-f709268848ef")
 	)
 	(junction
-		(at 81.28 113.03)
+		(at 169.545 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbc192fc-781e-4200-aff7-87f90a9b2409")
+		(uuid "46672c84-5aaa-4315-9e6b-271b64c00589")
 	)
 	(junction
-		(at 196.85 105.41)
+		(at 103.505 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf3b0455-e1d0-496d-be7c-05d94afd277b")
+		(uuid "b4031f88-d867-4e2c-bdbf-9bfbe1bda0fc")
 	)
 	(junction
-		(at 160.02 49.53)
+		(at 234.315 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df628eb6-e501-4f9b-abc2-3acc48fb2c21")
+		(uuid "d886d0af-cae7-42ec-9efb-239801f35c7b")
 	)
 	(junction
-		(at 212.09 105.41)
+		(at 156.845 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8db6113-fb63-4d6e-a28d-80d3a062bb6f")
+		(uuid "fb0b48b6-395f-404b-b422-a586d136ea81")
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 173.99 59.69)
+			(xy 145.415 111.76) (xy 145.415 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0528c82c-004a-434a-b1d5-063364478e99")
+		(uuid "0426466a-d5ca-4da5-a9af-8a6a28951fab")
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 177.8 91.44)
+			(xy 182.245 60.96) (xy 182.245 62.865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07dbd04b-e3f7-480c-b11e-9e184946dc9e")
+		(uuid "04cba221-e90e-4533-aa6b-a64872d698d4")
 	)
 	(wire
 		(pts
-			(xy 110.49 139.7) (xy 125.73 139.7)
+			(xy 229.235 115.57) (xy 234.315 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09e912d4-9ae5-45b6-a0b3-0ba4fb0ea399")
+		(uuid "091d7b15-2218-4bc2-8ad4-5666bfb6bfe9")
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 189.23 105.41)
+			(xy 169.545 55.88) (xy 169.545 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11ef7043-0626-47c3-8c13-8d9062e324bb")
+		(uuid "09aca4c2-3d9e-4d37-81c3-b2261dbbb64f")
 	)
 	(wire
 		(pts
-			(xy 160.02 53.34) (xy 160.02 49.53)
+			(xy 95.885 115.57) (xy 103.505 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1758797d-9e70-46ca-8589-c75485425399")
+		(uuid "09e077fc-e1b3-44f6-9ec3-fa7964414297")
 	)
 	(wire
 		(pts
-			(xy 196.85 113.03) (xy 196.85 105.41)
+			(xy 196.215 54.61) (xy 196.215 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b8af037-a61f-45f7-9753-b0ad3593f44a")
+		(uuid "12220559-3526-42be-8787-d85837283d2d")
 	)
 	(wire
 		(pts
-			(xy 134.62 49.53) (xy 134.62 53.34)
+			(xy 132.715 113.03) (xy 132.715 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30066c2c-980d-425e-b2cc-d457394d3043")
+		(uuid "193bf5c1-fbcf-4e69-a918-f82289db2a3f")
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24) (xy 114.3 146.05)
+			(xy 203.835 93.98) (xy 200.025 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3779d751-8554-41a0-9e60-d21d1bf02d0f")
+		(uuid "1a657834-7c5a-45c7-9961-6a53725a8e09")
 	)
 	(wire
 		(pts
-			(xy 93.345 113.03) (xy 97.79 113.03)
+			(xy 140.335 100.33) (xy 147.955 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3beca1a6-ec58-4489-9b70-b74ce1506a8f")
+		(uuid "26298ab3-92e6-4be8-aedd-2526853efb4c")
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 177.8 100.33)
+			(xy 169.545 52.07) (xy 182.245 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d38fdcd-05f9-43ae-bb78-2ebdd28dea1f")
+		(uuid "2edf9c45-4614-4842-9c98-426b4ab94d09")
 	)
 	(wire
 		(pts
-			(xy 161.29 101.6) (xy 165.1 101.6)
+			(xy 103.505 115.57) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4591557a-6704-4250-bf7f-d198e9af4687")
+		(uuid "2fb83bab-cde9-4a4f-845e-b51da5e09485")
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 212.09 113.03)
+			(xy 219.075 107.95) (xy 224.155 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65be4286-40a6-49b7-b344-92fe06dc544d")
+		(uuid "3bb65cfc-f92a-423c-9c3e-9d3a085f9383")
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 181.61 93.98)
+			(xy 132.715 54.61) (xy 132.715 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bc5f2c0-f47c-4355-8a1b-a79bc55a2cc9")
+		(uuid "3bbfbfe1-b960-465d-b76c-da651f1b687d")
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 60.325)
+			(xy 136.525 139.7) (xy 136.525 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f3ceb8c-c898-4df0-a585-872d9157939c")
+		(uuid "504be65f-fea7-49c8-8149-d6d362ddaa2d")
 	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 212.09 113.03)
+			(xy 182.245 55.88) (xy 182.245 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fdc5216-f543-4739-8128-6271c30bda2d")
+		(uuid "5073c2e9-2cfe-4cd5-8b7e-f1065fbd96d2")
 	)
 	(wire
 		(pts
-			(xy 110.49 113.03) (xy 102.87 113.03)
+			(xy 156.845 52.07) (xy 169.545 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7155154b-f765-46dd-8454-cb1fb8e3f41d")
+		(uuid "56f93852-4738-4603-b630-28dc3c07362d")
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 201.93 105.41)
+			(xy 115.57 115.57) (xy 120.015 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71bb0131-3078-4635-a107-f44f5d8183a1")
+		(uuid "57705d09-d5f4-4810-822d-77d852d29d5d")
 	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 207.01 105.41)
+			(xy 200.025 99.06) (xy 200.025 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a0269bf-a935-41f2-a541-eb72b86745ad")
+		(uuid "610b4795-798d-462e-a3c7-f6dba627f3eb")
 	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 110.49 55.88)
+			(xy 191.135 96.52) (xy 203.835 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb8bf89-d5ea-432f-bb31-ca9268b1aa6f")
+		(uuid "761ec35f-6b29-403c-a031-8f6d64ef1f4b")
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 97.79)
+			(xy 234.315 107.95) (xy 234.315 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8617c378-3e2f-4a25-bc94-1019170522f9")
+		(uuid "76dc49b0-d948-4df1-a6bc-cd779667bf08")
 	)
 	(wire
 		(pts
-			(xy 73.66 113.03) (xy 81.28 113.03)
+			(xy 200.025 93.98) (xy 200.025 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89eb2390-4469-45ec-93e5-43ac76307f06")
+		(uuid "78df4d8e-7930-48c5-8143-bdf5eea8bf7f")
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 196.85 113.03)
+			(xy 203.835 99.06) (xy 200.025 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8edec90b-c4e5-480a-867e-db25a100be2e")
+		(uuid "7aa03c77-dfb3-4663-ab3d-177be1b69599")
 	)
 	(wire
 		(pts
-			(xy 134.62 49.53) (xy 147.32 49.53)
+			(xy 240.665 107.95) (xy 234.315 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "903c1151-a66b-4dec-9f61-86a26d2cccc0")
+		(uuid "7d3c3317-e47a-4b2f-b83d-db65a3aa9fbd")
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 101.6)
+			(xy 191.135 100.33) (xy 191.135 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93b5a596-c824-4dd6-9d35-e1adc668b973")
+		(uuid "7f3a795e-2475-42fc-a1d0-ebb52c0b20d3")
 	)
 	(wire
 		(pts
-			(xy 173.99 68.58) (xy 173.99 67.31)
+			(xy 183.515 104.14) (xy 187.325 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "953aacc6-aef0-4776-beab-d3431e669ddc")
+		(uuid "8d4dc929-91ad-4141-9380-b0c58f64b58b")
 	)
 	(wire
 		(pts
-			(xy 114.3 137.16) (xy 114.3 133.35)
+			(xy 224.155 115.57) (xy 219.075 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "983b3804-570e-49d7-a5a6-3d41ecc9d5d0")
+		(uuid "8ed9d2e7-bbc8-4d45-a473-64e29d4ce349")
 	)
 	(wire
 		(pts
-			(xy 218.44 105.41) (xy 212.09 105.41)
+			(xy 103.505 134.62) (xy 103.505 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98dbd22c-4dc9-46a1-816e-d73a3ae74149")
+		(uuid "8f85f5b6-c1bd-4f98-a779-de2edcd3426a")
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 125.73 101.6)
+			(xy 132.715 100.33) (xy 140.335 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ad8141d-f153-4ebd-9342-4b2a3f685db8")
+		(uuid "91301687-0d59-4e0e-b397-7a36db58fa7f")
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 87.63)
+			(xy 132.715 52.07) (xy 140.335 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bf8b487-c99c-42f7-ae7e-b58edd24f583")
+		(uuid "91ac7a9d-d7a7-4e01-a857-6f00bb93887a")
 	)
 	(wire
 		(pts
-			(xy 147.32 53.34) (xy 147.32 49.53)
+			(xy 140.335 91.44) (xy 140.335 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2a64fb8-016b-41e2-977e-43ae59492f28")
+		(uuid "985984d9-4e22-498f-be33-b47e5a6a046e")
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 121.92)
+			(xy 156.845 60.96) (xy 156.845 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7154430-323f-4c73-bda2-bf01384dfc51")
+		(uuid "9c86834f-dbd3-4c32-970e-7be003b4b5bd")
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 118.11 88.9)
+			(xy 196.215 71.12) (xy 196.215 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a89deec5-684f-41ba-a897-25637fb995da")
+		(uuid "9cb9c753-d06d-4f11-a09b-ab9792cbc458")
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 110.49 113.03)
+			(xy 145.415 104.14) (xy 147.955 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab8a76a8-e907-49a5-8d11-c9977ab72d2e")
+		(uuid "9e36bef7-a285-4855-b346-5619a87ea946")
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 118.11 49.53)
+			(xy 182.245 44.45) (xy 182.245 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae1808fe-f3ed-4f1a-9929-f62a5cf5b699")
+		(uuid "a3c8280b-4d5f-4405-af7c-80b6adc59e27")
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 82.55 99.06)
+			(xy 156.845 52.07) (xy 156.845 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeaecfca-3c91-422a-a41f-f62d29dd8ef5")
+		(uuid "a51c5511-2f9e-46e8-9fe1-c9f3e840c410")
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 125.73 97.79)
+			(xy 183.515 107.95) (xy 211.455 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2f51c6f-fce2-4dc6-a797-ac8e45ed9c55")
+		(uuid "a588594f-46ab-467a-b94a-6c83b6784827")
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 134.62 49.53)
+			(xy 103.505 125.73) (xy 103.505 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6f28c7b-4603-4b28-bc36-4e07fd7dbd61")
+		(uuid "ab361ece-65d4-470a-b468-50a098bbc6b8")
 	)
 	(wire
 		(pts
-			(xy 81.28 132.08) (xy 81.28 128.27)
+			(xy 90.805 121.92) (xy 90.805 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba0ba4e2-a718-489a-8b38-ec72f88ae73a")
+		(uuid "aeeb0b97-6cd6-4162-b25e-fdbd7d6837e5")
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 196.85 105.41)
+			(xy 187.325 104.14) (xy 187.325 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcffa86f-9595-450c-909c-727553b5034f")
+		(uuid "bfb5d77e-29cd-47e8-8929-503d733a7b95")
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 118.11 97.79)
+			(xy 103.505 119.38) (xy 103.505 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c000bdd6-f697-41d4-a4db-1f8db9068545")
+		(uuid "cfc9cbe3-7d55-4a93-89e0-d33726f7e4ee")
 	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 81.28 113.03)
+			(xy 132.715 139.7) (xy 136.525 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8925f4a-e11b-441b-8af3-7d6e15b15481")
+		(uuid "cfe980dd-0ea7-47fa-87cf-33c2fd87d4ea")
 	)
 	(wire
 		(pts
-			(xy 160.02 58.42) (xy 160.02 60.325)
+			(xy 104.775 96.52) (xy 104.775 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbad46db-31d9-4c11-8e96-5155c800710b")
+		(uuid "d0bd3917-77ef-4be4-b7ce-40d51d340ce1")
 	)
 	(wire
 		(pts
-			(xy 110.49 142.24) (xy 114.3 142.24)
+			(xy 196.215 52.07) (xy 182.245 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1bf504b-f5f6-4f68-b517-f2b975003019")
+		(uuid "d2d9a541-1b58-45b5-982d-32813b64eb8e")
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 110.49 102.87)
+			(xy 132.715 115.57) (xy 125.095 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4a97e9e-5eb8-4aae-85c2-7f05d68358cf")
+		(uuid "d5ca1186-b3f9-4f69-bd3a-09788ed09219")
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 165.1 118.11)
+			(xy 183.515 100.33) (xy 191.135 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6aa8708-1180-46bc-8cea-c033ba3d09be")
+		(uuid "d9c99676-010e-4c8a-b573-adb0118cc45e")
 	)
 	(wire
 		(pts
-			(xy 125.73 139.7) (xy 125.73 105.41)
+			(xy 145.415 52.07) (xy 156.845 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daad9fd5-9935-4d93-93ea-b6e1239fc0ce")
+		(uuid "da7c8f89-8cda-47aa-8d7e-e0e496c49d14")
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 168.91 93.98)
+			(xy 196.215 64.77) (xy 196.215 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbd337b8-d66b-43ef-b14b-9065b03d80ba")
+		(uuid "dda7b464-2500-48ff-831f-a863d82c923f")
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 160.02 49.53)
+			(xy 169.545 60.96) (xy 169.545 62.865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1e972fd-8700-4558-ac29-1f81f2fc2c01")
+		(uuid "e2ecb22e-008e-42bf-a00a-7b7b1a2524a0")
 	)
 	(wire
 		(pts
-			(xy 81.28 113.03) (xy 88.265 113.03)
+			(xy 109.855 91.44) (xy 140.335 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e39dbfb8-aed2-43ff-8ead-613f21e0a18d")
+		(uuid "e4ae1d20-5c47-45e2-aeb1-dcd1ee15c743")
 	)
 	(wire
 		(pts
-			(xy 134.62 58.42) (xy 134.62 60.96)
+			(xy 147.955 142.24) (xy 147.955 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9779eae-f162-484d-96bb-b87a888fc306")
+		(uuid "e7dfb49e-ce92-4498-aad7-4ed0355a8de1")
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 160.02 49.53)
+			(xy 216.535 107.95) (xy 219.075 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecea8043-3ce4-43a2-8f14-e77cc6ae9085")
+		(uuid "e97e07c8-7032-4d3f-aeef-b8c9794dbc34")
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 68.58 118.11)
+			(xy 136.525 144.78) (xy 136.525 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f57a6e8d-e56c-40e1-91cf-bcf3ee462cad")
+		(uuid "ed3b4787-026c-481d-9905-61bb885012ae")
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 114.3 137.16)
+			(xy 132.715 100.33) (xy 132.715 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9afe8e8-cf3f-453a-b332-cebe3cce347a")
+		(uuid "f00f25c7-113f-4014-ab95-09005e71dcdd")
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 177.8 96.52)
+			(xy 132.715 142.24) (xy 147.955 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faea9462-fcef-43b1-8f36-55cd711764f3")
+		(uuid "f180c7a8-b5d8-4193-9169-974934aca8f5")
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 173.99 49.53)
+			(xy 219.075 115.57) (xy 219.075 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc3cc1eb-f2c3-42ff-a150-d8c8d355d0e9")
+		(uuid "f5d81ac2-47fc-4187-ad03-02a182d77e94")
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 168.91 97.79)
+			(xy 132.715 144.78) (xy 136.525 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe7e7b2e-f4cf-49be-bbe4-91eec7b880a7")
+		(uuid "f63f0d7f-af64-4be4-bde3-dbca3e56db13")
 	)
 	(wire
 		(pts
-			(xy 173.99 49.53) (xy 160.02 49.53)
+			(xy 234.315 107.95) (xy 229.235 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff9d7bc0-b520-4110-a5de-51a7b073242c")
+		(uuid "ff9d2503-b1c1-4c4a-a661-d5c06e3713ec")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 186.69 93.98 0)
+		(at 208.915 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "032c4934-ebe6-406d-94d8-3d66138500db")
+		(uuid "1ad7a7c5-18e2-4a52-85d5-bffa59b7687c")
 		(property "Reference" "J5"
-			(at 186.69 85.09 0)
+			(at 208.915 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2786,7 @@
 			)
 		)
 		(property "Value" "N_ALC"
-			(at 186.69 87.63 0)
+			(at 208.915 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 186.69 93.98 0)
+			(at 208.915 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 93.98 0)
+			(at 208.915 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 93.98 0)
+			(at 208.915 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,17 +2821,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "4191d3c1-9f7f-4abc-be66-efb76112f2b6")
+			(uuid "7f389481-11d9-4ece-836b-cf381514998f")
 		)
 		(pin "1"
-			(uuid "391f1e12-1cf1-421a-a65b-00caa259aaf6")
+			(uuid "87a1bfb0-dcc3-4a3e-a049-08ae8687bae5")
 		)
 		(pin "2"
-			(uuid "8c06dd8b-9594-44f1-ad1d-c61a1d4f809d")
+			(uuid "a6788c66-5054-44ae-8ff7-1afe004ccd35")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "J5")
 					(unit 1)
 				)
@@ -2840,1772 +2840,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 160.02 41.91 0)
+		(at 145.415 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03f5f9b8-d166-41ca-87a0-4b18d0f488f0")
-		(property "Reference" "#PWR010"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 160.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb824727-2998-4f56-ae11-98ea977e79ee")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "078e9805-ed8b-400e-b692-faa76c11ee3c")
-		(property "Reference" "#PWR013"
-			(at 173.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 169.545 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b3ef3f-fc2c-4cb0-b93a-ce5166c8ad60")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 177.8 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0901c645-871f-423d-8e6c-d8721f009438")
-		(property "Reference" "#PWR015"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11effb16-ec60-48fe-acaf-2e08b6316791")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 82.55 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11077d0e-3b29-42b5-bc9c-c7b545c47fe3")
-		(property "Reference" "#PWR03"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20bb930a-49af-4b6b-a70f-3248228be980")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 223.52 110.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13bf283c-5b72-4da8-a20d-9f31e5048693")
-		(property "Reference" "#PWR016"
-			(at 223.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da579f0d-22a4-4e6d-891e-12cacbfa35ca")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 204.47 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1450fdd5-d9f9-4ac9-a2d2-68c538d08933")
-		(property "Reference" "R5"
-			(at 200.66 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 207.01 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 204.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 204.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1fc14d0-e00e-4047-9de1-583af2d2c860")
-		)
-		(pin "1"
-			(uuid "a916559a-295d-4e9c-ad63-6f41705052c9")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b6ddb8-662e-4878-a872-dea6971335a0")
-		(property "Reference" "C3"
-			(at 137.16 54.6162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 137.16 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 134.62 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b58cbc3-d136-4b9e-8a7e-6d374c606348")
-		)
-		(pin "1"
-			(uuid "7f6a90c1-1654-4029-8e4e-14e089219b53")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16bc12cf-4538-4202-b6fb-dcba1a11ca3a")
-		(property "Reference" "C5"
-			(at 162.56 54.6162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 162.56 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 160.02 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee2720b3-11b7-46ba-bff2-6e36cdf09736")
-		)
-		(pin "2"
-			(uuid "a93593f6-e922-4da3-a79a-bdb38a96e215")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 147.32 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1855cc4c-948a-48c8-97eb-d8d96b438f1b")
-		(property "Reference" "C4"
-			(at 149.86 54.6162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 149.86 57.1562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ebc0e36c-10ea-4eaa-ad7e-8e3300c90f98")
-		)
-		(pin "1"
-			(uuid "14478fbb-bc2e-49a6-8e68-9ec2bb837456")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ddc9545-e2e0-49f0-8fb3-c1cdcbb7df6c")
-		(property "Reference" "#PWR09"
-			(at 147.32 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.875 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fcdc623-c946-4ba6-9dcc-26c813da72fd")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 105.41 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "311a71d6-6f5a-4af2-b3a7-f096995eccf2")
-		(property "Reference" "J4"
-			(at 105.41 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "N_EN"
-			(at 105.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8af56797-e45a-4a71-bdb0-f15e803ac885")
-		)
-		(pin "1"
-			(uuid "21af1888-35e1-4597-bf64-d0e2c5a855b1")
-		)
-		(pin "2"
-			(uuid "99adbff7-9542-4ae6-a992-38bbca500986")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 177.8 87.63 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31388f82-a34d-4feb-af5c-b2ee0a7176cf")
-		(property "Reference" "#PWR014"
-			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 177.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2cfb91c-88c1-4524-b795-899841806003")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 34.925 59.69 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39f4eb2f-29c0-4a7a-90f1-d86a25731fec")
-		(property "Reference" "H2"
-			(at 37.465 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M3"
-			(at 37.465 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 34.925 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.925 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 34.925 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 34.925 53.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b51ac62-19b4-45c7-9348-aab6b619a47e")
-		(property "Reference" "H1"
-			(at 37.465 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M3"
-			(at 37.465 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 34.925 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.925 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 34.925 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 82.55 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "408d00e5-87ab-49eb-9a21-506b15e9a2f9")
-		(property "Reference" "J2"
-			(at 80.01 87.9231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 80.01 90.4631 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 82.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 82.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 82.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba0c024b-d384-4712-a288-964bece4eac6")
-		)
-		(pin "2"
-			(uuid "10479571-7ace-4e9c-97f5-3af354460694")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 60.325 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43791033-6145-459d-b963-bac651efe997")
-		(property "Reference" "#PWR011"
-			(at 160.02 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 155.575 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcc25ba8-3b95-47e7-b168-06d7d13da086")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 105.41 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45f4ca44-06dc-4e4c-9e4d-9ae29a03805c")
-		(property "Reference" "J3"
-			(at 105.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vout"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vout"
-			(at 105.41 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6683a9b-4eee-48f7-92d8-a4f731ad35c5")
-		)
-		(pin "2"
-			(uuid "62b2940d-f8eb-40e2-9e22-6e9f52d9cc5c")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 110.49 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47e7dbca-a80e-4bf5-a935-2491a8a188a6")
-		(property "Reference" "#PWR04"
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cbe0fa6-00ab-4a42-93c1-1d173678069b")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ed4d04f-1c2b-4d37-b846-ecd3724b17a4")
-		(property "Reference" "#PWR08"
-			(at 134.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.175 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55fb6cb3-fbf0-449c-b9e3-4a99a1ee3251")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 165.1 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53828270-490b-40fd-b918-7a8b46140d62")
-		(property "Reference" "#PWR012"
-			(at 165.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c7a56f9-e545-4d7b-a54e-f3524ecd7213")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 114.3 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cab6dc5-e5b5-40d2-b78d-5cd0ccbcf3c8")
-		(property "Reference" "#PWR06"
-			(at 114.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cdd0934-c3bc-4ae3-80cf-378034627098")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 100.33 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e7a0a1b-e28a-4ef0-82e3-ac0f2d75a895")
-		(property "Reference" "R2"
-			(at 100.33 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.02K"
-			(at 100.33 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "146c4fff-da2f-40d5-91f4-26185d5aef84")
-		)
-		(pin "1"
-			(uuid "5c396066-6bb1-4cff-839f-33567d62c5a3")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 173.99 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "616b9ab9-f42a-46da-8680-1b2b7c7e9c24")
-		(property "Reference" "R3"
-			(at 176.53 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k2"
-			(at 176.53 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38013226-498f-44aa-a793-8cc3c5445a13")
-		)
-		(pin "1"
-			(uuid "9702ac7d-580c-44af-b0b7-1746f18de943")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 90.805 113.03 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "626a7063-f042-438b-983d-e575834e5690")
-		(property "Reference" "C2"
-			(at 90.8113 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 90.8113 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 90.805 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.805 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.805 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2dcd4f08-7e35-44b7-a81d-43518d8e45ac")
-		)
-		(pin "1"
-			(uuid "84cd6463-b94b-4a55-ba41-932182d9e743")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 68.58 113.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ae4c39-b164-4d8a-a4d7-f94f385f9f97")
-		(property "Reference" "J1"
-			(at 68.8974 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TEST"
-			(at 68.8974 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1baf7bb-b170-4826-aa0f-fd6115d23ff8")
-		)
-		(pin "2"
-			(uuid "44977b6e-01d4-48e0-8ca9-975a6a7f5312")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b513bd9-d860-43eb-b4e4-082e5b97a946")
-		(property "Reference" "C1"
-			(at 74.93 125.7363 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 77.47 125.7363 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 81.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af707dff-b097-4247-9f31-914498c77a95")
-		)
-		(pin "1"
-			(uuid "4bb835ad-360f-40a7-8ab3-e9b4e46de0fe")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 123.19 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ba64ae1-ef8a-49f3-b7e8-7a613e59fd8b")
+		(uuid "220945fc-697f-4f3d-a3f9-0413a4127acc")
 		(property "Reference" "#PWR07"
-			(at 123.19 105.41 0)
+			(at 145.415 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +2858,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 123.19 114.3 0)
+			(at 145.415 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +2866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 109.22 0)
+			(at 145.415 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 109.22 0)
+			(at 145.415 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +2884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 123.19 109.22 0)
+			(at 145.415 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,11 +2893,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "66c68504-93d9-4cc3-8430-635c1e2d0a20")
+			(uuid "0e7e2752-4b60-415a-9569-d4a466f7a2d8")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -4661,17 +2905,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 119.38 0)
+		(lib_id "power:Earth")
+		(at 200.025 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "baaf5aac-aaaa-492a-b22d-b599e86f42f6")
-		(property "Reference" "#PWR01"
-			(at 68.58 125.73 0)
+		(uuid "291d30e5-e44a-4130-b04f-1ba8687b584d")
+		(property "Reference" "#PWR015"
+			(at 200.025 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,145 +2925,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 124.46 0)
+			(at 200.025 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15713a6-220f-46bc-898c-e575cd3a1956")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb79a5e2-9425-4352-8b38-75c7821a7626")
-		(property "Reference" "#PWR02"
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d769639-28cd-4248-a9af-f129bdeb2cce")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Small")
-		(at 120.65 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd31f712-7521-4114-8b62-ec175d4de5fa")
-		(property "Reference" "L1"
-			(at 120.65 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18BA100SN1D"
-			(at 120.65 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 120.65 49.53 0)
+			(at 200.025 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +2943,337 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 49.53 0)
+			(at 200.025 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.025 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d38c4e98-1f7b-46fc-82fc-43263136fd5e")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 57.15 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a571454-6543-4395-af65-632b7a438e90")
+		(property "Reference" "H1"
+			(at 59.69 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M3"
+			(at 59.69 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 187.325 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a208c6d-a980-443d-93cc-94ac15a7c3fb")
+		(property "Reference" "#PWR012"
+			(at 187.325 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.325 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.325 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.325 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.325 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22e8211d-cca3-48bc-8932-619e9392ce74")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 182.245 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6db28b-4d9f-426c-9cf8-ada9737f0b89")
+		(property "Reference" "#PWR010"
+			(at 182.245 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 182.245 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 182.245 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47781ebd-184f-4c8e-a36e-18bbe9bcd533")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 136.525 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2bc324-6483-4573-a7b4-bd8c76872c41")
+		(property "Reference" "#PWR06"
+			(at 136.525 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 136.525 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.525 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.525 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd3e50fa-afe6-4322-b040-19b8a197d844")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite_Small")
+		(at 142.875 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4125600b-eb81-48d2-aae3-ec931e8afe61")
+		(property "Reference" "L1"
+			(at 142.875 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18BA100SN1D"
+			(at 142.875 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.875 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.875 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +3282,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core, small symbol"
-			(at 120.65 49.53 0)
+			(at 142.875 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,14 +3291,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a7a3be0-fd60-463d-9d0c-f241a48c5bde")
+			(uuid "536006b9-4e01-48aa-8689-69310d734a2b")
 		)
 		(pin "2"
-			(uuid "34f415ac-6281-491f-9898-af609d3b4eaa")
+			(uuid "8954198a-bb02-4fe7-bb7b-c93676a0c6d8")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "L1")
 					(unit 1)
 				)
@@ -4860,293 +3306,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 191.77 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c20a406c-a8bb-4781-b310-7515ad33b697")
-		(property "Reference" "R4"
-			(at 187.96 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50"
-			(at 194.31 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30247415-56dd-4ece-b48f-3daaa7e6d989")
-		)
-		(pin "1"
-			(uuid "5d149929-4f9d-457b-9c2a-03c5d5c232b0")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 223.52 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd972e52-460d-418b-99d4-0a659e7f3991")
-		(property "Reference" "J6"
-			(at 226.06 104.4331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 226.06 106.9731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 223.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" " ~"
-			(at 223.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 223.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f411f698-8d04-4dec-943c-102c4f5e8785")
-		)
-		(pin "2"
-			(uuid "d64a6502-0e2e-486c-a266-2fafd429a1a0")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 173.99 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d242fcc4-1938-4262-ae9c-39ce1e4ad43d")
-		(property "Reference" "D1"
-			(at 177.8 56.1974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150060VS75000 "
-			(at 177.8 58.7374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LumiCom_TIA:LEDC1608X80N"
-			(at 173.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 173.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b986447b-2aee-46d1-ace5-f373a0c3b55d")
-		)
-		(pin "2"
-			(uuid "964f4c30-2024-4087-9dff-0c8ebc6f9e51")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 81.28 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dadfe9b7-e8d7-4a86-8095-29a9f7df77d1")
-		(property "Reference" "R1"
-			(at 83.82 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 83.82 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37fcda4b-6f3c-4be1-b310-6fd11b2fd961")
-		)
-		(pin "1"
-			(uuid "0e823514-d7a8-41df-bebc-975b05b81c84")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 114.3 133.35 0)
+		(at 136.525 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0a575af-3b0d-4f5f-98bc-5be71fd377b0")
+		(uuid "472cd21a-54fc-4689-aaa7-947d15f40800")
 		(property "Reference" "#PWR05"
-			(at 114.3 137.16 0)
+			(at 136.525 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +3325,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 114.3 128.27 0)
+			(at 136.525 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 133.35 0)
+			(at 136.525 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +3342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 133.35 0)
+			(at 136.525 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +3351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 114.3 133.35 0)
+			(at 136.525 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,11 +3360,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "940760f4-202a-400a-8937-fd60f9a47494")
+			(uuid "252eabbc-462d-4c73-89c3-1d7cbb6cc624")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -5202,87 +3372,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 110.49 106.68 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e443876b-f12d-4d3d-bfbb-08d854a7edb1")
-		(property "Reference" "JP1"
-			(at 113.03 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Test"
-			(at 113.03 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6541d649-daef-4466-9545-402031aef43e")
-		)
-		(pin "1"
-			(uuid "b800f33b-afd7-40e0-822c-18761c6aa06f")
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 34.925 66.04 0)
+		(at 57.15 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7386345-08e8-4bef-9f77-971c9b1152aa")
-		(property "Reference" "H3"
-			(at 37.465 64.7699 0)
+		(uuid "49dcc3be-5bf5-4294-969a-819f71afbd2b")
+		(property "Reference" "H2"
+			(at 59.69 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +3392,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 37.465 67.3099 0)
+			(at 59.69 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +3401,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 34.925 66.04 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +3410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.925 66.04 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +3419,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 34.925 66.04 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,8 +3429,624 @@
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "H3")
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 169.545 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bce009d-0088-4e6e-8cc6-c69cff502808")
+		(property "Reference" "#PWR09"
+			(at 169.545 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 169.545 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35ea2530-081b-4164-b802-e88b7ae7d40c")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 169.545 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5199587d-c5b0-4120-bec3-701665bfdfd3")
+		(property "Reference" "C4"
+			(at 172.085 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 172.085 59.6962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 169.545 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.545 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 169.545 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c858838-f508-479b-b6d6-8ce3ec6fab1f")
+		)
+		(pin "1"
+			(uuid "a5b9c04f-fa17-4a51-91f3-c7d450796aa3")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 122.555 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a9ca68-fbcd-4695-8c37-eb2cbbcb1270")
+		(property "Reference" "R2"
+			(at 122.555 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.02K"
+			(at 122.555 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 122.555 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 122.555 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 122.555 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70d1ff7a-23bb-41b0-8196-6248949b5dd0")
+		)
+		(pin "1"
+			(uuid "2d4b91eb-3edd-4964-ac03-8a6563f9ba09")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 127.635 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64868da4-346a-4432-8fc0-5b2751d9bc09")
+		(property "Reference" "J3"
+			(at 127.635 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vout"
+			(at 127.635 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 127.635 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vout"
+			(at 127.635 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5a2b9ba-7e66-4d79-aa7d-957400d7272a")
+		)
+		(pin "2"
+			(uuid "ae770b41-8f7b-4dfc-b35f-58be3ef41fb2")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 90.805 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68baf27a-0a85-4270-82bc-32dddb7af0d2")
+		(property "Reference" "J1"
+			(at 91.1224 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEST"
+			(at 91.1224 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966d17a5-0795-4037-b075-044b27d626c6")
+		)
+		(pin "2"
+			(uuid "a6763833-95ee-4585-b6f8-f0dc51ffeb7e")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 132.715 109.22 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "68f3a09c-7d51-46a9-9fbd-0c0d16e7843f")
+		(property "Reference" "JP1"
+			(at 135.255 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Test"
+			(at 135.255 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 132.715 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.715 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 132.715 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1212d1-d9b6-490d-bfad-9c29e84f9c5b")
+		)
+		(pin "1"
+			(uuid "f03222b6-94e4-4af9-89a8-38454dd8e9b9")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 196.215 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bcc981c-407f-4f51-b998-542cb6b08fa0")
+		(property "Reference" "D1"
+			(at 200.025 58.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060VS75000 "
+			(at 200.025 61.2774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LumiCom_TIA:LEDC1608X80N"
+			(at 196.215 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.215 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.215 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203ea2ce-aee8-4f49-9b4c-f2b492b3e6ca")
+		)
+		(pin "2"
+			(uuid "aed4d00e-c861-4628-9a43-aae05f3a48c7")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 103.505 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7db16cf5-7973-481b-8f32-aade07c004a1")
+		(property "Reference" "C1"
+			(at 97.155 128.2763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 99.695 128.2763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 103.505 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 103.505 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "626484b9-6739-4711-bf3e-addb7b30551d")
+		)
+		(pin "1"
+			(uuid "be949d03-b9c9-4ae3-bf83-d41cfde9dd31")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 104.775 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e99d049-ba9d-433c-9b36-d4163d230304")
+		(property "Reference" "J2"
+			(at 102.235 90.4631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 102.235 93.0031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 104.775 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 104.775 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 104.775 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1911c2a9-e85e-45cf-92d6-8a6eecb7b269")
+		)
+		(pin "2"
+			(uuid "2a753c4b-c1fc-4b95-9f25-10b81e528529")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5338,16 +4054,16 @@
 	)
 	(symbol
 		(lib_id "LumiCom_TIA:XLMH34400IDRLR")
-		(at 143.51 101.6 0)
+		(at 165.735 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea99672f-6f51-44d5-949d-7947cf7ff24e")
+		(uuid "83d8107f-024f-45bd-9376-a364148c9ef0")
 		(property "Reference" "U1"
-			(at 143.51 88.9 0)
+			(at 165.735 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5355,7 +4071,7 @@
 			)
 		)
 		(property "Value" "XLMH34400IDRLR"
-			(at 143.51 91.44 0)
+			(at 165.735 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5363,7 +4079,7 @@
 			)
 		)
 		(property "Footprint" "LumiCom_TIA:SOT5X3-6_DRL_TEX"
-			(at 143.51 85.598 0)
+			(at 165.735 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +4089,7 @@
 			)
 		)
 		(property "Datasheet" "XLMH34400IDRLR"
-			(at 143.51 87.376 0)
+			(at 165.735 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +4099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 99.06 0)
+			(at 147.955 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,26 +4108,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "fb62d00a-19e2-4cd2-ac4a-90192d6fe8a8")
+			(uuid "683e4dc6-9ac2-4101-8b90-137e40156b84")
 		)
 		(pin "2"
-			(uuid "61bff89b-0db2-48ef-9d1a-6552062b35db")
+			(uuid "01fdf407-c135-499c-8050-e9a90b14933a")
 		)
 		(pin "1"
-			(uuid "6cae6ec5-8f1c-489e-b2c6-8704fa995b67")
+			(uuid "deea376f-4b5b-4473-b8eb-8bd7f158810a")
 		)
 		(pin "5"
-			(uuid "85c2c789-2612-40e5-8dea-d908136c5b8e")
+			(uuid "2a7fbd13-9106-46c6-b183-88361fda1895")
 		)
 		(pin "3"
-			(uuid "db1fcce5-8e0f-4adb-9d55-0c474eea42be")
+			(uuid "72f455d9-e7d7-439f-8a48-84ac22a62e3c")
 		)
 		(pin "4"
-			(uuid "e20b96c7-7ae3-42db-a628-b5397672b96d")
+			(uuid "e95ebdd9-97ce-4ea1-aca4-ee9be07fd4af")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "U1")
 					(unit 1)
 				)
@@ -5419,32 +4135,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 204.47 105.41 90)
+		(lib_id "power:GND")
+		(at 156.845 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebc63440-3bf7-49c8-baea-19be4e1b09b1")
-		(property "Reference" "C6"
-			(at 201.93 102.87 90)
+		(uuid "8431e695-9787-4102-93a0-942d86e9f33f")
+		(property "Reference" "#PWR08"
+			(at 156.845 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 208.28 102.87 90)
+		(property "Footprint" ""
+			(at 156.845 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 204.47 105.41 0)
+		(property "Datasheet" ""
+			(at 156.845 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.845 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f80e538-d06f-4629-a805-de2c6bdeedc4")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 104.775 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874844a6-367d-4803-8409-586cc94fab67")
+		(property "Reference" "#PWR03"
+			(at 104.775 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +4237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 105.41 0)
+			(at 104.775 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,8 +4245,208 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 204.47 105.41 0)
+		(property "Description" ""
+			(at 104.775 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07ae4eb6-4278-4377-8ce6-3ad048954f00")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.805 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c8e28d-053c-43fc-b5e2-b30cc98be18d")
+		(property "Reference" "#PWR01"
+			(at 90.805 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.805 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.805 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dddfbc8d-6d6b-487d-a434-4fdaefda4e29")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 200.025 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e752d1-bda1-41ab-8c1c-bddd311a0cb0")
+		(property "Reference" "#PWR014"
+			(at 200.025 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 200.025 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.025 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.025 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 200.025 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7f9de3-07c4-4ad2-9e50-9ebc5b821b4d")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 103.505 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ff4162-711a-4d49-bfd4-cc403d589cc1")
+		(property "Reference" "R1"
+			(at 106.045 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 106.045 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 103.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 103.505 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,18 +4455,1039 @@
 			)
 		)
 		(pin "2"
-			(uuid "834c4ae9-fc30-4956-adac-a9f69c39c527")
+			(uuid "9c5a7224-0a08-4066-bd53-9c3d58682482")
 		)
 		(pin "1"
-			(uuid "49eded43-7c84-4521-825e-33625b20a2f6")
+			(uuid "d390a821-8607-4e34-8c52-e59939f72431")
 		)
 		(instances
 			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.845 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913069d2-e1d1-4b79-9550-73f9431153e8")
+		(property "Reference" "C3"
+			(at 159.385 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 159.385 59.6962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 156.845 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.845 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.845 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff652677-eb34-4e70-972b-a063c5c051d1")
+		)
+		(pin "1"
+			(uuid "6c6412d3-b6f2-45d0-a321-c56028ae4c42")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 57.15 68.58 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9306cca6-683c-4c5f-b952-c67373cadc7b")
+		(property "Reference" "H3"
+			(at 59.69 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "M3"
+			(at 59.69 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.245 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a18f90b9-4254-4304-a8e7-9abf79bf102e")
+		(property "Reference" "C5"
+			(at 184.785 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.785 59.6962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 182.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5064578b-f079-42b0-ae9f-be75d2fb5a11")
+		)
+		(pin "2"
+			(uuid "61b30dc5-7bb0-41c7-b78b-696d08c52546")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 226.695 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af64b037-270e-46fc-854e-2e3a2397c87c")
+		(property "Reference" "C6"
+			(at 224.155 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 230.505 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 226.695 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.695 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 226.695 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d0a04b3-81df-4f6b-b56e-b2acd55000dc")
+		)
+		(pin "1"
+			(uuid "1c83808b-ad40-4853-9eef-6ee395396ab0")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
 					(reference "C6")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 103.505 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b35354b4-809f-46ae-828a-cc000be97417")
+		(property "Reference" "#PWR02"
+			(at 103.505 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.505 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 103.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b9ab618-4203-425d-8612-2402a75ac8f5")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 245.745 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a9d780-164d-4d6e-8077-8829b55ff024")
+		(property "Reference" "#PWR016"
+			(at 245.745 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.745 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.745 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.745 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.745 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cbc8dda-8ee0-413e-8fdd-276cc05479ad")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.245 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7248f39-6291-421d-8d2d-67e01136b5a6")
+		(property "Reference" "#PWR011"
+			(at 182.245 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.245 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e05dd060-71c0-4b7d-a964-2b8bf7f75491")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 132.715 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cedb8a07-6698-46be-ac2a-54ec6c2a123d")
+		(property "Reference" "#PWR04"
+			(at 132.715 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1be4a69-ed35-4d5a-8b3d-03c6d350792d")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.215 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d04c99ba-290d-42ef-b891-7753e003b92b")
+		(property "Reference" "R3"
+			(at 198.755 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k2"
+			(at 198.755 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.215 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.215 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.215 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b9d1f44-9e64-45f3-bb19-d87c19f69d09")
+		)
+		(pin "1"
+			(uuid "d4fa02a1-ba54-4767-b8b5-72fd2278e208")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5b9004a-44a8-429c-884d-bcd920f4fd5b")
+		(property "Reference" "C2"
+			(at 113.0363 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 113.0363 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8aa35cd-37b0-42cd-83c9-7fa1e3bc0796")
+		)
+		(pin "1"
+			(uuid "f164567f-571c-4077-b2af-28e71224e7f4")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 213.995 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8c1772d-e2cd-485a-aac1-33b0db585f99")
+		(property "Reference" "R4"
+			(at 210.185 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 216.535 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 213.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 213.995 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b85c2e5a-f85b-40fc-826b-5ccc1bbd5a9d")
+		)
+		(pin "1"
+			(uuid "c605a9ce-7e9b-42f3-a06c-ceca0c71bb8c")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 245.745 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9bce6e-8ddf-4800-a3b5-b09fd25b7814")
+		(property "Reference" "J6"
+			(at 248.285 106.9731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 248.285 109.5131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 245.745 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 245.745 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 245.745 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df564de4-dc59-48fb-ad1f-d87ac0167f99")
+		)
+		(pin "2"
+			(uuid "24994ef3-629b-4484-a7d6-dadd084243c2")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.215 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e562ece8-5647-415c-b817-2623bc57d1cf")
+		(property "Reference" "#PWR013"
+			(at 196.215 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.215 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.215 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.215 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9050531-b0a9-48f9-b691-681a068d5e87")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 226.695 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7fdf731-9661-4343-8353-a91b6cb94c20")
+		(property "Reference" "R5"
+			(at 222.885 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 229.235 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.695 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.695 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 226.695 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99c67dcf-99b5-4569-8abf-0a1dee94b735")
+		)
+		(pin "1"
+			(uuid "2ff5292f-cd6d-47b7-ba22-8f45147d5977")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 127.635 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee771693-d1c1-416a-a4d5-f29aa67d13f1")
+		(property "Reference" "J4"
+			(at 127.635 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N_EN"
+			(at 127.635 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 127.635 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127.635 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "caff0363-e83b-4604-8a65-71966877599d")
+		)
+		(pin "1"
+			(uuid "0aee2aee-3885-4b82-a1f6-0170ec926a0e")
+		)
+		(pin "2"
+			(uuid "5cf6cbe8-638d-4b18-a184-5ec670aabf0f")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
