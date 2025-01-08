@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LumiCom_Led")(type "KiCad")(uri "${KIPRJMOD}/library/LumiCom_Led.pretty")(options "")(descr ""))
+)

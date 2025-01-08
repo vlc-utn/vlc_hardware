@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SFH_4053
+D IR Emitter,High Power,CHIPLED,850nm,140d Osram Opto SFH 4053 CHIPLED IR LED, 860nm, 0402 SMD package
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036892.pdf
+$ENDCMP
+#
+#End Doc Library

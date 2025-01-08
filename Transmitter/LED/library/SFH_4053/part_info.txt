@@ -1,0 +1,9 @@
+Manufacturer=ams OSRAM
+PartNumber=SFH 4053
+PartCategory=LED
+PackageCategory=LEDs Chip
+PinCount=2
+Version=2.1
+Released=2019-03-04 03:41:33
+Downloaded=2025-01-06 10:41:17
+3D=Y

@@ -1,0 +1,18 @@
+.SFH_4053 :1 ;IR Emitter,High Power,CHIPLED,850nm,140d Osram Opto SFH 4053 CHIPLED IR LED, 860nm, 0402 SMD package
+LEDC1005X55N
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SFH_4053
+~!Manufacturer_Name (ams OSRAM)
+~!Manufacturer_Part_Number (SFH 4053)
+~!Mouser Part Number (720-SFH4053)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-4053?qs=WFZtTl33IYKBVpRycaqUAw%3D%3D)
+~!Arrow Part Number (SFH 4053)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sfh4053/osram-opto-semiconductors?region=europe)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036892.pdf)
+~!Height (0.55mm)
+~!3D_Model (SFH_4053)
+SFH_4053
+1.1!U 2.1!U 
