@@ -6,45 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 62.865 62.865)
-		(size 50.8 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7b29c8b7-08a9-445f-a87e-edd1b7ad1436")
-		(property "Sheetname" "ltc6269-10"
-			(at 62.865 62.1534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ltc6269-10.kicad_sch"
-			(at 62.865 101.5496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 184.15 63.5)
+		(at 118.11 66.04)
 		(size 50.8 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +18,7 @@
 		)
 		(uuid "97796698-2adc-4146-98ed-b0bd6c43e980")
 		(property "Sheetname" "LMH34400"
-			(at 184.15 62.7884 0)
+			(at 118.11 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "LMH34400.kicad_sch"
-			(at 184.15 102.1846 0)
+			(at 118.11 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2181,10 +2181,22 @@
 		(uuid "cbc192fc-781e-4200-aff7-87f90a9b2409")
 	)
 	(junction
+		(at 196.85 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3b0455-e1d0-496d-be7c-05d94afd277b")
+	)
+	(junction
 		(at 160.02 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df628eb6-e501-4f9b-abc2-3acc48fb2c21")
+	)
+	(junction
+		(at 212.09 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8db6113-fb63-4d6e-a28d-80d3a062bb6f")
 	)
 	(wire
 		(pts
@@ -2238,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 113.03) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8af037-a61f-45f7-9753-b0ad3593f44a")
+	)
+	(wire
+		(pts
 			(xy 134.62 49.53) (xy 134.62 53.34)
 		)
 		(stroke
@@ -2288,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 113.03) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65be4286-40a6-49b7-b344-92fe06dc544d")
+	)
+	(wire
+		(pts
 			(xy 168.91 93.98) (xy 181.61 93.98)
 		)
 		(stroke
@@ -2308,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 105.41) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdc5216-f543-4739-8128-6271c30bda2d")
+	)
+	(wire
+		(pts
 			(xy 110.49 113.03) (xy 102.87 113.03)
 		)
 		(stroke
@@ -2315,6 +2357,26 @@
 			(type default)
 		)
 		(uuid "7155154b-f765-46dd-8454-cb1fb8e3f41d")
+	)
+	(wire
+		(pts
+			(xy 196.85 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bb0131-3078-4635-a107-f44f5d8183a1")
+	)
+	(wire
+		(pts
+			(xy 212.09 105.41) (xy 207.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0269bf-a935-41f2-a541-eb72b86745ad")
 	)
 	(wire
 		(pts
@@ -2345,6 +2407,16 @@
 			(type default)
 		)
 		(uuid "89eb2390-4469-45ec-93e5-43ac76307f06")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edec90b-c4e5-480a-867e-db25a100be2e")
 	)
 	(wire
 		(pts
@@ -2388,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 105.41) (xy 207.01 105.41)
+			(xy 218.44 105.41) (xy 212.09 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 201.93 105.41)
+			(xy 194.31 105.41) (xy 196.85 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3101,6 +3173,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 204.47 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1450fdd5-d9f9-4ac9-a2d2-68c538d08933")
+		(property "Reference" "R5"
+			(at 200.66 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 207.01 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1fc14d0-e00e-4047-9de1-583af2d2c860")
+		)
+		(pin "1"
+			(uuid "a916559a-295d-4e9c-ad63-6f41705052c9")
+		)
+		(instances
+			(project "LumiCom_TIA"
+				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 55.88 0)
 		(unit 1)
@@ -3672,7 +3811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -3804,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 105.41 52.07 0)
 			(effects
 				(font
@@ -4345,7 +4484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -4814,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -5341,71 +5480,6 @@
 			(project "LumiCom_TIA"
 				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 34.925 72.39 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd0c064a-55e7-4481-a1ef-fdd92f6fadad")
-		(property "Reference" "H4"
-			(at 37.465 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M3"
-			(at 37.465 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 34.925 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.925 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 34.925 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LumiCom_TIA"
-				(path "/27381ed8-96e6-4041-ba7f-c08f9d949351/97796698-2adc-4146-98ed-b0bd6c43e980"
-					(reference "H4")
 					(unit 1)
 				)
 			)

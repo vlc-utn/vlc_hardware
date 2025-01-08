@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-10-27T20:41:51-03:00*%
+%TF.CreationDate,2025-01-07T09:10:32-03:00*%
 %TF.ProjectId,LumiCom_Transmitter,4c756d69-436f-46d5-9f54-72616e736d69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-10-27 20:41:51*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2025-01-07 09:10:32*
 %MOMM*%
 %LPD*%
 G01*
@@ -15,9 +15,9 @@ G04 APERTURE LIST*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-X0Y70000000D02*
-X50000000Y70000000D01*
+X0Y42000000D02*
+X50000000Y42000000D01*
 X50000000Y0D01*
 X0Y0D01*
-X0Y70000000D01*
+X0Y42000000D01*
 M02*

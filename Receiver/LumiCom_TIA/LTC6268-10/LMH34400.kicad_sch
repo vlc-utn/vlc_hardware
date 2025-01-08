@@ -3672,7 +3672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -4345,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LumiCom_TIA:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 223.52 105.41 0)
 			(effects
 				(font
