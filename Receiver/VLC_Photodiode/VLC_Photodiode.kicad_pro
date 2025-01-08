@@ -704,6 +704,30 @@
           "label": "automotive",
           "name": "automotive",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr P/N",
+          "name": "Mfr P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser P/N",
+          "name": "Mouser P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Newark P/N",
+          "name": "Newark P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": false
         }
       ],
       "filter_string": "",
