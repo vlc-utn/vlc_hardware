@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (23.1.0.d001)
+STATUS:  
+STATUS: Translator started at Wednesday, January 08, 2025 23:14:21
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Receiver\AMP\simulation\BGA616_spice_spar\BGA616 - Spice Model.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\cdn_psp_tipspice.olb'.
+STATUS: Translator stopped at Wednesday, January 08, 2025 23:15:29
+STATUS: 0 Error messages, 0 Warning messages

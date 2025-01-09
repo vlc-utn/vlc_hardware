@@ -1,0 +1,14 @@
+STATUS: PSpice Model Import Wizard for "Capture" (23.1.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Receiver\AMP\simulation\BGA616_spice_spar\BGA616 - Spice Model.lib
+   INFO: Output File: E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Receiver\AMP\simulation\BGA616_spice_spar\BGA616 - Spice Model.OLB
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Wednesday, January 08, 2025 23:14:21
+STATUS:  
+   INFO: Symbol "T1" created for model "T1".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Wednesday, January 08, 2025 23:14:21
+STATUS:  
+   INFO: Symbol "T1" updated for model "T1".
+STATUS: 0 Error messages, 0 Warning messages

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BGA616H6327XTSA1
+D RF Amplifier IC CDMA, GSM, PCS 0Hz ~ 2.7GHz PG-SOT343-4
+K
+F https://www.infineon.com/dgdl/Infineon-BGA616-DS-v02_01-en.pdf?fileId=db3a304314dca3890115419102bb163b
+$ENDCMP
+#
+#End Doc Library

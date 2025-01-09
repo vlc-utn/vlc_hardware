@@ -1,0 +1,32 @@
+SPICE Model BG616
+BG616-Chip
+Q1	T1
+Q2	T1 (area factor: 0.5)
+R1	625	Ohm
+R2	625	Ohm
+R3	80	Ohm
+R4	4	Ohm
+
+Transistor Chip Data T1 (Berkley-SPICE 2G.6 Syntax)
+.MODEL T1 NPN(
++ IS = 2.6e-015	BF = 105	NF = 1.021 	VAF = 1000
++ IKF = 2.262	ISE = 2.978E-12	NE = 3.355	BR = 100
++ NR = 1	VAR = 1.2	IKR = 0.00631	ISC = 1.923E-14 
++ NC = 2.179	RB = 2.674	IRB = 1.8E-05	RBM = 2.506
++ RE = 0.472	RC = 2.105	XTB = -0.9	EG = 1.114
++ XTI = 3.43	CJE = 3.716E-13	VJE = 0.8986	MJE = 0.3152 
++ TF = 1.306E-12	XTF = 2.71	VTF = 0.492	ITF = 2.444
++ PTF = 0	CJC = 2.256E-13	VJC = 0.7395	MJC = 0.3926
++ XCJC = 1	TR = 3.884E-10	CJS = 6E-14	VJS = 0.5
++ MJS = 0.5	FC = 0.8215)
+
+Package Equivalent Circuit
+LBI	0.47	nH
+LB0	0.53	nH
+LEI	0.23	nH
+LEO	0.05	nH
+LCI	0.56	nH
+LCO	0.58	nH
+CBE	136	fF
+CCB	6.9	fF
+CCE	134	fF

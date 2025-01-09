@@ -1,0 +1,70 @@
+
+**** 01/09/25 08:51:26 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../bga616_spice_spar/bga616 - spice model.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10k 10G
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source RX_AMP
+C_C3         N18336 N19158  100n  TC=0,0 
+V_V2         N14399 0 DC 0Vdc AC 1Vac 
+V_V1         N14723 0 5
+R_R1         N14756 N14723  15 TC=0,0 
+L_L1         N14752 N14756  10u  
+C_C1         N14723 N14710  100n  TC=0,0 
+C_C2         N14752 N15073  100n  TC=0,0 
+R_R2         0 N15071  50 TC=0,0 
+R_Q_R1         Q_N16889 Q_N16853  625 TC=0,0 
+R_Q_R3         Q_N16995 Q_N16927  80 TC=0,0 
+R_Q_R2         Q_N16995 Q_N16889  625 TC=0,0 
+Q_Q_Q2         Q_N16853 Q_N16927 Q_N16991 T1 0.5
+Q_Q_Q1         Q_N16853 Q_N16889 Q_N16927 T1 1
+R_Q_R4         Q_N16995 Q_N16991  4 TC=0,0 
+L_Q_Lbo         N19158 Q_N17915  0.53nH  
+C_Q_Ccb         Q_N17915 Q_N17842  6.9fF  TC=0,0 
+C_Q_Cbe         Q_N17738 Q_N17915  136fF  TC=0,0 
+C_Q_Cce         Q_N17738 Q_N17842  134fF  TC=0,0 
+L_Q_Leo         0 Q_N17738  0.05nH  
+L_Q_Lei         Q_N17738 Q_N16995  0.23nH  
+L_Q_Lco         N14752 Q_N17842  0.58nH  
+L_Q_Lci         Q_N17842 Q_N16853  0.56nH  
+L_Q_Lbi         Q_N17915 Q_N16889  0.47nH  
+T_T1         N14399 0 N18336 0 Z0=50 TD=0.2ns  
+T_T2         N15073 0 N15071 0 Z0=50 TD=0.2ns  
+L_L2         N15073 N15073  500p  
+L_L3         N19158 N19158  500p  
+L_L4         N14710 0  500p  
+
+**** RESUMING AC.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving L_L3. You may break the loop by adding a series resistance
+

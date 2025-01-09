@@ -1,0 +1,157 @@
+(ExpressProject "rx_amp"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[01/09/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library"))
+      (File ".\bga616_spice_spar\bga616 - spice model.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "rx_amp.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "TRUE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\rx_amp-pspicefiles\ac\ac.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\rx_amp-pspicefiles\ac\ac.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rx_amp-pspicefiles\ac\ac.sim"
+        (DisplayName "AC-AC")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\bga616_spice_spar\bga616 - spice model.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\bga616_spice_spar\bga616 - spice model.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\INDUCTOR\HYBRID\SUPPORTFILES\INDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (Rbreak
+      (FullPartName "Rbreak.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (T
+      (FullPartName "T.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (T1
+      (FullPartName "T1.Normal")
+      (LibraryName
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\RECEIVER\AMP\SIMULATION\BGA616_SPICE_SPAR\BGA616 - SPICE MODEL.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Receiver\AMP\simulation\BGA616_spice_spar")
+  (MPSSessionName "juanc")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp.dsn")
+      (Path "Design Resources"
+         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp.dsn"
+         "AC")
+      (Path "Design Resources"
+         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp.dsn"
+         "BG616")
+      (Path "Design Resources"
+         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp.dsn"
+         "AC" "AC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 295 0 747"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1101 24 765")
+        (Scroll "328 137")
+        (Zoom "194")
+        (Occurrence "/"))
+      (Path
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\RECEIVER\AMP\SIMULATION\RX_AMP.DSN")
+      (Schematic "AC")
+      (Page "AC"))))

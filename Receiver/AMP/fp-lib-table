@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rx_amp")(type "KiCad")(uri "${KIPRJMOD}/library/rx_amp.pretty")(options "")(descr ""))
+)

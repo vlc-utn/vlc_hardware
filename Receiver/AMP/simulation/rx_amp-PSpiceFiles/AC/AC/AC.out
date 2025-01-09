@@ -1,0 +1,218 @@
+
+**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../bga616_spice_spar/bga616 - spice model.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10k 10G
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source RX_AMP
+C_C3         N18336 N19158  10n  TC=0,0 
+V_V2         N14399 0 DC 0Vdc AC 1Vac 
+V_V1         N17563 0 5
+R_R1         N21758 N17563  15 TC=0,0 
+C_C2         N15078 N19134  10n  TC=0,0 
+R_R2         0 N15071  50 TC=0,0 
+R_Q_R1         Q_N16889 Q_N16853  625 TC=0,0 
+R_Q_R3         Q_N16995 Q_N16927  80 TC=0,0 
+R_Q_R2         Q_N16995 Q_N16889  625 TC=0,0 
+Q_Q_Q2         Q_N16853 Q_N16927 Q_N16991 T1 0.5
+Q_Q_Q1         Q_N16853 Q_N16889 Q_N16927 T1 1
+R_Q_R4         Q_N16995 Q_N16991  4 TC=0,0 
+L_Q_Lbo         N19158 Q_N17915  0.53nH  
+C_Q_Ccb         Q_N17915 Q_N17842  6.9fF  TC=0,0 
+C_Q_Cbe         Q_N17738 Q_N17915  136fF  TC=0,0 
+C_Q_Cce         Q_N17738 Q_N17842  134fF  TC=0,0 
+L_Q_Leo         0 Q_N17738  0.05nH  
+L_Q_Lei         Q_N17738 Q_N16995  0.23nH  
+L_Q_Lco         N15078 Q_N17842  0.58nH  
+L_Q_Lci         Q_N17842 Q_N16853  0.56nH  
+L_Q_Lbi         Q_N17915 Q_N16889  0.47nH  
+T_T1         N14399 0 N18336 0 Z0=50 TD=0.2ns  
+T_T2         N19134 0 N15071 0 Z0=50 TD=0.2ns  
+X_L10    N21754 N21758 AC_L10 
+X_L11    N15078 N21754 AC_L11 
+C_C1         N22195 N17563  10n  TC=0,0 
+L_L4         0 N22195  500p  
+
+.subckt AC_L10 1 2  
+L_L10         1 _SR L_L10 10uH  
+.model         L_L10 IND L=1      
+RRDC_L10         _SR 2 1 
+CCP_L10         1 2  2.5290e-11  
+.ends AC_L10
+
+.subckt AC_L11 1 2  
+L_L11         1 _SR L_L11 10uH  
+.model         L_L11 IND L=1      
+RRDC_L11         _SR 2 1 
+CCP_L11         1 2  2.5290e-11  
+.ends AC_L11
+
+**** RESUMING AC.cir ****
+.END
+
+**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               T1              
+               NPN             
+       LEVEL    1            
+          IS    2.600000E-15 
+          EG    1.114        
+          BF  105            
+          NF    1.021        
+         VAF    1.000000E+03 
+         IKF    2.262        
+         ISE    2.978000E-12 
+          NE    3.355        
+          BR  100            
+          NR    1            
+         VAR    1.2          
+         IKR    6.310000E-03 
+         ISC   19.230000E-15 
+          NC    2.179        
+         ISS    0            
+          RB    2.674        
+         RBM    2.506        
+         IRB   18.000000E-06 
+          RE     .472        
+          RC    2.105        
+         CJE  371.600000E-15 
+         VJE     .8986       
+         MJE     .3152       
+         CJC  225.600000E-15 
+         VJC     .7395       
+         MJC     .3926       
+        XCJC    1            
+         CJS   60.000000E-15 
+         VJS     .5          
+         MJS     .5          
+          FC     .8215       
+          TF    1.306000E-12 
+         XTF    2.71         
+         VTF     .492        
+         ITF    2.444        
+          TR  388.400000E-12 
+         XTB    -.9          
+         XTI    3.43         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     Inductor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_L10.L_L10     X_L11.L_L11     
+           L    1               1            
+
+
+**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14399)    0.0000 (N15071)    0.0000 (N15078)    4.0217 (N17563)    5.0000     
+
+(N18336)    0.0000 (N19134)    0.0000 (N19158)    1.8793 (N21754)    4.0792     
+
+(N21758)    4.1368 (N22195)    0.0000 (Q_N16853)    4.0217                      
+
+(Q_N16889)    1.8793                  (Q_N16927)    1.0668                      
+
+(Q_N16991)     .1648                  (Q_N16995)    0.0000                      
+
+(Q_N17738)    0.0000                  (Q_N17842)    4.0217                      
+
+(Q_N17915)    1.8793                  (X_L10._SR)    4.0792                     
+
+(X_L11._SR)    4.0217                 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         0.000E+00
+    V_V1        -5.755E-02
+
+    TOTAL POWER DISSIPATION   2.88E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .36
+
