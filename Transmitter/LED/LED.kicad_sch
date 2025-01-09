@@ -1855,7 +1855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Broadband DC blocking."
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 190.5 119.38 0)
 			(effects
 				(font
@@ -2217,7 +2217,7 @@
 				)
 			)
 		)
-		(property "Description" "Broadband AC blocking."
+		(property "Description" " RF Inductors - SMD WE-CAIR Air Coil 206nH 3A AEC-Q200 "
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2380,7 +2380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" " RFPC-SMA28-F GCT"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -2605,7 +2605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Broadband DC blocking."
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 74.93 119.38 0)
 			(effects
 				(font

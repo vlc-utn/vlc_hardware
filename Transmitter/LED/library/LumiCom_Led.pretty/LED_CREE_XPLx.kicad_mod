@@ -72,7 +72,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "a63fd29d-6ccb-4d4c-9b0c-053aa379e3d6")
 	)
 	(fp_line
@@ -82,7 +82,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "3ff91d53-bcff-4651-8902-5189b97bce86")
 	)
 	(fp_poly
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "b4f7d48e-d701-4d20-bd33-fd54d849bea1")
 	)
 	(fp_line
