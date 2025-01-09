@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Filtro de preenfasis")
-		(date "2025-01-06")
-		(rev "v1.1")
+		(date "2025-01-09")
+		(rev "v1.2")
 		(company "Cotti Nicolas Gabriel")
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
@@ -2446,7 +2446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 31.75 27.9399 0)
 			(effects
 				(font
@@ -2455,7 +2455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 29.21 26.67 0)
 			(effects
 				(font
@@ -2862,7 +2862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 22.86 22.8599 0)
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 20.32 21.59 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 31.75 22.8599 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 29.21 21.59 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 22.86 27.9399 0)
 			(effects
 				(font
@@ -3807,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 20.32 26.67 0)
 			(effects
 				(font
