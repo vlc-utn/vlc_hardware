@@ -12,7 +12,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 100 10k 10G
+.AC DEC 100 10k 0.5G
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 

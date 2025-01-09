@@ -1,5 +1,5 @@
 
-**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/09/25 11:17:31 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
 
@@ -24,7 +24,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 100 10k 10G
+.AC DEC 100 10k 0.5G
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
@@ -38,7 +38,6 @@ C_C3         N18336 N19158  10n  TC=0,0
 V_V2         N14399 0 DC 0Vdc AC 1Vac 
 V_V1         N17563 0 5
 R_R1         N21758 N17563  15 TC=0,0 
-C_C2         N15078 N19134  10n  TC=0,0 
 R_R2         0 N15071  50 TC=0,0 
 R_Q_R1         Q_N16889 Q_N16853  625 TC=0,0 
 R_Q_R3         Q_N16995 Q_N16927  80 TC=0,0 
@@ -56,11 +55,15 @@ L_Q_Lco         N15078 Q_N17842  0.58nH
 L_Q_Lci         Q_N17842 Q_N16853  0.56nH  
 L_Q_Lbi         Q_N17915 Q_N16889  0.47nH  
 T_T1         N14399 0 N18336 0 Z0=50 TD=0.2ns  
-T_T2         N19134 0 N15071 0 Z0=50 TD=0.2ns  
+T_T2         N22655 0 N15071 0 Z0=50 TD=0.2ns  
 X_L10    N21754 N21758 AC_L10 
 X_L11    N15078 N21754 AC_L11 
-C_C1         N22195 N17563  10n  TC=0,0 
-L_L4         0 N22195  500p  
+C_C1         0 N17563  10n  TC=0,0 
+L_L12         N23020 N22629  47nH  
+L_L13         N22629 N22655  47nH  
+C_C4         N22732 N22629  38p  TC=0,0 
+L_L14         0 N22732  42nH  
+C_C5         N15078 N23020  10u  TC=0,0 
 
 .subckt AC_L10 1 2  
 L_L10         1 _SR L_L10 10uH  
@@ -79,7 +82,7 @@ CCP_L11         1 2  2.5290e-11
 **** RESUMING AC.cir ****
 .END
 
-**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/09/25 11:17:31 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
 
@@ -139,7 +142,7 @@ CCP_L11         1 2  2.5290e-11
            D     .87         
 
 
-**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/09/25 11:17:31 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
 
@@ -156,7 +159,7 @@ CCP_L11         1 2  2.5290e-11
            L    1               1            
 
 
-**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/09/25 11:17:31 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
 
@@ -173,19 +176,19 @@ CCP_L11         1 2  2.5290e-11
 
 (N14399)    0.0000 (N15071)    0.0000 (N15078)    4.0217 (N17563)    5.0000     
 
-(N18336)    0.0000 (N19134)    0.0000 (N19158)    1.8793 (N21754)    4.0792     
+(N18336)    0.0000 (N19158)    1.8793 (N21754)    4.0792 (N21758)    4.1368     
 
-(N21758)    4.1368 (N22195)    0.0000 (Q_N16853)    4.0217                      
+(N22629)    0.0000 (N22655)    0.0000 (N22732)    0.0000 (N23020)    0.0000     
 
-(Q_N16889)    1.8793                  (Q_N16927)    1.0668                      
+(Q_N16853)    4.0217                  (Q_N16889)    1.8793                      
 
-(Q_N16991)     .1648                  (Q_N16995)    0.0000                      
+(Q_N16927)    1.0668                  (Q_N16991)     .1648                      
 
-(Q_N17738)    0.0000                  (Q_N17842)    4.0217                      
+(Q_N16995)-353.2E-18                  (Q_N17738)-131.2E-18                      
 
-(Q_N17915)    1.8793                  (X_L10._SR)    4.0792                     
+(Q_N17842)    4.0217                  (Q_N17915)    1.8793                      
 
-(X_L11._SR)    4.0217                 
+(X_L10._SR)    4.0792                 (X_L11._SR)    4.0217                 
 
 
 
@@ -202,7 +205,7 @@ CCP_L11         1 2  2.5290e-11
 
           JOB CONCLUDED
 
-**** 01/09/25 09:57:38 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/09/25 11:17:31 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation
 
@@ -214,5 +217,5 @@ CCP_L11         1 2  2.5290e-11
 
 
 
-  Total job time (using Solver 1)   =         .36
+  Total job time (using Solver 1)   =         .66
 
