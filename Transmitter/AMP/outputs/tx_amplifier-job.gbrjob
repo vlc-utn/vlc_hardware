@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.5-8.0.5-0~ubuntu22.04.1"
     },
-    "CreationDate": "2025-01-07T12:52:56-03:00"
+    "CreationDate": "2025-01-09T15:44:55-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "tx_amplifier",
       "GUID": "74785f61-6d70-46c6-9966-6965722e6b69",
-      "Revision": "v1.0"
+      "Revision": "v1.1"
     },
     "Size": {
       "X": 30.05,

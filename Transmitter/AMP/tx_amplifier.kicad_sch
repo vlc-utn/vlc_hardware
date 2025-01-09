@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Amplificador TX")
-		(date "2025-01-07")
-		(rev "v1.0")
+		(date "2025-01-09")
+		(rev "v1.1")
 		(company "Cotti Nicolas Gabriel")
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
@@ -2807,7 +2807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 60.96 25.3999 0)
 			(effects
 				(font
@@ -2816,7 +2816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 58.42 24.13 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 50.8 25.3999 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 24.13 0)
 			(effects
 				(font
@@ -4140,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 60.96 19.0499 0)
 			(effects
 				(font
@@ -4149,7 +4149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 58.42 17.78 0)
 			(effects
 				(font
@@ -4481,7 +4481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M3"
 			(at 50.8 19.0499 0)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 17.78 0)
 			(effects
 				(font
