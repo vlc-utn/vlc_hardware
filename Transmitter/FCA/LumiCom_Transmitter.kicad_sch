@@ -4454,7 +4454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias"
+		(property "Footprint" "LumiCom_Transmitter:Texas_OPA2675"
 			(at 139.7 67.818 0)
 			(effects
 				(font
