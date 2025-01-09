@@ -147,7 +147,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 0 3.8 0)
 			(layer "F.Fab")
 			(uuid "718f353c-ca31-45d1-879d-9c19702553af")
@@ -644,7 +644,7 @@
 				)
 			)
 		)
-		(property "Description" "744918220 Wurth"
+		(property "Description" "Broadband AC blocking."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -656,12 +656,12 @@
 				)
 			)
 		)
-		(property "Mfr" " Wurth Elektronik "
+		(property "Manufacturer Part Number" "744918220"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5553f422-ee4a-4a42-bb2d-33542bc76d64")
+			(uuid "e88efb0c-05c1-4110-80a8-cf432031ce40")
 			(effects
 				(font
 					(size 1 1)
@@ -669,12 +669,12 @@
 				)
 			)
 		)
-		(property "Mfr number" "744918220"
+		(property "Mouser Part Number" "710-744918220"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0760437-7266-43e6-9a38-bfb3a8b85574")
+			(uuid "8cba5030-8193-4279-bb8f-a102072074e9")
 			(effects
 				(font
 					(size 1 1)
@@ -682,12 +682,12 @@
 				)
 			)
 		)
-		(property "Mouser" "710-744918220"
+		(property "Manufacturer" " Wurth Elektronik "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49cb24e9-fe2b-4124-a424-3a5f3625405e")
+			(uuid "e0902af8-42c2-46fa-a11f-d580d39e219c")
 			(effects
 				(font
 					(size 1 1)
@@ -898,7 +898,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 0 3.8 0)
 			(layer "F.Fab")
 			(uuid "250079e5-96a1-4930-9b42-1d2fb02e0413")
@@ -1048,7 +1048,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 0 3.8 0)
 			(layer "F.Fab")
 			(uuid "d63b98a0-1b37-4afe-9377-509cdb49d68b")
@@ -1220,7 +1220,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/530L.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Description" "broadband DC blocking"
+		(property "Description" "Broadband DC blocking."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1244,12 +1244,12 @@
 				)
 			)
 		)
-		(property "Mfr" "KYOCERA AVX"
+		(property "Manufacturer Part Number" "530L104KT16"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0ea5243-7f0d-4a9c-b377-462368c03edc")
+			(uuid "43b910b1-ab2c-41e2-ac4d-d11eef5b4381")
 			(effects
 				(font
 					(size 1 1)
@@ -1257,12 +1257,12 @@
 				)
 			)
 		)
-		(property "Mfr number" "530L104KT16"
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "712d3a87-e5d4-4278-940d-b86574115e19")
+			(uuid "c7c51c13-18d1-4719-824b-5443d9164a5d")
 			(effects
 				(font
 					(size 1 1)
@@ -1270,12 +1270,12 @@
 				)
 			)
 		)
-		(property "Mouser" " 581-530L104KT16 "
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25458246-534e-467d-ae9c-fa1b309f68b5")
+			(uuid "d60f7068-2aa7-4105-8171-d04916228795")
 			(effects
 				(font
 					(size 1 1)
@@ -1832,7 +1832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/530L.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1844,7 +1844,7 @@
 				)
 			)
 		)
-		(property "Description" "broadband DC blocking"
+		(property "Description" "Broadband DC blocking."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1856,12 +1856,12 @@
 				)
 			)
 		)
-		(property "Mfr" "KYOCERA AVX"
+		(property "Manufacturer Part Number" "530L104KT16"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e9ee20c-5f9a-4b9b-a21e-a2c4ad585977")
+			(uuid "568b1b64-e968-48bb-8379-b5b2851aff58")
 			(effects
 				(font
 					(size 1 1)
@@ -1869,12 +1869,12 @@
 				)
 			)
 		)
-		(property "Mfr number" "530L104KT16"
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d10d1287-249c-4ce5-b9c5-c8d660559174")
+			(uuid "5db28c4d-2160-4229-8ea8-f96b66d9df02")
 			(effects
 				(font
 					(size 1 1)
@@ -1882,12 +1882,12 @@
 				)
 			)
 		)
-		(property "Mouser" " 581-530L104KT16 "
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4653d12-8a30-462e-8a8c-069d836dfae8")
+			(uuid "8c9fdfa8-0140-4205-8f48-62e80c467060")
 			(effects
 				(font
 					(size 1 1)
@@ -2178,7 +2178,7 @@
 		(path "/1fbb41ca-4e8b-476f-85d2-932c8559da31")
 		(sheetname "Root")
 		(sheetfile "LED.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.3 -4.9)
 			(end -2.8 -4.9)
@@ -2694,12 +2694,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr" "Global Connector Technology (GCT)"
+		(property "Manufacturer Part Number" "RFPC-SMA28-F"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e8bdebae-e3bc-4ce2-a3a2-4acf4854fc5f")
+			(uuid "2fab10c5-983c-431a-b87c-022113d750c3")
 			(effects
 				(font
 					(size 1 1)
@@ -2708,12 +2708,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr number" "RFPC-SMA28-F"
+		(property "Mouser Part Number" "640-RFPCSMA28F "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d5a340a0-24d9-4c58-a38b-734bdf4261ba")
+			(uuid "906678c7-05d8-4474-a06b-113714489114")
 			(effects
 				(font
 					(size 1 1)
@@ -2722,12 +2722,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "640-RFPCSMA28F "
+		(property "Manufacturer" "Global Connector Technology (GCT)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "adf9d517-fa7f-410f-8b46-dbd86bd53d60")
+			(uuid "8488de2c-40f3-4d82-b5ef-26438ad8dd80")
 			(effects
 				(font
 					(size 1 1)
@@ -3075,12 +3075,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr" "Global Connector Technology (GCT)"
+		(property "Manufacturer Part Number" "RFPC-SMA28-F"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c8d3f7f-3f78-4658-94fc-f448032b1f2e")
+			(uuid "5ba0bfaa-3a0b-4088-9908-74ab93d9f91f")
 			(effects
 				(font
 					(size 1 1)
@@ -3089,12 +3089,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mfr number" "RFPC-SMA28-F"
+		(property "Mouser Part Number" "640-RFPCSMA28F "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1eacf4a5-e6c6-49bb-9fa0-e3dac76d748b")
+			(uuid "f0729170-47eb-48a5-9342-3a74032ca08e")
 			(effects
 				(font
 					(size 1 1)
@@ -3103,12 +3103,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser" "640-RFPCSMA28F "
+		(property "Manufacturer" "Global Connector Technology (GCT)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "14c9b6e3-a2ea-4b18-8a4a-e254131a989e")
+			(uuid "179f4827-1c91-4d3f-a942-33aa2349f449")
 			(effects
 				(font
 					(size 1 1)
@@ -5738,6 +5738,44 @@
 		(net 5)
 		(net_name "Net-(LED1-anode)")
 		(layer "F.Cu")
+		(uuid "081e0353-a4cd-48b1-acf1-40670f89cd42")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 150.488833 107.250781) (xy 150.488833 106.750781) (xy 149.947127 107.065) (xy 149.999 107.4325)
+				(xy 150.31 107.571616)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 150.488833 107.250781) (xy 150.488833 106.750781) (xy 149.947127 107.065) (xy 149.999 107.4325)
+				(xy 150.31 107.571616)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "Net-(LED1-anode)")
+		(layer "F.Cu")
 		(uuid "13d368c7-e150-4f2d-a1de-63b327d1f3d9")
 		(name "$teardrop_track$")
 		(hatch full 0.1)
@@ -5812,46 +5850,6 @@
 		(net 5)
 		(net_name "Net-(LED1-anode)")
 		(layer "F.Cu")
-		(uuid "48e4fc47-89c5-4f33-938f-0edb63800fd6")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30006)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 150.488833 107.250781) (xy 150.488833 106.750781) (xy 149.947127 107.065) (xy 149.999 107.4325)
-				(xy 150.31 107.571616)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 150.488833 106.891) (xy 150.488833 107.24774) (xy 150.487353 107.253436) (xy 150.315216 107.562257)
-				(xy 150.308194 107.567815) (xy 150.300219 107.567241) (xy 150.289077 107.562257) (xy 150.245389 107.542714)
-				(xy 150.004904 107.43514) (xy 149.998751 107.428634) (xy 149.998096 107.426095) (xy 149.966182 107.2)
-				(xy 149.947127 107.065) (xy 150.488833 106.750781)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "Net-(LED1-anode)")
-		(layer "F.Cu")
 		(uuid "5c7187e1-c826-4aff-b1cf-6959524463e1")
 		(name "$teardrop_track$")
 		(hatch full 0.1)
@@ -5889,13 +5887,49 @@
 		)
 	)
 	(zone
+		(net 5)
+		(net_name "Net-(LED1-anode)")
+		(layer "F.Cu")
+		(uuid "5f7ed0a9-3887-4944-a1ed-7a2bb7038024")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 169.508085 106.75) (xy 169.508085 107.25) (xy 169.69 107.572033) (xy 170.001 107.4325) (xy 170.052189 107.065)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 169.508085 106.75) (xy 169.508085 107.25) (xy 169.69 107.572033) (xy 170.001 107.4325) (xy 170.052189 107.065)
+			)
+		)
+	)
+	(zone
 		(net 2)
 		(net_name "Net-(J1-In)")
 		(layer "F.Cu")
-		(uuid "79df944b-8683-45df-bf35-cc48224f00f2")
+		(uuid "8832718c-56cd-4f9f-bf97-edad12484df4")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30003)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -5920,49 +5954,7 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 170.499345 112.978427) (xy 170.502357 112.983611) (xy 170.944255 114.597808) (xy 170.943134 114.606692)
-				(xy 170.937457 114.611702) (xy 170.004487 114.999136) (xy 169.995532 114.999144) (xy 169.995513 114.999136)
-				(xy 169.062542 114.611702) (xy 169.056216 114.605365) (xy 169.055744 114.597808) (xy 169.497643 112.983611)
-				(xy 169.503133 112.976536) (xy 169.508928 112.975) (xy 170.491072 112.975)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "Net-(J2-In)")
-		(layer "F.Cu")
-		(uuid "a4ea9bc4-b777-46fd-baa3-df94c902ebd9")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 150.5 112.975) (xy 149.5 112.975) (xy 149.053023 114.607749) (xy 150 115.001) (xy 150.946977 114.607749)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 150.499345 112.978427) (xy 150.502357 112.983611) (xy 150.944255 114.597808) (xy 150.943134 114.606692)
-				(xy 150.937457 114.611702) (xy 150.004487 114.999136) (xy 149.995532 114.999144) (xy 149.995513 114.999136)
-				(xy 149.062542 114.611702) (xy 149.056216 114.605365) (xy 149.055744 114.597808) (xy 149.497643 112.983611)
-				(xy 149.503133 112.976536) (xy 149.508928 112.975) (xy 150.491072 112.975)
+				(xy 170.5 112.975) (xy 169.5 112.975) (xy 169.053023 114.607749) (xy 170 115.001) (xy 170.946977 114.607749)
 			)
 		)
 	)
@@ -6041,13 +6033,13 @@
 		)
 	)
 	(zone
-		(net 5)
-		(net_name "Net-(LED1-anode)")
+		(net 3)
+		(net_name "Net-(J2-In)")
 		(layer "F.Cu")
-		(uuid "f279358d-3007-4a71-9a46-b22bc4dc4585")
+		(uuid "eed57c66-38c2-4936-a0ca-a7a08778bfc4")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30005)
+		(priority 30001)
 		(attr
 			(teardrop
 				(type padvia)
@@ -6066,16 +6058,13 @@
 		)
 		(polygon
 			(pts
-				(xy 169.508085 106.75) (xy 169.508085 107.25) (xy 169.69 107.572033) (xy 170.001 107.4325) (xy 170.052189 107.065)
+				(xy 150.5 112.975) (xy 149.5 112.975) (xy 149.053023 114.607749) (xy 150 115.001) (xy 150.946977 114.607749)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 170.052189 107.065) (xy 170.033385 107.2) (xy 170.001893 107.426088) (xy 169.997358 107.433809)
-				(xy 169.995094 107.435149) (xy 169.69973 107.567667) (xy 169.690779 107.567927) (xy 169.684754 107.562747)
-				(xy 169.509598 107.252678) (xy 169.508085 107.246923) (xy 169.508085 106.963797) (xy 169.508085 106.963796)
-				(xy 169.508085 106.75)
+				(xy 150.5 112.975) (xy 149.5 112.975) (xy 149.053023 114.607749) (xy 150 115.001) (xy 150.946977 114.607749)
 			)
 		)
 	)

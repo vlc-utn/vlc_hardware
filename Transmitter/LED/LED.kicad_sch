@@ -1403,13 +1403,13 @@
 		(uuid "4c1a0345-7991-46a7-a1ef-70930c2e1c4c")
 	)
 	(junction
-		(at 226.06 128.27)
+		(at 226.06 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8b0a377-7e5e-47ac-addb-105707a37f35")
+		(uuid "cdc1e2ba-f5d2-42eb-b71a-638a6969a9a1")
 	)
 	(junction
-		(at 195.58 120.65)
+		(at 195.58 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dedbc7c0-3f72-4432-a98f-415050defeee")
@@ -1422,23 +1422,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 127) (xy 111.76 140.97)
+			(xy 226.06 127) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa49b42-30d3-4ec8-aed8-3220cd227f26")
+	)
+	(wire
+		(pts
+			(xy 111.76 127) (xy 111.76 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3146b056-4232-445e-b6a4-e94cd5ff724a")
-	)
-	(wire
-		(pts
-			(xy 226.06 120.65) (xy 226.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3c8f70-8b06-419c-9394-9b149d8e843a")
 	)
 	(wire
 		(pts
@@ -1452,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 120.65) (xy 195.58 120.65)
+			(xy 193.04 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 213.36 128.27)
+			(xy 213.36 124.46) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -1492,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 226.06 128.27)
+			(xy 213.36 127) (xy 226.06 127)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 128.27) (xy 226.06 132.08)
+			(xy 226.06 119.38) (xy 226.06 127)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 187.96 120.65)
+			(xy 182.88 119.38) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 95.25) (xy 195.58 120.65)
+			(xy 195.58 95.25) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 120.65) (xy 226.06 120.65)
+			(xy 220.98 119.38) (xy 226.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 208.28 120.65)
+			(xy 195.58 119.38) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 212.09 64.7699 0)
 			(effects
 				(font
@@ -1705,33 +1705,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 209.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LED"
 				(path "/cde9c444-d16b-47c2-b816-c8654de79d41"
@@ -1743,7 +1716,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 177.8 120.65 0)
+		(at 177.8 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1752,7 +1725,7 @@
 		(dnp no)
 		(uuid "0930c69b-213e-470b-a436-cdb14ad93caf")
 		(property "Reference" "J2"
-			(at 173.99 122.2133 0)
+			(at 173.99 120.9433 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1734,7 @@
 			)
 		)
 		(property "Value" "RFPC-SMA28-F"
-			(at 173.99 119.6733 0)
+			(at 173.99 118.4033 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1743,7 @@
 			)
 		)
 		(property "Footprint" "LumiCom_Led:RFPC-SMA28-F"
-			(at 177.8 120.65 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1752,7 @@
 			)
 		)
 		(property "Datasheet" "https://gct.co/files/drawings/rfpc-sma28-f.pdf?v=15e7c679-4dcd-4275-bfe7-e55b7f6993ab"
-			(at 177.8 120.65 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1761,7 @@
 			)
 		)
 		(property "Description" " RFPC-SMA28-F GCT"
-			(at 177.8 120.65 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,8 +1769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Global Connector Technology (GCT)"
-			(at 177.8 120.65 0)
+		(property "Manufacturer Part Number" "RFPC-SMA28-F"
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,8 +1778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr number" "RFPC-SMA28-F"
-			(at 177.8 120.65 0)
+		(property "Mouser Part Number" "640-RFPCSMA28F "
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,8 +1787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "640-RFPCSMA28F "
-			(at 177.8 120.65 0)
+		(property "Manufacturer" "Global Connector Technology (GCT)"
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 120.65 90)
+		(at 190.5 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +1822,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aa5d68e-6366-4f2c-a7e8-2728af011aa6")
 		(property "Reference" "C2"
-			(at 190.5063 114.3 90)
+			(at 190.5063 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1830,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 190.5063 116.84 90)
+			(at 190.5063 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 190.5 120.65 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,8 +1846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 190.5 120.65 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/530L.pdf"
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,8 +1855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "broadband DC blocking"
-			(at 190.5 120.65 0)
+		(property "Description" "Broadband DC blocking."
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,8 +1864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KYOCERA AVX"
-			(at 190.5 120.65 0)
+		(property "Manufacturer Part Number" "530L104KT16"
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,8 +1873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr number" "530L104KT16"
-			(at 190.5 120.65 0)
+		(property "Mouser Part Number" " 581-530L104KT16 "
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,8 +1882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 581-530L104KT16 "
-			(at 190.5 120.65 0)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1909,7 @@
 	(symbol
 		(lib_name "XPERED-L1-0000-00501_1")
 		(lib_id "LumiCom_Led:XPERED-L1-0000-00501")
-		(at 210.82 120.65 0)
+		(at 210.82 119.38 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1944,7 +1917,7 @@
 		(dnp no)
 		(uuid "1c03d60a-dd51-4dc0-b44c-e22096f4ae73")
 		(property "Reference" "LED1"
-			(at 210.82 115.57 0)
+			(at 210.82 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1952,7 +1925,7 @@
 			)
 		)
 		(property "Value" "SFH 47167B"
-			(at 210.82 118.11 0)
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1960,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" "LumiCom_Led:SFH 47167B"
-			(at 220.472 124.714 0)
+			(at 220.472 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/1bbba5885e357c06/original/SFH-47167B.pdf"
-			(at 227.33 109.22 0)
+			(at 227.33 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,34 +1952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 210.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 210.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 210.82 120.65 0)
+			(at 210.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,33 +2030,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 52.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 52.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 52.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "932bed60-7a8f-4752-b62e-9f7a5f804622")
 		)
@@ -2128,7 +2047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 132.08 0)
+		(at 226.06 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2137,7 +2056,7 @@
 		(fields_autoplaced yes)
 		(uuid "311f91d0-c4bf-43fc-a2c6-c612d73b0926")
 		(property "Reference" "#PWR02"
-			(at 226.06 138.43 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 137.16 0)
+			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 132.08 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 132.08 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 132.08 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 193.04 77.4699 0)
 			(effects
 				(font
@@ -2239,33 +2158,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 190.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 190.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 190.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -2325,7 +2217,7 @@
 				)
 			)
 		)
-		(property "Description" "744918220 Wurth"
+		(property "Description" "Broadband AC blocking."
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2334,7 +2226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" " Wurth Elektronik "
+		(property "Manufacturer Part Number" "744918220"
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2343,7 +2235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr number" "744918220"
+		(property "Mouser Part Number" "710-744918220"
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2352,7 +2244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-744918220"
+		(property "Manufacturer" " Wurth Elektronik "
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2378,7 +2270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 125.73 0)
+		(at 177.8 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2279,7 @@
 		(fields_autoplaced yes)
 		(uuid "831511ce-de24-4b24-8999-afc8d327e961")
 		(property "Reference" "#PWR03"
-			(at 177.8 132.08 0)
+			(at 177.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2288,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 130.81 0)
+			(at 177.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 125.73 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 125.73 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 125.73 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Global Connector Technology (GCT)"
+		(property "Manufacturer Part Number" "RFPC-SMA28-F"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -2506,7 +2398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr number" "RFPC-SMA28-F"
+		(property "Mouser Part Number" "640-RFPCSMA28F "
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -2515,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "640-RFPCSMA28F "
+		(property "Manufacturer" "Global Connector Technology (GCT)"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -2558,7 +2450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "M3 Mounting hole"
 			(at 193.04 64.7699 0)
 			(effects
 				(font
@@ -2594,33 +2486,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LED"
 				(path "/cde9c444-d16b-47c2-b816-c8654de79d41"
@@ -2632,7 +2497,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 140.97 0)
+		(at 111.76 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2641,7 +2506,7 @@
 		(fields_autoplaced yes)
 		(uuid "c197b63a-5dab-4acc-8810-02b5480379a8")
 		(property "Reference" "#PWR01"
-			(at 111.76 147.32 0)
+			(at 111.76 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 146.05 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 140.97 0)
+			(at 111.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 140.97 0)
+			(at 111.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 140.97 0)
+			(at 111.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/530L.pdf"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -2740,7 +2605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "broadband DC blocking"
+		(property "Description" "Broadband DC blocking."
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -2749,7 +2614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KYOCERA AVX"
+		(property "Manufacturer Part Number" "530L104KT16"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -2758,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr number" "530L104KT16"
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -2767,7 +2632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 581-530L104KT16 "
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -2904,33 +2769,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr number" ""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
 			(at 99.06 119.38 0)
 			(effects
 				(font
