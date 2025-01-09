@@ -451,7 +451,7 @@
     ]
   },
   "meta": {
-    "filename": "LumiCom_Led.kicad_pro",
+    "filename": "LED.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -561,9 +561,21 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mfr number",
+          "name": "Mfr number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": true
         }
       ],
       "filter_string": "",
