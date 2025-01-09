@@ -1,6 +1,6 @@
 (ExpressProject "Lumicom_Trans"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/04/25]")
+  (SoftwareVersion "23.1-2024 S001-[01/09/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -35,12 +35,36 @@
          ".\lumicom_trans-pspicefiles\ac\ac.sim"
         (DisplayName "AC-AC")
         (Type "PSpice Profile")))
-    (Folder "Model Libraries")
-    (Folder "Stimulus Files")
-    (Folder "Include Files"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (PORTBOTH-L
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
     (T
       (FullPartName "T.Normal")
       (LibraryName
@@ -56,14 +80,6 @@
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
       (DeviceIndex "0"))
-    (0
-      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (L
-      (FullPartName "L.Normal")
-      (LibraryName
-         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (IDC
       (FullPartName "IDC.Normal")
       (LibraryName
@@ -74,28 +90,15 @@
       (LibraryName
          "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\SIMULACIONES\PSPICE\DRIVER_LEDS\LED.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (VPLOT1
       (FullPartName "VPLOT1.Normal")
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
       (DeviceIndex "0"))
-    (PORTBOTH-L
-      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (VDC
       (FullPartName "VDC.Normal")
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (OPA2675
       (FullPartName "OPA2675.Normal")
@@ -105,20 +108,20 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Simulations\OPA2675\lumicom_trans.dsn")
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn")
       (Path "Design Resources"
-         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Simulations\OPA2675\lumicom_trans.dsn"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
          "AC")
       (Path "Design Resources"
-         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Simulations\OPA2675\lumicom_trans.dsn"
-         "TRANS")
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "LED")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources"
-         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Simulations\OPA2675\lumicom_trans.dsn"
-         "AC" "AC"))
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "LED" "LED"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -129,11 +132,21 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1474 24 765")
-        (Scroll "-233 0")
-        (Zoom "100")
+        (Scroll "436 343")
+        (Zoom "194")
         (Occurrence "/"))
       (Path
-         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\LUMICOM_TRANSMITTER\LUMICOM_TRANSMITTER\SIMULATIONS\OPA2675\LUMICOM_TRANS.DSN")
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\LUMICOM_TRANS.DSN")
       (Schematic "AC")
-      (Page "AC")))
+      (Page "AC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1474 24 765")
+        (Scroll "0 284")
+        (Zoom "200"))
+      (Path
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\LUMICOM_TRANS.DSN")
+      (Schematic "LED")
+      (Page "LED")))
   (MPSSessionName "juanc"))

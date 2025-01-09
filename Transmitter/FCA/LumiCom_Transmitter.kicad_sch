@@ -3212,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" "3-pole 2.54mm pitch jumper"
 			(at 140.97 43.18 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" ""
 			(at 140.97 43.18 0)
 			(effects
 				(font
@@ -3230,16 +3230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 140.97 43.18 0)
 			(effects
 				(font
@@ -3351,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 86.3663 57.15 90)
 			(effects
 				(font
@@ -3359,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3368,7 +3359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3377,7 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3386,7 +3377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3395,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3404,43 +3395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 86.3663 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3516,15 +3471,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 245.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 245.11 78.74 0)
 			(effects
@@ -3534,7 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -3543,25 +3489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 245.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 245.11 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -3671,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "5.1kΩ"
 			(at 95.25 68.5799 0)
 			(effects
 				(font
@@ -3689,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -3698,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1/10watt 5.1Kohms 1%"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -3707,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -3716,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "CRCW06035K10FKEA"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -3725,43 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 95.25 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 71-CRCW0603-5.1K-E3"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -3802,7 +3694,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18BA100SN1D"
+		(property "Value" " Ferrite Beads 220 OHM "
 			(at 73.66 161.29 90)
 			(effects
 				(font
@@ -3819,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/ENFA0003-1915778.pdf"
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -3828,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core, small symbol"
+		(property "Description" " Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below "
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -3837,7 +3729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" " BLM18KG221SN1D "
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -3846,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 81-BLM18KG221SN1D "
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -3855,7 +3747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Murata Electronics "
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -4032,7 +3924,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 170.815 144.7735 0)
 			(effects
 				(font
@@ -4041,7 +3933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4050,7 +3942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4059,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4068,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4077,7 +3969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4086,43 +3978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 161.29 143.5037 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4165,7 +4021,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "133Ω"
 			(at 170.18 134.6199 0)
 			(effects
 				(font
@@ -4174,7 +4030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4183,7 +4039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/CRT-1649066.pdf"
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4192,7 +4048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "133 OHM 1% 50PPM 1/10W"
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4201,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Bourns "
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4210,7 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" " CRT0402-FZ-1330GLF "
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4219,43 +4075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 170.18 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 652-CRT0402FZ1330GLF "
 			(at 167.64 133.35 0)
 			(effects
 				(font
@@ -4467,15 +4287,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 48.26 111.76 0)
 			(effects
@@ -4485,7 +4296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -4494,25 +4305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -4555,7 +4348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50Ω"
+		(property "Value" "49.9Ω"
 			(at 107.95 68.5799 0)
 			(effects
 				(font
@@ -4573,7 +4366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28705"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -4582,7 +4375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "49.9ohm 1% 0603 50ppm Auto"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -4591,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -4600,7 +4393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "MCT06030C4999FP500"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -4609,43 +4402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23185"
-			(at 107.95 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 594-MCT06030C4999FP5 "
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -4707,7 +4464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "OPA2675RGVR"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2675"
 			(at 137.414 71.374 0)
 			(effects
 				(font
@@ -4717,7 +4474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Speed Operational Amplifiers Dual-channel, wideband high-power-output current-feedback amplifier 16-VQFN -40 to 85"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -4726,7 +4483,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" " Texas Instruments "
 			(at 143.51 69.85 0)
 			(effects
 				(font
@@ -4735,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "OPA2675RGVR "
 			(at 143.51 69.85 0)
 			(effects
 				(font
@@ -4744,43 +4501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19711669"
-			(at 164.7841 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 595-OPA2675RGVR "
 			(at 143.51 69.85 0)
 			(effects
 				(font
@@ -4886,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -4895,7 +4616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF+/-10% 16V X7R 0603"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -4904,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" "CL10B104KO8NFNC"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -4913,7 +4634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 187-CL10B104KO8NFNC "
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -4922,7 +4643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -5099,7 +4820,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 108.585 74.9235 0)
 			(effects
 				(font
@@ -5108,7 +4829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5117,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5126,7 +4847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5135,7 +4856,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5144,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5153,43 +4874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 105.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 99.06 73.6537 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 105.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 105.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5268,15 +4953,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 50.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 50.8 165.1 0)
 			(effects
@@ -5286,7 +4962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -5295,25 +4971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 50.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 50.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -5450,16 +5108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 76.2 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
+		(property "Description" "M3 Mounting Hole without connection"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -5477,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -5486,25 +5135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 76.2 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 76.2 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -5540,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 60.9663 107.95 90)
 			(effects
 				(font
@@ -5548,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5557,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5566,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5575,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5584,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5593,43 +5224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 60.9663 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5672,7 +5267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kΩ"
+		(property "Value" "5.1kΩ"
 			(at 69.85 119.3799 0)
 			(effects
 				(font
@@ -5690,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -5699,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1/10watt 5.1Kohms 1%"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -5708,7 +5303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -5717,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "CRCW06035K10FKEA"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -5726,43 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 69.85 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 71-CRCW0603-5.1K-E3"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -5872,7 +5431,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 145.415 144.7735 0)
 			(effects
 				(font
@@ -5881,7 +5440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5890,7 +5449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5899,7 +5458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5908,7 +5467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5917,7 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5926,43 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 135.89 143.5037 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -6005,7 +5528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kΩ"
+		(property "Value" "5.1kΩ"
 			(at 69.85 106.6799 0)
 			(effects
 				(font
@@ -6023,7 +5546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6032,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1/10watt 5.1Kohms 1%"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6041,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6050,7 +5573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "CRCW06035K10FKEA"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6059,43 +5582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 69.85 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 71-CRCW0603-5.1K-E3"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -6137,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 205.7463 74.93 90)
 			(effects
 				(font
@@ -6145,7 +5632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6154,7 +5641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6163,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6172,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6181,7 +5668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6190,43 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 205.7463 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6352,7 +5803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6361,7 +5812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1uF+/-10% 10V X7R 16 0603"
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6370,7 +5821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" " CL10B105KP8NNNC "
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6379,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 187-CL10B105KP8NNNC "
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6388,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6629,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 207.0163 97.79 90)
 			(effects
 				(font
@@ -6637,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6646,7 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6655,7 +6106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6664,7 +6115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6673,7 +6124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6682,43 +6133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 207.01 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 207.0163 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 207.01 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 207.01 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -6761,7 +6176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "5.1kΩ"
 			(at 95.25 55.8799 0)
 			(effects
 				(font
@@ -6779,7 +6194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6788,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1/10watt 5.1Kohms 1%"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6797,7 +6212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6806,7 +6221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "CRCW06035K10FKEA"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6815,43 +6230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 92.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 95.25 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 92.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 92.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 71-CRCW0603-5.1K-E3"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6927,15 +6306,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 243.84 101.6 0)
 			(effects
@@ -6945,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -6954,25 +6324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 243.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -7042,16 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
+		(property "Description" "M3 Mounting Hole without connection"
 			(at 50.8 25.4 0)
 			(effects
 				(font
@@ -7069,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 50.8 25.4 0)
 			(effects
 				(font
@@ -7078,25 +6421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 50.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 50.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 50.8 25.4 0)
 			(effects
 				(font
@@ -7264,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3Ω"
+		(property "Value" "1Ω 1W"
 			(at 218.44 74.93 90)
 			(effects
 				(font
@@ -7272,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7281,7 +6606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/sei_rncl-3223524.pdf"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7299,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "SEI Stackpole"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7308,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "RNCL1206FT1R00"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7317,43 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C102477"
-			(at 218.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 708-RNCL1206FT1R00 "
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7597,7 +6886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50Ω"
+		(property "Value" "49.9Ω"
 			(at 88.9 122.5549 0)
 			(effects
 				(font
@@ -7615,7 +6904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28705"
 			(at 86.36 121.285 0)
 			(effects
 				(font
@@ -7624,7 +6913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "49.9ohm 1% 0603 50ppm Auto"
 			(at 86.36 121.285 0)
 			(effects
 				(font
@@ -7633,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 86.36 121.285 0)
 			(effects
 				(font
@@ -7642,7 +6931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "MCT06030C4999FP500"
 			(at 86.36 121.285 0)
 			(effects
 				(font
@@ -7651,43 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 86.36 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23185"
-			(at 88.9 120.0149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 86.36 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 594-MCT06030C4999FP5 "
 			(at 86.36 121.285 0)
 			(effects
 				(font
@@ -7795,7 +7048,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150060VS75000 "
+		(property "Value" " 150060VS75000 "
 			(at 130.81 174.3074 90)
 			(effects
 				(font
@@ -7813,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -7822,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" " Single Color LEDs WL-SMCW SMDMono TpVw Waterclr 0603 BrtGrn "
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -7831,7 +7084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" " 150060VS75000 "
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -7840,7 +7093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 710-150060VS75000 "
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -7849,7 +7102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Wurth Elektronik "
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -7927,15 +7180,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 73.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 73.66 60.96 0)
 			(effects
@@ -7945,7 +7189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -7954,25 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 73.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -8015,7 +7241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "1k2Ω"
 			(at 129.54 181.6099 0)
 			(effects
 				(font
@@ -8033,7 +7259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28773"
 			(at 127 180.34 0)
 			(effects
 				(font
@@ -8042,7 +7268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1/8Watt 1.2Kohms 1% Commercial Use"
 			(at 127 180.34 0)
 			(effects
 				(font
@@ -8051,7 +7277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" "CRCW08051K20FKEAC"
 			(at 127 180.34 0)
 			(effects
 				(font
@@ -8060,7 +7286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 71-CRCW08051K20FKEAC "
 			(at 127 180.34 0)
 			(effects
 				(font
@@ -8069,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 127 180.34 0)
 			(effects
 				(font
@@ -8179,7 +7405,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" ".1uF"
 			(at 89.535 132.0735 0)
 			(effects
 				(font
@@ -8188,7 +7414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8197,7 +7423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8206,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 100nF 10% Tin Plated Chip"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8215,7 +7441,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "KYOCERA AVX "
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8224,7 +7450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8233,43 +7459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 80.01 130.8037 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -8404,7 +7594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+		(property "Description" "3-pole 2.54mm pitch jumper"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -8413,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" ""
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -8422,16 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 167.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -8476,7 +7657,7 @@
 				)
 			)
 		)
-		(property "Value" "390Ω"
+		(property "Value" "402Ω"
 			(at 182.88 121.92 90)
 			(effects
 				(font
@@ -8484,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8493,7 +7674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/CRT-1649066.pdf"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8502,7 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "402 OHM 1% 50PPM 1/10W"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8511,7 +7692,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Bourns "
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8520,7 +7701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" " CRT0402-FZ-4020GLF "
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8529,43 +7710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 182.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23151"
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 182.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 182.88 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 652-CRT0402FZ4020GLF "
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -8635,16 +7780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
+		(property "Description" "M3 Mounting Hole without connection"
 			(at 101.6 25.4 0)
 			(effects
 				(font
@@ -8662,7 +7798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 101.6 25.4 0)
 			(effects
 				(font
@@ -8671,25 +7807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 101.6 25.4 0)
 			(effects
 				(font
@@ -8725,7 +7843,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3Ω"
+		(property "Value" "2Ω 1W"
 			(at 219.71 97.79 90)
 			(effects
 				(font
@@ -8733,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8742,7 +7860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/385/sei_rncl-3223524.pdf"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8760,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "SEI Stackpole"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8769,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" "RNCL1206FT2R00"
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8778,43 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C102477"
-			(at 219.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 219.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 708-RNCL1206FT2R00 "
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -8951,16 +8033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 127 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
+		(property "Description" "M3 Mounting Hole without connection"
 			(at 127 25.4 0)
 			(effects
 				(font
@@ -8978,7 +8051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Manufacturer Part Number" ""
 			(at 127 25.4 0)
 			(effects
 				(font
@@ -8987,25 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 127 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" ""
 			(at 127 25.4 0)
 			(effects
 				(font
@@ -9175,7 +8230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "133Ω"
 			(at 144.78 134.6199 0)
 			(effects
 				(font
@@ -9184,7 +8239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9193,7 +8248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/CRT-1649066.pdf"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9202,7 +8257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "133 OHM 1% 50PPM 1/10W"
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9211,7 +8266,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Bourns "
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9220,7 +8275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" " CRT0402-FZ-1330GLF "
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9229,43 +8284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 142.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 144.78 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 652-CRT0402FZ1330GLF "
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -9374,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Value" "390Ω"
+		(property "Value" "402Ω"
 			(at 171.45 113.03 90)
 			(effects
 				(font
@@ -9382,7 +8401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9391,7 +8410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/CRT-1649066.pdf"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9400,7 +8419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "402 OHM 1% 50PPM 1/10W"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9409,7 +8428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "Manufacturer" "Bourns "
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9418,7 +8437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer Part Number" " CRT0402-FZ-4020GLF "
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9427,43 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" ""
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23151"
-			(at 171.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser Part Number" " 652-CRT0402FZ4020GLF "
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -9524,7 +8507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRM188Z71A106MA73_01A-1986046.pdf"
 			(at 87.63 171.45 0)
 			(effects
 				(font
@@ -9533,7 +8516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 uF 10 VDC 20% 0603 X7R"
 			(at 87.63 171.45 0)
 			(effects
 				(font
@@ -9542,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer Part Number" "GRM188Z71A106MA73D"
 			(at 87.63 171.45 0)
 			(effects
 				(font
@@ -9551,7 +8534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Mouser Part Number" " 81-GRM188Z71A106MA3D "
 			(at 87.63 171.45 0)
 			(effects
 				(font
@@ -9560,7 +8543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Manufacturer" "Murata Electronics "
 			(at 87.63 171.45 0)
 			(effects
 				(font
