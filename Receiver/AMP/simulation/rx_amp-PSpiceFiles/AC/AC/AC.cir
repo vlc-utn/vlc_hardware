@@ -1,4 +1,4 @@
-** Profile: "AC-AC"  [ e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\receiver\amp\simulation\rx_amp-pspicefiles\ac\ac.sim ] 
+** Profile: "AC-AC"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Receiver\AMP\simulation\rx_amp-pspicefiles\ac\ac.sim ] 
 
 ** Creating circuit file "AC.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -12,7 +12,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 100 10k 0.5G
+.AC DEC 100 10k 10G
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 

@@ -494,6 +494,357 @@
 				)
 			)
 		)
+		(symbol "Device:L_Ferrite_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 1.27 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Ferrite_Small"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor with ferrite core, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.397) (xy 0.762 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.889) (xy 0.762 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.381) (xy 0.762 -0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.127) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.635) (xy 0.762 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.143) (xy 0.762 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.651) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.651) (xy 1.016 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.143) (xy 1.016 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.635) (xy 1.016 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.127) (xy 1.016 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.381) (xy 1.016 0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.889) (xy 1.016 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.397) (xy 1.016 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.905) (xy 1.016 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -964,6 +1315,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "rx_amp:BGA616H6327XTSA1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1153,10 +1600,22 @@
 		)
 	)
 	(junction
-		(at 177.8 54.61)
+		(at 177.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b57acef-ecc5-49b1-b5b3-15edfa88049c")
+		(uuid "21f36433-d0ed-4caf-9658-205fbf9e9317")
+	)
+	(junction
+		(at 132.08 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "630811e5-91c7-435b-9c1a-7c79e26acd03")
+	)
+	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ec3d3f-c7f6-4e0f-95ac-9a3427661c5a")
 	)
 	(junction
 		(at 177.8 104.14)
@@ -1176,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 166.37 101.6)
+			(xy 170.18 101.6) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1655,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 54.61) (xy 189.23 54.61)
+			(xy 177.8 50.8) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1b8ef7-ac82-4967-9fb9-9f847350d2b7")
+	)
+	(wire
+		(pts
+			(xy 215.9 111.76) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4307e6de-dfb7-4eb5-a262-dbafcb10f784")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dca0861-9e5f-4d35-8197-cb35c8315d00")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 104.14) (xy 210.82 104.14)
+			(xy 200.66 104.14) (xy 210.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 135.89 101.6)
+			(xy 116.84 101.6) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 168.91 101.6)
+			(xy 170.18 106.68) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1725,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 194.31 104.14)
+			(xy 137.16 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609150b3-5f58-4cf2-a1e7-db4ac9732ffc")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1745,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 177.8 104.14)
+			(xy 132.08 66.04) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d293db9-7fbc-4a5f-a4e5-e8c23e62955f")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1775,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 54.61) (xy 177.8 54.61)
+			(xy 132.08 63.5) (xy 132.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6dc4d5-f67a-4401-b0a4-ad4c68fb2cb8")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1276,17 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 177.8 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6eead8d-df47-4915-addd-7442cd34228d")
-	)
-	(wire
-		(pts
-			(xy 203.2 54.61) (xy 194.31 54.61)
+			(xy 203.2 50.8) (xy 195.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 58.42) (xy 203.2 54.61)
+			(xy 203.2 53.34) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +1825,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 104.14 0)
+		(at 137.16 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1325,7 +1834,7 @@
 		(fields_autoplaced yes)
 		(uuid "00d965fb-635a-4df8-9147-8bd53f46ede6")
 		(property "Reference" "#PWR04"
-			(at 135.89 110.49 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1843,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 104.14 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 104.14 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 104.14 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,25 +1935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 177.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 177.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LQM18DZ100M70L "
+		(property "Description" "SMD 0603 10uH 20% 300mA 1.37ohm AEC-Q200"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -1454,6 +1945,24 @@
 			)
 		)
 		(property "Mouser Part Number" " 81-LQM18DZ100M70L "
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQM18DZ100M70L "
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -1545,7 +2054,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 196.85 104.14 90)
+		(at 198.12 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1554,15 +2063,15 @@
 		(fields_autoplaced yes)
 		(uuid "1d8434ea-ed28-4bc5-bee7-5688e30c3a96")
 		(property "Reference" "C2"
-			(at 196.8563 97.79 90)
+			(at 198.1263 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 196.8563 100.33 90)
+		(property "Value" ".1uF"
+			(at 198.1263 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +2079,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 196.85 104.14 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,8 +2087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
-			(at 196.85 104.14 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,8 +2096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 196.85 104.14 0)
+		(property "Description" "16V 10nF 10% Tin Plated Chip "
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,8 +2105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 196.85 104.14 0)
+		(property "Mouser Part Number" " 581-530L104KT16 "
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,8 +2114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "520L103KT16T"
-			(at 196.85 104.14 0)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,8 +2123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 581-520L103KT16T "
-			(at 196.85 104.14 0)
+		(property "Manufacturer Part Number" "530L104KT16 "
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +2149,7 @@
 	)
 	(symbol
 		(lib_id "rx_amp:BGA616H6327XTSA1")
-		(at 135.89 101.6 0)
+		(at 137.16 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1649,7 +2158,7 @@
 		(fields_autoplaced yes)
 		(uuid "203795bd-4439-481f-9781-517fdc5d8f73")
 		(property "Reference" "IC1"
-			(at 151.13 93.98 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +2166,7 @@
 			)
 		)
 		(property "Value" "BGA616H6327XTSA1"
-			(at 151.13 96.52 0)
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +2174,7 @@
 			)
 		)
 		(property "Footprint" "rx_amp:BGA616H6327XTSA1"
-			(at 162.56 196.52 0)
+			(at 163.83 196.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2184,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGA616-DS-v02_01-en.pdf?fileId=db3a304314dca3890115419102bb163b"
-			(at 162.56 296.52 0)
+			(at 163.83 296.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,26 +2194,16 @@
 			)
 		)
 		(property "Description" "RF Amplifier IC CDMA, GSM, PCS 0Hz ~ 2.7GHz PG-SOT343-4"
-			(at 135.89 101.6 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 162.56 496.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "726-BGA616H6327XTSA1"
-			(at 162.56 596.52 0)
+			(at 163.83 596.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,33 +2212,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGA616H6327XTSA1?qs=K00xGehIlju0hwqCixDg5g%3D%3D"
-			(at 162.56 696.52 0)
+		(property "Manufacturer" "Infineon"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 162.56 796.52 0)
+		(property "Manufacturer Part Number" " BGA616H6327XTSA1 "
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BGA616H6327XTSA1"
-			(at 162.56 896.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -1807,7 +2294,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA edge connector"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -1833,7 +2329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 57.15 0)
+		(at 132.08 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1842,7 +2338,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c25858d-8a91-4812-bbb8-342b0b8d45c7")
 		(property "Reference" "#PWR06"
-			(at 156.21 63.5 0)
+			(at 132.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +2347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 62.23 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 57.15 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +2364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 57.15 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 57.15 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,8 +2394,168 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a412365-ee2f-424e-9837-1b7e07fe3853")
+		(property "Reference" "#FLG02"
+			(at 137.16 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd6c4b58-0924-4788-bfbd-26b3eb6f1fd5")
+		)
+		(instances
+			(project "rx_amp"
+				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite_Small")
+		(at 154.94 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bcbaeb0-68df-4096-b06e-f9d0bad3c757")
+		(property "Reference" "L3"
+			(at 154.94 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" " Ferrite Beads 220 OHM "
+			(at 154.94 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/ENFA0003-1915778.pdf"
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below "
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " 81-BLM18KG221SN1D "
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " BLM18KG221SN1D "
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ec484d-a8d7-47d7-bb10-6c2def1e7577")
+		)
+		(pin "2"
+			(uuid "038bb09c-8139-4df1-9bbd-8d5815be5420")
+		)
+		(instances
+			(project "rx_amp"
+				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 168.91 106.68 0)
+		(at 170.18 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1908,7 +2564,7 @@
 		(fields_autoplaced yes)
 		(uuid "6210c48b-3bd7-426e-89a9-e123135961ac")
 		(property "Reference" "#PWR05"
-			(at 168.91 113.03 0)
+			(at 170.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +2581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,25 +2665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 177.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik "
-			(at 177.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "560112116150 "
+		(property "Description" "SMD WRIS-RSKS 15 Ohms 1 % 0.1 W 0603 "
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -2037,6 +2675,24 @@
 			)
 		)
 		(property "Mouser Part Number" " 710-560112116150 "
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik "
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "560112116150 "
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -2062,7 +2718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 109.22 0)
+		(at 215.9 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2071,7 +2727,7 @@
 		(fields_autoplaced yes)
 		(uuid "81b1fee0-42d2-42a1-8780-535764550a92")
 		(property "Reference" "#PWR02"
-			(at 215.9 115.57 0)
+			(at 215.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 114.3 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 109.22 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 109.22 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 109.22 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2827,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA edge connector"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -2197,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 58.42 0)
+		(at 203.2 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2206,7 +2871,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b9601a5-496f-42aa-abeb-7c8edefca31d")
 		(property "Reference" "#PWR03"
-			(at 203.2 64.77 0)
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 63.5 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 58.42 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 58.42 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 58.42 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 151.13 57.15 180)
+		(at 127 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2271,7 +2936,7 @@
 		(dnp no)
 		(uuid "91de96ee-8e81-4b85-9fad-e5ffb2373e8f")
 		(property "Reference" "J3"
-			(at 151.13 63.5 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2944,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 151.13 60.96 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2952,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
-			(at 151.13 57.15 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 57.15 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,8 +2969,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 151.13 57.15 0)
+		(property "Description" "5mm pitch screw terminal"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,25 +3048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LQM18DZ100M70L "
+		(property "Description" "SMD 0603 10uH 20% 300mA 1.37ohm AEC-Q200"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -2402,6 +3058,24 @@
 			)
 		)
 		(property "Mouser Part Number" " 81-LQM18DZ100M70L "
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQM18DZ100M70L "
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -2480,6 +3154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "rx_amp"
 				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
@@ -2544,6 +3227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "rx_amp"
 				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
@@ -2555,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 54.61 90)
+		(at 193.04 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2564,15 +3256,15 @@
 		(fields_autoplaced yes)
 		(uuid "af7d3300-5e3a-47cf-9e4c-f607dc8cb6ff")
 		(property "Reference" "C3"
-			(at 191.7763 48.26 90)
+			(at 193.0463 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 191.7763 50.8 90)
+		(property "Value" ".1uF"
+			(at 193.0463 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +3272,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 191.77 54.61 0)
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,8 +3280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
-			(at 191.77 54.61 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,8 +3289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 54.61 0)
+		(property "Description" "16V 10nF 10% Tin Plated Chip "
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,8 +3298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 191.77 54.61 0)
+		(property "Mouser Part Number" " 581-530L104KT16 "
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,8 +3307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "520L103KT16T"
-			(at 191.77 54.61 0)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,8 +3316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 581-520L103KT16T "
-			(at 191.77 54.61 0)
+		(property "Manufacturer Part Number" "530L104KT16 "
+			(at 193.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" ".1uF"
 			(at 114.3063 97.79 90)
 			(effects
 				(font
@@ -2683,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/520l-1902329.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/530L-3392686.pdf"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -2692,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 10nF 10% Tin Plated Chip "
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -2701,7 +3393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Mouser Part Number" " 581-530L104KT16 "
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -2710,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "520L103KT16T"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -2719,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 581-520L103KT16T "
+		(property "Manufacturer Part Number" "530L104KT16 "
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -2738,6 +3430,73 @@
 			(project "rx_amp"
 				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2025abe-daa2-4d43-805c-f7077d330a4f")
+		(property "Reference" "#FLG01"
+			(at 133.985 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_FLAG"
+			(at 135.255 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955774ce-6c1f-45ad-a9af-7505a6b4aee7")
+		)
+		(instances
+			(project "rx_amp"
+				(path "/c9885e95-1a7f-4704-a798-f124c81e9803"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

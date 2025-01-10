@@ -3,7 +3,7 @@
 @Settings: 2 1
 @General:
 ProfileName= "AC" 
-ProfileFile= "ac.sim" 
+ProfileFile= "AC.sim" 
 Connectivity= "AC.net" 
 NetlistFile= "AC.cir" 
 DataFile= "AC.dat" 
@@ -26,7 +26,7 @@ Notes=
 +2 0 0
 +0 "100" 
 +1 "10k" 
-+2 "0.5G" 
++2 "10G" 
 +3 "" 
 +4 "" 
 +5 "" 
