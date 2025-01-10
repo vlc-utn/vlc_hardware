@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.5-8.0.5-0~ubuntu22.04.1"
     },
-    "CreationDate": "2025-01-09T14:13:45-03:00"
+    "CreationDate": "2025-01-09T21:02:12-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "preenfasis",
       "GUID": "70726565-6e66-4617-9369-732e6b696361",
-      "Revision": "v1.2"
+      "Revision": "v1.3"
     },
     "Size": {
       "X": 25.05,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.15,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.8,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Amplificador TX")
 		(date "2025-01-09")
-		(rev "v1.1")
+		(rev "v1.2")
 		(company "Cotti Nicolas Gabriel")
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
