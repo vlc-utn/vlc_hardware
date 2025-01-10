@@ -3610,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -3619,7 +3619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/8Watt 1.2Kohms 1% Commercial Use"
+		(property "Description" " Thick Film Resistors - SMD 1/10watt 1.2Kohms 1% 0603"
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -3628,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay / Dale"
+		(property "Manufacturer" " Vishay / Dale "
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW08051K20FKEAC"
+		(property "Manufacturer Part Number" " CRCW06031K20FKEA "
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 71-CRCW08051K20FKEAC "
+		(property "Mouser Part Number" " 71-CRCW0603-1.2K-E3 "
 			(at 124.46 175.26 0)
 			(effects
 				(font

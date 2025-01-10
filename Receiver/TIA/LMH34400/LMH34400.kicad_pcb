@@ -167,6 +167,7 @@
 		(property "Reference" "JP1"
 			(at 0 -1.43 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9e6be1c9-2be9-4539-965b-41b790fa0cd9")
 			(effects
 				(font
@@ -9546,7 +9547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9558,7 +9559,7 @@
 				)
 			)
 		)
-		(property "Description" "1/8Watt 1.2Kohms 1% Commercial Use"
+		(property "Description" " Thick Film Resistors - SMD 1/10watt 1.2Kohms 1% 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9583,7 +9584,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW08051K20FKEAC"
+		(property "Manufacturer Part Number" " CRCW06031K20FKEA "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9596,7 +9597,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" " 71-CRCW08051K20FKEAC "
+		(property "Mouser Part Number" " 71-CRCW0603-1.2K-E3 "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
