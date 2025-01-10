@@ -3368,7 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -3951,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -5197,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -5458,7 +5458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 142.24 143.51 0)
 			(effects
 				(font
@@ -5650,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 205.74 78.74 0)
 			(effects
 				(font
@@ -6106,7 +6106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -7432,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF 10% Tin Plated Chip"
+		(property "Description" "16V 100nF 10% 0402"
 			(at 86.36 130.81 0)
 			(effects
 				(font

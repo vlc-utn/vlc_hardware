@@ -1,0 +1,287 @@
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transientanalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../LMH34400.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 30ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Trans.net" 
+
+
+
+**** INCLUDING Trans.net ****
+* source LMH34400
+X_U1         N09523 VDD 0 N09707 0 N09651 LMH34400
+C_Cout         N09663 N09657  1uf  TC=0,0 
+C_CL         N09669 0  10pF  TC=0,0 
+T_T3         N09663 0 N09669 0 Z0=50 TD=0.1ns  
+T_T2         N09503 0 N09523 0 Z0=50 TD=0.1ns  
+I_I1         N09503 VPD DC 0Adc AC 1
++SIN 10u 5e-6 100e6 0 0 0
+V_V1         N09707 0 {V_ALC}
+C_Cj         VPD N09503  1e-12  TC=0,0 
+V_Vdd         VDD 0 3.3Vdc
+R_Rout         N09657 N09651  50 TC=0,0 
+R_RL         N09669 0  50 TC=0,0 
+C_Cj2         VDD 0  1uF  TC=0,0 
+V_Vapd         VPD 0 0Vdc
+.PARAM  v_alc=0
+
+**** RESUMING transientanalysis.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file LMH34400.ind for library file LMH34400.lib.
+
+INFO(ORPSIM-15422): Making new index file LMH34400.ind for library file LMH34400.lib.
+
+Index has 22 entries from 1 file(s).
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVNF  X_U1.X_U2.DVN   
+          IS  100.000000E-18  100.000000E-18 
+          KF    1.000000E-09    1.000000E-09 
+
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISE    X_U1.R_NOISELESS 
+  T_Measured   27              27            
+   T_Current   25            -273.15         
+           R    1               1            
+
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S11._S11 X_U1.X_S12._S12 X_U1.X_S20._S20 X_U1.X_S21._S21 
+         RON    1.000000E-03    1.000000E-03    1.000000E-03    1.000000E+06 
+        ROFF    1               1               1.000000E+06    1.000000E-03 
+         VON     .085            .05            1.6             1.6          
+        VOFF     .07             .045           1.2             1.2          
+
+
+               X_U1.X_S29._S29 X_U1.X_S30._S30 X_U1.X_S31._S31 X_U1.X_S36._S36 
+         RON    1.000000E+09    1               1               1.000000E-03 
+        ROFF    1               1.000000E-06    1.000000E-06    1.000000E+03 
+         VON    1.6           100.000000E-06  100.000000E-06     .02         
+        VOFF    1.2             0               0               -.02         
+
+
+               X_U1.X_S37._S37 X_U1.X_S38._S38 X_U1.X_S39._S39 X_U1.X_S40._S40 
+         RON    1.000000E-03     .1           400              10.000000E+06 
+        ROFF    1.000000E+03    1.000000E+06   81.5             9            
+         VON     .02            1.6           300               1.6          
+        VOFF    -.02            1.2           -40               1.2          
+
+
+               X_U1.X_S41._S41 
+         RON    1            
+        ROFF   10.000000E+06 
+         VON    1.6          
+        VOFF    1.2          
+
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_W1._W1   X_U1.X_W2._W2   
+         RON    1.000000E+06    1.000000E+06 
+        ROFF    1.000000E-03    1.000000E-03 
+         ION     .35             .35         
+        IOFF     .346            .346        
+
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VDD)    3.3000  (  VPD)    0.0000  (N09503)    2.5278 (N09523)    2.5278     
+
+(N09651)    1.1103 (N09657)    1.1103 (N09663)    0.0000 (N09669)    0.0000     
+
+(N09707)    0.0000 (X_U1.MID)    1.6500                  (X_U1.ZIN)    2.5278   
+
+(X_U1.NEND)    0.0000                 (X_U1.VAMB)-9.999E-06                     
+
+(X_U1.PSRRN)    1.6490                (X_U1.PSRRP)    1.6501                    
+
+(X_U1.TEMPC)   27.0000                (X_U1.TEMPS)    1.0000                    
+
+(X_U1.VCC_B)    3.2983                (X_U1.VEE_B)     .0017                    
+
+(X_U1.VIMON)-379.8E-12                (X_U1.ZOINP)    1.1103                    
+
+(X_U1.PREOUT)    1.1103               (X_U1.X_U1.3)    0.0000                   
+
+(X_U1.X_U1.4)    0.0000               (X_U1.X_U1.5)    0.0000                   
+
+(X_U1.X_U1.6)    0.0000               (X_U1.X_U1.7)     .8338                   
+
+(X_U1.X_U1.8)     .8338               (X_U1.X_U2.3)    0.0000                   
+
+(X_U1.X_U2.4)    0.0000               (X_U1.X_U2.5)    0.0000                   
+
+(X_U1.X_U2.6)    0.0000               (X_U1.X_U2.7)     .8338                   
+
+(X_U1.X_U2.8)     .8338               (X_U1.N460322)-379.8E-18                  
+
+(X_U1.N460572)    3.3000              (X_U1.N461004) 379.8E-18                  
+
+(X_U1.N463960) 2.529E-06              (X_U1.N465370)     .0180                  
+
+(X_U1.N465482) 19.48E-06              (X_U1.N516672)     .0328                  
+
+(X_U1.N517170)     .1092              (X_U1.N634613)     .0328                  
+
+(X_U1.N634649)     .0328              (X_U1.N635794)     .3277                  
+
+(X_U1.N635870)     .1093              (X_U1.N635892)     .1093                  
+
+(X_U1.N665548)    1.0011              (X_U1.N681007)     .0328                  
+
+(X_U1.N681058)     .0328              (X_U1.N689434)    2.5278                  
+
+(X_U1.N689440)    2.5280              (X_U1.N689510)    2.5280                  
+
+(X_U1.N699068)    2.4983              (X_U1.N707559)    1.6772                  
+
+(X_U1.N707569)    1.6501              (X_U1.N707579)    1.6541                  
+
+(X_U1.N707589)    1.6501              (X_U1.N707599)    1.6509                  
+
+(X_U1.N707651)    1.6490              (X_U1.N707661)    1.6490                  
+
+(X_U1.N707671)    1.5997              (X_U1.N707681)    1.6490                  
+
+(X_U1.N707691)     .5293              (X_U1.N708033)    1.6500                  
+
+(X_U1.N709328)    1.0000              (X_U1.N709380)    1.0011                  
+
+(X_U1.POSTMID)    1.6500              (X_U1.VCC_CLP)    2.3983                  
+
+(X_U1.VEE_CLP)     .2017              (X_U1.N1694592)    2.5278                 
+
+(X_U1.N1694772)    2.5278             (X_U1.N1694894)-999.5E-12                 
+
+(X_U1.N1694904)-24.99E-18             (X_U1.N1694918)-24.99E-18                 
+
+(X_U1.N1807837)    1.0000             (X_U1.N1807909)    1.0000                 
+
+(X_U1.N1810125)    1.1103             (X_U1.IN_POST_ALC)    2.5278          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_Vdd       -1.948E-02
+    V_Vapd       1.000E-05
+    X_U1.V_VINPUT_BIAS   2.529E-06
+    X_U1.V_VOUTPUT_BIAS   3.798E-10
+    X_U1.V_VTEMPAMB  -2.703E-08
+    X_U1.X_F1.VF_F1  -9.995E-10
+    X_U1.X_H4.VH_H4  -3.798E-10
+    X_U1.X_H5.VH_H5  -2.529E-06
+    X_U1.X_H6.VH_H6  -9.995E-10
+    X_U1.X_W1.VW_W1  -1.640E-02
+    X_U1.X_W2.VW_W2   1.640E-02
+
+    TOTAL POWER DISSIPATION   6.43E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/09/25 23:14:37 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "Trans-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Recei
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        3.86
+
