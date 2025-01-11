@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rx_amp:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rx_amp:RFSOLUTIONS_CON-SMA-EDGE-S"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 88.9 101.6 0)
 			(effects
 				(font
