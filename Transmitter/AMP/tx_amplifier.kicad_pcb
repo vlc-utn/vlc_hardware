@@ -3743,7 +3743,6 @@
 		(path "/fb083b25-c6cd-4454-95ce-b385b91401c5")
 		(sheetname "Root")
 		(sheetfile "tx_amplifier.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -4169,7 +4168,6 @@
 		(path "/922cd65b-8374-492d-88f3-0fa6a24ac99e")
 		(sheetname "Root")
 		(sheetfile "tx_amplifier.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -5119,7 +5117,6 @@
 		(path "/79193bdf-23c0-4347-b2a3-185709901849")
 		(sheetname "Root")
 		(sheetfile "tx_amplifier.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -5283,7 +5280,6 @@
 		(path "/e211d6cf-91a4-4b54-b4dd-9c76452009ef")
 		(sheetname "Root")
 		(sheetfile "tx_amplifier.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)

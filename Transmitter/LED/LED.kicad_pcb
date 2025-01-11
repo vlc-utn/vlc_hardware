@@ -237,7 +237,7 @@
 		(path "/049677f7-f710-438a-9194-8050e7f710ba")
 		(sheetname "Root")
 		(sheetfile "LED.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.8 0)
@@ -988,7 +988,7 @@
 		(path "/ba4369a7-963f-4790-b97a-c4b0849f50ae")
 		(sheetname "Root")
 		(sheetfile "LED.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.8 0)
@@ -1138,7 +1138,7 @@
 		(path "/33c5fe09-b109-4fa0-be79-ed81d83f5d41")
 		(sheetname "Root")
 		(sheetfile "LED.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.8 0)

@@ -746,7 +746,6 @@
 		(path "/b10f4f8e-d439-423d-9154-55f7e52e6506")
 		(sheetname "Root")
 		(sheetfile "preenfasis.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -1960,7 +1959,6 @@
 		(path "/52bedb8f-aae1-407b-9ddf-1b98e330d618")
 		(sheetname "Root")
 		(sheetfile "preenfasis.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -4238,7 +4236,6 @@
 		(path "/a1e637fb-c629-4604-a509-2f530d35ce61")
 		(sheetname "Root")
 		(sheetfile "preenfasis.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -6284,7 +6281,6 @@
 		(path "/f05ec149-4f1a-4670-b4d9-5a9f08ae234f")
 		(sheetname "Root")
 		(sheetfile "preenfasis.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
