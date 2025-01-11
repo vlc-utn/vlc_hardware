@@ -237,10 +237,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1600200|927100|af188f30-6720-4c49-85dd-69c230da41a6|9e2d7ae5-05f5-4321-855e-9c2181f8d093|/27381ed8-96e6-4041-ba7f-c08f9d949351|/27381ed8-96e6-4041-ba7f-c08f9d949351|/27381ed8-96e6-4041-ba7f-c08f9d949351",
-      "pin_to_pin|2336800|825500|9e2d7ae5-05f5-4321-855e-9c2181f8d093|af188f30-6720-4c49-85dd-69c230da41a6|/27381ed8-96e6-4041-ba7f-c08f9d949351|/27381ed8-96e6-4041-ba7f-c08f9d949351|/27381ed8-96e6-4041-ba7f-c08f9d949351"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -552,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
