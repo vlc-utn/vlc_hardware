@@ -1,0 +1,354 @@
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../OPA2675.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1us 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source OPA2675
+V_V1         VCC 0 6Vdc
+V_V3         N00615 0  AC 1
++SIN 0 0.1 20E6 0 0 0
+R_FCA_R3         0 FCA_N03967  50 TC=0,0 
+X_FCA_U1         FCA_N03601 FCA_N00597 FCA_N00670 VCC 0 0 0 OPA2675
+R_FCA_R2         0 FCA_N03601  10k TC=0,0 
+C_FCA_C1         FCA_N03601 N00888  {C_block}  TC=0,0 
+R_FCA_R1         FCA_N03601 VCC  10k TC=0,0 
+C_FCA_C4         FCA_N04390 0  {C_block}  TC=0,0 
+R_FCA_Rg         FCA_N04390 FCA_N00597  133 TC=0,0 
+R_FCA_Rf         FCA_N00597 FCA_N00670  402 TC=0,0 
+C_FCA_C2         FCA_N03967 FCA_N03601  {C_block}  TC=0,0 
+C_FCA_C3         FCA_N04274 FCA_N00670  {C_block}  TC=0,0 
+R_FCA_R4         N00457 FCA_N04274  1 TC=0,0 
+V_V2         VEE 0 -6Vdc
+R_R1         0 N00457  1 TC=0,0 
+R_R2         N00888 N00615  50 TC=0,0 
+.PARAM  c_block=.1uf
+
+**** RESUMING Trans.cir ****
+.END
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_FCA_U1.X_U1.DVN 
+          IS  100.000000E-18 
+          KF  100.000000E-12 
+
+
+               X_FCA_U1.X_U3.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-12 
+
+
+               X_FCA_U1.X_U4.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-12 
+
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_FCA_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_FCA_U1.X_S11._S11 
+         RON    1.000000E-03 
+        ROFF    1            
+         VON    1.3          
+        VOFF    1            
+
+
+               X_FCA_U1.X_S12._S12 
+         RON    1.000000E-03 
+        ROFF    1            
+         VON    1.3          
+        VOFF    1            
+
+
+               X_FCA_U1.X_S29._S29 
+         RON    1.000000E+09 
+        ROFF    1            
+         VON    2            
+        VOFF     .8          
+
+
+               X_FCA_U1.X_S30._S30 
+         RON    1            
+        ROFF    1.000000E-06 
+         VON  100.000000E-06 
+        VOFF    0            
+
+
+               X_FCA_U1.X_S31._S31 
+         RON    1            
+        ROFF    1.000000E-06 
+         VON  100.000000E-06 
+        VOFF    0            
+
+
+               X_FCA_U1.X_S36._S36 
+         RON    1.000000E-03 
+        ROFF    2.000000E+03 
+         VON     .05         
+        VOFF    -.05         
+
+
+               X_FCA_U1.X_S37._S37 
+         RON    1.000000E-03 
+        ROFF    2.000000E+03 
+         VON     .05         
+        VOFF    -.05         
+
+
+               X_FCA_U1.X_S38._S38 
+         RON    1.000000E+09 
+        ROFF    1.000000E-03 
+         VON    2            
+        VOFF     .8          
+
+
+               X_FCA_U1.X_S39._S39 
+         RON     .2          
+        ROFF    1.2          
+         VON     .01         
+        VOFF    -.01         
+
+
+               X_FCA_U1.X_S40._S40 
+         RON     .2          
+        ROFF    1.2          
+         VON     .01         
+        VOFF    -.01         
+
+
+               X_FCA_U1.X_S41._S41 
+         RON    1.000000E-03 
+        ROFF    2.000000E+03 
+         VON     .1          
+        VOFF    -.1          
+
+
+               X_FCA_U1.X_S42._S42 
+         RON    1.000000E-03 
+        ROFF    2.000000E+03 
+         VON     .1          
+        VOFF    -.1          
+
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_FCA_U1.X_W1._W1 
+         RON    1.000000E+06 
+        ROFF    1.000000E-03 
+         ION    5            
+        IOFF    4.7          
+
+
+               X_FCA_U1.X_W2._W2 
+         RON    1.000000E+06 
+        ROFF    1.000000E-03 
+         ION    5            
+        IOFF    4.7          
+
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)    6.0000  (  VEE)   -6.0000  (N00457)    0.0000 (N00615)    0.0000     
+
+(N00888)    0.0000 (FCA_N00597)    3.0229                (FCA_N00670)    3.0205 
+
+(FCA_N03601)    3.0250                (FCA_N03967)    0.0000                    
+
+(FCA_N04274)    0.0000                (FCA_N04390)    3.0229                    
+
+(X_FCA_U1.MID)    3.0000              (X_FCA_U1.AOL2)    3.0205                 
+
+(X_FCA_U1.AOL3)    3.0205             (X_FCA_U1.CMRR)    3.0000                 
+
+(X_FCA_U1.CREF)   27.0000             (X_FCA_U1.IMON)-6.025E-06                 
+
+(X_FCA_U1.SLEW)    3.0205             (X_FCA_U1.ZOUT)    3.0205                 
+
+(X_FCA_U1.PSRRM)    2.9950            (X_FCA_U1.PSRRP)    3.0035                
+
+(X_FCA_U1.TEMPC)   28.0000            (X_FCA_U1.VCC_B)    5.9970                
+
+(X_FCA_U1.VEE_B)     .0030            (X_FCA_U1.ZOUTL)    3.0205                
+
+(X_FCA_U1.AOLOUT)    3.0205           (X_FCA_U1.PREMID)    3.0000               
+
+(X_FCA_U1.X_U1.3)    0.0000           (X_FCA_U1.X_U1.4)    0.0000               
+
+(X_FCA_U1.X_U1.5)    0.0000           (X_FCA_U1.X_U1.6)    0.0000               
+
+(X_FCA_U1.X_U1.7)     .8338           (X_FCA_U1.X_U1.8)     .8338               
+
+(X_FCA_U1.X_U3.3)    0.0000           (X_FCA_U1.X_U3.4)    0.0000               
+
+(X_FCA_U1.X_U3.5)    0.0000           (X_FCA_U1.X_U3.6)    0.0000               
+
+(X_FCA_U1.X_U3.7)     .8338           (X_FCA_U1.X_U3.8)     .8338               
+
+(X_FCA_U1.X_U4.3)    0.0000           (X_FCA_U1.X_U4.4)    0.0000               
+
+(X_FCA_U1.X_U4.5)    0.0000           (X_FCA_U1.X_U4.6)    0.0000               
+
+(X_FCA_U1.X_U4.7)     .8338           (X_FCA_U1.X_U4.8)     .8338               
+
+(X_FCA_U1.N460322)-6.025E-12          (X_FCA_U1.N461004) 6.961E-12              
+
+(X_FCA_U1.N462608)    3.0026          (X_FCA_U1.N463406)    3.0145              
+
+(X_FCA_U1.N463410)    3.0145          (X_FCA_U1.N463418)    3.0229              
+
+(X_FCA_U1.N465370)     .0138          (X_FCA_U1.N465486) 16.50E-06              
+
+(X_FCA_U1.N505726)   -9.7904          (X_FCA_U1.N516672)    3.0205              
+
+(X_FCA_U1.N938010)    3.0145          (X_FCA_U1.N940824)    3.5970              
+
+(X_FCA_U1.N940832)    2.4030          (X_FCA_U1.N956734)    3.0205              
+
+(X_FCA_U1.N956866)    3.0205          (X_FCA_U1.N956884)    3.0205              
+
+(X_FCA_U1.N956892)    3.0205          (X_FCA_U1.N957030)    3.0000              
+
+(X_FCA_U1.N957036)    3.0000          (X_FCA_U1.N957042)    3.0205              
+
+(X_FCA_U1.N957214)    3.0205          (X_FCA_U1.N957264)    3.0205              
+
+(X_FCA_U1.N959235)    3.0229          (X_FCA_U1.N973734)    3.0205              
+
+(X_FCA_U1.N973764)    3.0205          (X_FCA_U1.N973790)    3.0205              
+
+(X_FCA_U1.VCC_CLP)    4.8970          (X_FCA_U1.VEE_CLP)    1.1030              
+
+(X_FCA_U1.N1346042)   11.9820         (X_FCA_U1.N1410320)    3.0205             
+
+(X_FCA_U1.N1410360)    3.0205         (X_FCA_U1.N1415236)    3.0205         
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.680E-02
+    V_V3         0.000E+00
+    V_V2         0.000E+00
+    X_FCA_U1.V_V14   0.000E+00
+    X_FCA_U1.V_VCMH   0.000E+00
+    X_FCA_U1.V_VCML   0.000E+00
+    X_FCA_U1.X_H4.VH_H4  -6.025E-06
+    X_FCA_U1.X_W1.VW_W1   1.455E-15
+    X_FCA_U1.X_W2.VW_W2   0.000E+00
+
+    TOTAL POWER DISSIPATION   1.01E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .44
+

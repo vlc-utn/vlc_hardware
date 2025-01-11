@@ -1,0 +1,208 @@
+
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TransientAnalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../OPA2675.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA2675
+V_V1         VCC 0 6Vdc
+V_V2         VEE 0 -6Vdc
+R_Rf         N00597 OUT  475 TC=0,0 
+R_Rg         0 N00597  475 TC=0,0 
+R_Rl         0 OUT  100 TC=0,0 
+C_C1         0 OUT  1.5e-12  TC=0,0 
+V_V3         N01029 0  AC 1
++SIN 0 2 50e6 0 0 0
+X_U1         N01029 N00597 OUT VCC VEE 0 0 OPA2675
+
+**** RESUMING TransientAnalysis.cir ****
+.END
+
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   X_U1.X_U3.DVNF  X_U1.X_U4.DVNF  
+          IS  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S11._S11 X_U1.X_S12._S12 X_U1.X_S29._S29 X_U1.X_S30._S30 
+         RON    1.000000E-03    1.000000E-03    1.000000E+09    1            
+        ROFF    1               1               1               1.000000E-06 
+         VON    1.3             1.3             2             100.000000E-06 
+        VOFF    1               1                .8             0            
+
+
+               X_U1.X_S31._S31 X_U1.X_S36._S36 X_U1.X_S37._S37 X_U1.X_S38._S38 
+         RON    1               1.000000E-03    1.000000E-03    1.000000E+09 
+        ROFF    1.000000E-06    2.000000E+03    2.000000E+03    1.000000E-03 
+         VON  100.000000E-06     .05             .05            2            
+        VOFF    0               -.05            -.05             .8          
+
+
+               X_U1.X_S39._S39 X_U1.X_S40._S40 X_U1.X_S41._S41 X_U1.X_S42._S42 
+         RON     .2              .2             1.000000E-03    1.000000E-03 
+        ROFF    1.2             1.2             2.000000E+03    2.000000E+03 
+         VON     .01             .01             .1              .1          
+        VOFF    -.01            -.01            -.1             -.1          
+
+
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_W1._W1   X_U1.X_W2._W2   
+         RON    1.000000E+06    1.000000E+06 
+        ROFF    1.000000E-03    1.000000E-03 
+         ION    5               5            
+        IOFF    4.7             4.7          
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 09/21/22 14:28:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientAnalysis"  [ C:\Users\a0232073\Desktop\GWL_Models\OPA2675\opa2675-pspicefiles\schematic1\transienta
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =          72
+  Total (NUMNOD)                    =          72
+
+Total device count (NUMEL)          =         166
+  Capacitors (C)                    =          12
+  Diodes (D)                        =           6
+  VCVS (E)                          =          12
+  VCCS (G)                          =          22
+  CCVS (H)                          =           1
+  Current Sources (I)               =          14
+  Inductors (L)                     =           4
+  Resistors (R)                     =          68
+  VSwitches (S)                     =          12
+  Voltage Sources (V)               =           9
+  ISwitches (W)                     =           2
+
+Number of subcircuits (X)           =          21
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          98
+  Initial no. elements (NTTAR)      =         357
+  No. elements w/ fillin (NTTBR)    =         357
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      96.283
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.30
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  License check-out time            =        3.08
+  Total job time (using Solver 1)   =        1.31
+

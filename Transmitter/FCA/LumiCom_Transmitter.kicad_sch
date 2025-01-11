@@ -4504,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "OPA2675RGVR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2675.pdf?ts=1736551485637"
 			(at 138.684 72.644 0)
 			(effects
 				(font

@@ -1,0 +1,67 @@
+
+**** 01/10/25 22:04:48 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "OPA2675-TransientAnalysis"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Tra
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TransientAnalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../OPA2675.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\OPA2675.net" 
+
+
+
+**** INCLUDING OPA2675.net ****
+* source OPA2675
+.EXTERNAL OUTPUT Vee
+.EXTERNAL OUTPUT Vcc
+.EXTERNAL OUTPUT Gnd
+.EXTERNAL OUTPUT Vin
+.EXTERNAL OUTPUT Vout
+V_V1         VCC GND 6Vdc
+V_V2         VEE GND -6Vdc
+R_Rf         N00597 N00670  402 TC=0,0 
+R_Rg         N04390 N00597  133 TC=0,0 
+X_U1         N03601 N00597 N00670 VCC VEE GND GND OPA2675
+C_C1         N03601 VIN  {C_block}  TC=0,0 
+R_R2         VEE N03601  10k TC=0,0 
+R_R1         N03601 VCC  10k TC=0,0 
+C_C2         N03967 N03601  {C_block}  TC=0,0 
+R_R3         GND N03967  50 TC=0,0 
+R_R4         N04274 N00670  1 TC=0,0 
+C_C3         VOUT N04274  {C_block}  TC=0,0 
+C_C4         N04390 GND  {C_block}  TC=0,0 
+.PARAM  c_block=.1uf
+
+**** RESUMING TransientAnalysis.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node VIN.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node VOUT.
+
+ERROR(ORPSIM-15142): Node VIN is floating
+
+ERROR(ORPSIM-15142): Node VOUT is floating
+

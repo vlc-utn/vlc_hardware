@@ -1,0 +1,22 @@
+.ALIASES
+V_V1            V1(+=VCC -=GND ) CN @OPA2675.OPA2675(sch_1):INS121@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=VEE -=GND ) CN @OPA2675.OPA2675(sch_1):INS254@SOURCE.VDC.Normal(chips)
+R_Rf            Rf(1=N00597 2=N00670 ) CN @OPA2675.OPA2675(sch_1):INS565@ANALOG.R.Normal(chips)
+R_Rg            Rg(1=N04390 2=N00597 ) CN @OPA2675.OPA2675(sch_1):INS581@ANALOG.R.Normal(chips)
+X_U1            U1(+=N03601 -=N00597 OUT=N00670 Vs+=VCC Vs-=VEE PD=GND Ref=GND ) CN
++@OPA2675.OPA2675(sch_1):INS2709@OPA2675.OPA2675.Convert(chips)
+C_C1            C1(1=N03601 2=VIN ) CN @OPA2675.OPA2675(sch_1):INS3536@ANALOG.C.Normal(chips)
+R_R2            R2(1=VEE 2=N03601 ) CN @OPA2675.OPA2675(sch_1):INS3774@ANALOG.R.Normal(chips)
+R_R1            R1(1=N03601 2=VCC ) CN @OPA2675.OPA2675(sch_1):INS3842@ANALOG.R.Normal(chips)
+C_C2            C2(1=N03967 2=N03601 ) CN @OPA2675.OPA2675(sch_1):INS3915@ANALOG.C.Normal(chips)
+R_R3            R3(1=GND 2=N03967 ) CN @OPA2675.OPA2675(sch_1):INS3985@ANALOG.R.Normal(chips)
+R_R4            R4(1=N04274 2=N00670 ) CN @OPA2675.OPA2675(sch_1):INS4130@ANALOG.R.Normal(chips)
+C_C3            C3(1=VOUT 2=N04274 ) CN @OPA2675.OPA2675(sch_1):INS4258@ANALOG.C.Normal(chips)
+C_C4            C4(1=N04390 2=GND ) CN @OPA2675.OPA2675(sch_1):INS4370@ANALOG.C.Normal(chips)
+_    _(Gnd=GND)
+_    _(0=GND)
+_    _(Vcc=VCC)
+_    _(Vee=VEE)
+_    _(Vin=VIN)
+_    _(Vout=VOUT)
+.ENDALIASES
