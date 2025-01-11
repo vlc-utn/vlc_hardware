@@ -5760,7 +5760,7 @@
 			(xy 130 120) (xy 100 120)
 		)
 		(height -7.762)
-		(gr_text "30,0000 mm"
+		(gr_text "30.0000 mm"
 			(at 115 126.612 0)
 			(layer "Dwgs.User")
 			(uuid "270b753f-1c86-4906-859b-1922a77165e0")
@@ -5793,7 +5793,7 @@
 			(xy 130 90) (xy 130 120)
 		)
 		(height -17.828)
-		(gr_text "30,0000 mm"
+		(gr_text "30.0000 mm"
 			(at 146.678 105 90)
 			(layer "Dwgs.User")
 			(uuid "5aa20e83-104f-452d-ad71-2d32356bc05b")
