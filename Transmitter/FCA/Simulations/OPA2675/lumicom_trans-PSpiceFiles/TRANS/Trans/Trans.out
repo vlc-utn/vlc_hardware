@@ -1,7 +1,7 @@
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,12 +18,13 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../library/infineon-rftransistor-spice.lib-sm-v02_10-en.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 100ns 0 
+.TRAN  0 100us 0 SKIPBP 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
@@ -33,35 +34,31 @@
 
 **** INCLUDING TRANS.net ****
 * source LUMICOM_TRANS
-.EXTERNAL OUTPUT Vcc
-.EXTERNAL OUTPUT Vee
-R_R14         0 N44031  50 TC=0,0 
-R_R10         N43925 0  4 TC=0,0 
-V_V2         N43805 0  AC 1
-+SIN 0 0.1 50e6 0 0 0
-X_U1         IN N44021 OUT VCC 0 0 0 OPA2675
-R_R2         N44021 N44245  120 TC=0,0 
-C_C4         0 VCC  100n  TC=0,0 
-T_T1         N43809 0 N43815 0 Z0=50 TD=1nS  
-R_R13         N43805 N43809  50 TC=0,0 
-R_R4         VCC IN  5k TC=0,0 
-R_R5         OUT N43919  {Rpi} TC=0,0 
-R_R1         OUT N44021  390 TC=0,0 
-V_V3         VEE 0 0
-R_R3         IN 0  5k TC=0,0 
-C_C1         N43815 IN  1u  TC=0,0 
-C_C2         N43919 N43925  1uF  TC=0,0 
-C_C5         N44031 IN  .1u  TC=0,0 
-V_V4         VCC 0 5
-C_C6         0 N44245  1u  TC=0,0 
-.PARAM  rpi=0
+R_R13         N46541 VSOURCE  50 TC=0,0 
+V_V1         N46541 0  AC 1
++SIN 0 1 1E6 0 0 0
+X_U1         N60212 N60418 N60360 N60158 0 0 0 OPA2675
+R_R3         N60212 0  10k TC=0,0 
+R_R14         0 N60428  50 TC=0,0 
+R_R2         N60418 N62200  133 TC=0,0 
+R_R5         N60360 N60370  1 TC=0,0 
+R_R4         N60158 N60212  10k TC=0,0 
+C_C5         N60428 N60212  .1u  TC=0,0 
+C_C1         VSOURCE N60212  .1u  TC=0,0 
+C_C2         N60370 N61260  .1uF  TC=0,0 
+R_R1         N60360 N60418  402 TC=0,0 
+C_C6         0 N62200  .1uF  TC=0,0 
+V_V2         N60158 0 5
+R_R15         0 N61260  1 TC=0,0 
+C_C7         0 N60158  100uF  TC=0,0 
+.PARAM  rpi=1
 
 **** RESUMING Trans.cir ****
 .END
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     Diode MODEL PARAMETERS
@@ -77,9 +74,9 @@ C_C6         0 N44245  1u  TC=0,0
           KF  100.000000E-12  100.000000E-12  100.000000E-12 
 
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     Resistor MODEL PARAMETERS
@@ -96,9 +93,9 @@ C_C6         0 N44245  1u  TC=0,0
            R    1            
 
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -130,9 +127,9 @@ C_C6         0 N44245  1u  TC=0,0
         VOFF    -.01            -.01            -.1             -.1          
 
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     Current Controlled Switch MODEL PARAMETERS
@@ -149,119 +146,13 @@ C_C6         0 N44245  1u  TC=0,0
          ION    5               5            
         IOFF    4.7             4.7          
 
-
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
-
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
-
-
- ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
-
-
-******************************************************************************
-
-
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(   IN)    2.5125  (  OUT)    2.5067  (  VCC)    5.0000  (  VEE)    0.0000      
-
-(N43805)    0.0000 (N43809)    0.0000 (N43815)    0.0000 (N43919)    2.5067     
-
-(N43925)    0.0000 (N44021)    2.5091 (N44031)    0.0000 (N44245)    2.5091     
-
-(X_U1.MID)    2.5000                  (X_U1.AOL2)    2.5067                     
-
-(X_U1.AOL3)    2.5067                 (X_U1.CMRR)    2.5000                     
-
-(X_U1.CREF)   27.0000                 (X_U1.IMON)-7.592E-06                     
-
-(X_U1.SLEW)    2.5067                 (X_U1.ZOUT)    2.5067                     
-
-(X_U1.PSRRM)    2.4958                (X_U1.PSRRP)    2.5029                    
-
-(X_U1.TEMPC)   28.0000                (X_U1.VCC_B)    4.9975                    
-
-(X_U1.VEE_B)     .0025                (X_U1.ZOUTL)    2.5067                    
-
-(X_U1.AOLOUT)    2.5067               (X_U1.PREMID)    2.5000                   
-
-(X_U1.X_U1.3)    0.0000               (X_U1.X_U1.4)    0.0000                   
-
-(X_U1.X_U1.5)    0.0000               (X_U1.X_U1.6)    0.0000                   
-
-(X_U1.X_U1.7)     .8338               (X_U1.X_U1.8)     .8338                   
-
-(X_U1.X_U3.3)    0.0000               (X_U1.X_U3.4)    0.0000                   
-
-(X_U1.X_U3.5)    0.0000               (X_U1.X_U3.6)    0.0000                   
-
-(X_U1.X_U3.7)     .8338               (X_U1.X_U3.8)     .8338                   
-
-(X_U1.X_U4.3)    0.0000               (X_U1.X_U4.4)    0.0000                   
-
-(X_U1.X_U4.5)    0.0000               (X_U1.X_U4.6)    0.0000                   
-
-(X_U1.X_U4.7)     .8338               (X_U1.X_U4.8)     .8338                   
-
-(X_U1.N460322)-7.592E-12              (X_U1.N461004) 9.526E-12                  
-
-(X_U1.N462608)    2.5004              (X_U1.N463406)    2.5020                  
-
-(X_U1.N463410)    2.5020              (X_U1.N463418)    2.5091                  
-
-(X_U1.N465370)     .0138              (X_U1.N465486) 16.49E-06                  
-
-(X_U1.N505726)   -8.1587              (X_U1.N516672)    2.5067                  
-
-(X_U1.N938010)    2.5020              (X_U1.N940824)    2.5975                  
-
-(X_U1.N940832)    2.4025              (X_U1.N956734)    2.5067                  
-
-(X_U1.N956866)    2.5067              (X_U1.N956884)    2.5067                  
-
-(X_U1.N956892)    2.5067              (X_U1.N957030)    2.5000                  
-
-(X_U1.N957036)    2.5000              (X_U1.N957042)    2.5067                  
-
-(X_U1.N957214)    2.5067              (X_U1.N957264)    2.5067                  
-
-(X_U1.N959235)    2.5091              (X_U1.N973734)    2.5067                  
-
-(X_U1.N973764)    2.5067              (X_U1.N973790)    2.5067                  
-
-(X_U1.VCC_CLP)    3.8975              (X_U1.VEE_CLP)    1.1025                  
-
-(X_U1.N1346042)    9.9850             (X_U1.N1410320)    2.5067                 
-
-(X_U1.N1410360)    2.5067             (X_U1.N1415236)    2.5067             
-
-
-
-
-    VOLTAGE SOURCE CURRENTS
-    NAME         CURRENT
-
-    V_V2         0.000E+00
-    V_V3         0.000E+00
-    V_V4        -1.699E-02
-    X_U1.V_V14   0.000E+00
-    X_U1.V_VCMH   0.000E+00
-    X_U1.V_VCML   0.000E+00
-    X_U1.X_H4.VH_H4  -7.592E-06
-    X_U1.X_W1.VW_W1   3.001E-16
-    X_U1.X_W2.VW_W2   0.000E+00
-
-    TOTAL POWER DISSIPATION   8.50E-02  WATTS
-
 
 
           JOB CONCLUDED
 
-**** 01/04/25 14:24:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/10/25 21:34:20 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
- ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\LumiCom_Transmitter\LumiCom_Transmitter\Sim
+ ** Profile: "TRANS-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\S
 
 
  ****     JOB STATISTICS SUMMARY
@@ -271,5 +162,5 @@ C_C6         0 N44245  1u  TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .41
+  Total job time (using Solver 1)   =         .72
 

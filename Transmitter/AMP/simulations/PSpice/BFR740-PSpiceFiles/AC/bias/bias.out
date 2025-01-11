@@ -1,0 +1,183 @@
+
+**** 01/10/25 19:32:27 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-bias"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simul
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../infineon-rftransistor-spice.lib-sm-v02_10-en.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1k 1000Meg
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source BFR740
+.EXTERNAL OUTPUT Vout
+.EXTERNAL OUTPUT Vin
+X_U1         N14847 N14875 0 BFR740L3RH
+R_R1         N14875 N14959  910 TC=0,0 
+L_L1         N14530 N14534  9.1n  
+C_C1         N14884 N14875  1uF  TC=0,0 
+T_T1         VIN 0 N14884 0 Z0=50 TD=0.2ns  
+T_T2         N14541 0 VOUT 0 Z0=50 TD=0.2ns  
+C_C2         N14534 N14541  1uF  TC=0,0 
+C_C3         0 N14530  4.7pF  TC=0,0 
+R_R2         N14875 N14839  39k TC=0,0 
+R_R3         N14847 N14839  160 TC=0,0 
+C_C5         N14839 0  220nF  TC=0,0 
+V_V1         N14827 0 3.3V
+R_R4         N14839 N14827  47 TC=0,0 
+L_L2         N15181 N14847  22n  
+R_R5         N14534 N15181  0.4 TC=0,0 
+C_C4         N14959 N14847  220nF  TC=0,0 
+V_V2         N15478 0 DC 0Vdc AC 1Vac 
+R_R6         VIN N15478  50 TC=0,0 
+R_R7         VOUT 0  50 TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 01/10/25 19:32:27 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-bias"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simul
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.M_BFR740L3RH 
+               NPN             
+  T_Measured   25            
+   T_Current   27            
+       LEVEL    1            
+          IS    1.362000E-15 
+          EG    1.034        
+          BF  632            
+          NF    1.027        
+         VAF  120            
+         IKF     .09421      
+         ISE  140.000000E-15 
+          NE    2.6          
+          BR  100            
+          NR    1            
+         VAR    1.7          
+         IKR    3.500000E-03 
+         ISC    5.000000E-15 
+         ISS    0            
+          RB    2            
+         RBM     .6          
+         IRB  889.000000E-06 
+          RE     .1019       
+          RC    5.14         
+         CJE  314.000000E-15 
+         VJE     .8119       
+         MJE     .1431       
+         CJC   84.190000E-15 
+         VJC     .4412       
+         MJC     .3364       
+        XCJC     .6466       
+         CJS  222.900000E-15 
+         VJS     .4393       
+         MJS     .2684       
+          FC     .8156       
+          TF    1.667000E-12 
+         XTF  200            
+         VTF     .3493       
+         ITF     .3          
+         PTF    1            
+          TR   27.860000E-09 
+         XTB   -2.482        
+         XTI     .808        
+          KF   25.600000E-12 
+          AF    1.798        
+          CN    2.42         
+           D     .87         
+
+
+**** 01/10/25 19:32:27 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-bias"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simul
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)    0.0000  (N14530)     .6985 (N14534)     .6985     
+
+(N14541)    0.0000 (N14827)    3.3000 (N14839)    2.7076 (N14847)     .6985     
+
+(N14875)     .8147 (N14884)    0.0000 (N14959)     .8147 (N15181)     .6985     
+
+(N15478)    0.0000 (X_U1.4)     .0024 (X_U1.10)     .6985                       
+
+(X_U1.11)     .6985                   (X_U1.20)     .8147                       
+
+(X_U1.22)     .8147                   (X_U1.30)    0.0000                       
+
+(X_U1.33)     .0044                   (X_U1.44)     .0024                       
+
+(X_U1.111)     .6985                  (X_U1.222)     .8147                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.261E-02
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   4.16E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/10/25 19:32:27 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-bias"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simul
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .34
+

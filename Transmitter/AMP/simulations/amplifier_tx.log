@@ -1,0 +1,12 @@
+Stray ".ends" card: .ends bfr740l3rh
+LTspice 24.0.11 for Windows
+Circuit: * E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simulations\amplifier_tx.asc
+Start Time: Fri Jan 10 19:30:53 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.139 seconds.
+

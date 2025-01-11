@@ -6677,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28952"
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" " Thin Film Resistors .1W ZEROohm Jumper "
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" " Vishay / Beyschlag "
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -6704,7 +6704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" " MCT0603MZ0000ZP500 "
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -6713,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" " 594-MCT0603MZ0000ZP5 "
 			(at 114.3 88.9 0)
 			(effects
 				(font

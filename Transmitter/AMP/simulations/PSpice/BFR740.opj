@@ -1,0 +1,152 @@
+(ExpressProject "BFR740"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[01/10/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "e:\cadence\pspiceti\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "e:\cadence\pspiceti\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library"))
+      (File ".\infineon-rftransistor-spice.lib-sm-v02_10-en.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "bfr740.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\bfr740-pspicefiles\ac\ac.net"
+      (Type "Report"))
+    (File ".\bfr740-pspicefiles\bfr740\bfr740.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\infineon-rftransistor-spice.lib-sm-v02_10-en.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\infineon-rftransistor-spice.lib-sm-v02_10-en.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bfr740-pspicefiles\bfr740\bias.sim"
+        (DisplayName "BFR740-bias")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\bfr740-pspicefiles\bfr740\ac.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bfr740-pspicefiles\bfr740\ac.sim"
+        (DisplayName "BFR740-AC")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (BFR840L3RHESD
+      (FullPartName "BFR840L3RHESD.Normal")
+      (LibraryName
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\AMP\SIMULATIONS\PSPICE\INFINEON-RFTRANSISTOR-SPICE.LIB-SM-V02_10-EN.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (T
+      (FullPartName "T.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BFR740L3RH
+      (FullPartName "BFR740L3RH.Normal")
+      (LibraryName
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\AMP\SIMULATIONS\PSPICE\INFINEON-RFTRANSISTOR-SPICE.LIB-SM-V02_10-EN.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "juanc")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simulations\PSpice\bfr740.dsn")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simulations\PSpice\bfr740.dsn"
+         "BFR740")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simulations\PSpice\bfr740.dsn"
+         "BFR740"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 567"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 667 24 585")
+        (Scroll "-5 -34")
+        (Zoom "64")
+        (Occurrence "/"))
+      (Path
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\AMP\SIMULATIONS\PSPICE\BFR740.DSN")
+      (Schematic "BFR740")
+      (Page "BFR740"))))

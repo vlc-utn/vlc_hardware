@@ -1,12 +1,14 @@
 (ExpressProject "Lumicom_Trans"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/09/25]")
+  (SoftwareVersion "23.1-2024 S001-[01/10/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library\opa2675.olb"
         (Type "Schematic Library"))
       (File ".\library\bfr183_spice_v2.olb"
+        (Type "Schematic Library"))
+      (File ".\library\infineon-rftransistor-spice.lib-sm-v02_10-en.olb"
         (Type "Schematic Library")))
     (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
@@ -17,12 +19,30 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (PSPICE_Regenerate_Netlist_Flag "FALSE")
-    (RootChangedForceReNetlist "x"))
+    (RootChangedForceReNetlist "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\lumicom_trans-pspicefiles\schematic1\schematic1.net"
       (Type "Report"))
     (File ".\lumicom_trans-pspicefiles\ac\ac.net"
+      (Type "Report"))
+    (File ".\lumicom_trans-pspicefiles\trans\trans.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
@@ -30,13 +50,21 @@
          ".\lumicom_trans-pspicefiles\trans\trans.sim"
         (DisplayName "TRANS-Trans")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\lumicom_trans-pspicefiles\ac\ac.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\lumicom_trans-pspicefiles\ac\ac.sim"
         (DisplayName "AC-AC")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lumicom_trans-pspicefiles\ac\ac2.sim"
+        (DisplayName "AC-AC2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lumicom_trans-pspicefiles\ac\ac.sim"))
     (Folder "Model Libraries"
-      (Sort User))
+      (Sort User)
+      (File ".\library\infineon-rftransistor-spice.lib-sm-v02_10-en.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           ".\library\infineon-rftransistor-spice.lib-sm-v02_10-en.lib")))
     (Folder "Stimulus Files"
       (Sort User))
     (Folder "Include Files"
@@ -44,8 +72,31 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (0
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (BFR740L3RH
+      (FullPartName "BFR740L3RH.Normal")
+      (LibraryName
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\LIBRARY\INFINEON-RFTRANSISTOR-SPICE.LIB-SM-V02_10-EN.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (OPAMP
+      (FullPartName "OPAMP.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
@@ -61,9 +112,6 @@
       (FullPartName "R.Normal")
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (T
       (FullPartName "T.Normal")
@@ -95,11 +143,6 @@
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
       (DeviceIndex "0"))
-    (VDC
-      (FullPartName "VDC.Normal")
-      (LibraryName
-         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
     (OPA2675
       (FullPartName "OPA2675.Normal")
       (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\OPA2675.OLB")
@@ -108,45 +151,42 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\transmitter\fca\simulations\opa2675\lumicom_trans.dsn")
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn")
       (Path "Design Resources"
-         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\transmitter\fca\simulations\opa2675\lumicom_trans.dsn"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
          "AC")
       (Path "Design Resources"
-         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\transmitter\fca\simulations\opa2675\lumicom_trans.dsn"
-         "FILTER-PRE")
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "BFR740")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "FCA")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "TRANS")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources"
-         "e:\onedrive\universidad\utn\materias\6\proyecto_final\kicad\vlc_hardware\vlc_hardware\transmitter\fca\simulations\opa2675\lumicom_trans.dsn"
-         "FILTER-PRE" "FILTER-PRE"))
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\lumicom_trans.dsn"
+         "AC" "AC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1145 0 557"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1270 0 590"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1154 24 585")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 618")
         (Scroll "0 0")
-        (Zoom "144")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\LUMICOM_TRANS.DSN")
       (Schematic "AC")
-      (Page "AC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1154 24 585")
-        (Scroll "-209 -5")
-        (Zoom "72"))
-      (Path
-         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\LUMICOM_TRANS.DSN")
-      (Schematic "FILTER-PRE")
-      (Page "FILTER-PRE")))
+      (Page "AC")))
   (MPSSessionName "juanc"))

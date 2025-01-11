@@ -1,0 +1,13 @@
+STATUS: PSpice Model Import Wizard for "Capture" (23.1.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\library\Infineon-RFTransistor-SPICE.lib-SM-v02_10-EN.lib
+   INFO: Output File: E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\library\Infineon-RFTransistor-SPICE.lib-SM-v02_10-EN.OLB
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Friday, January 10, 2025 20:32:51
+STATUS:  
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Friday, January 10, 2025 20:32:51
+STATUS:  
+   INFO: Symbol "BFR740L3RH" created for model "BFR740L3RH".
+STATUS: 0 Error messages, 0 Warning messages

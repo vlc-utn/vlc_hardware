@@ -1,0 +1,60 @@
+
+**** 01/10/25 19:26:23 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-bias"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\AMP\simul
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\AC.net" 
+
+
+
+**** INCLUDING AC.net ****
+* source BFR740
+.EXTERNAL OUTPUT Vout
+X_U1         N14847 N14875 0 BFR740L3RH
+R_R1         N14875 N14959  910 TC=0,0 
+L_L1         N14530 N14534  9.1n  
+C_C1         N14884 N14875  1uF  TC=0,0 
+T_T1         VOUT 0 N14884 0 Z0=50 TD=0.2ns  
+T_T2         N14541 0 VOUT 0 Z0=50 TD=0.2ns  
+C_C2         N14534 N14541  1uF  TC=0,0 
+C_C3         0 N14530  4.7pF  TC=0,0 
+R_R2         N14875 N14861  39k TC=0,0 
+R_R3         N14847 N14839  160 TC=0,0 
+C_C5         N14861 0  220nF  TC=0,0 
+V_V1         N14827 0 3.3V
+R_R4         N14839 N14827  47 TC=0,0 
+L_L2         N15181 N14847  22n  
+R_R5         N14534 N15181  0.4 TC=0,0 
+C_C4         N14959 N14847  220nF  TC=0,0 
+V_V2         N15478 0 DC 0Vdc AC 1Vac 
+R_R6         VOUT N15478  50 TC=0,0 
+R_R7         VOUT 0  50 TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15108): Subcircuit BFR740L3RH used by X_U1 is undefined
+
