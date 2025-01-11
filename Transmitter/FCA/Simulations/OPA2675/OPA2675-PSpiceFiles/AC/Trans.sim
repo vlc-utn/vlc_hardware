@@ -3,7 +3,7 @@
 @Settings: 0 1
 @General:
 ProfileName= "Trans" 
-ProfileFile= "Trans.sim" 
+ProfileFile= "trans.sim" 
 Connectivity= "AC.net" 
 NetlistFile= "Trans.cir" 
 DataFile= "Trans.dat" 
@@ -17,7 +17,7 @@ Notes=
 +0 "1us" 
 +1 "" 
 +2 "0" 
-+3 "" 
++3 "0.001us" 
 +4 "" 
 +5 "" 
 +6 "" 

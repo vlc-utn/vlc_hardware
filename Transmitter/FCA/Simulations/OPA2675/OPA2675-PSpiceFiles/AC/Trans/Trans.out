@@ -1,5 +1,5 @@
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -18,13 +18,14 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../infineon-rftransistor-spice.lib-sm-v02_10-en.lib" 
 .LIB "../../../OPA2675.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 1us 0 
+.TRAN  0 1us 0 0.001us 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
@@ -34,29 +35,55 @@
 
 **** INCLUDING AC.net ****
 * source OPA2675
-V_V1         VCC 0 6Vdc
+V_V1         VCC 0 10Vdc
 V_V3         N00615 0  AC 1
-+SIN 0 0.1 20E6 0 0 0
++SIN 0 0.01 40E6 0 0 0
 R_FCA_R3         0 FCA_N03967  50 TC=0,0 
-X_FCA_U1         FCA_N03601 FCA_N00597 FCA_N00670 VCC 0 0 0 OPA2675
-R_FCA_R2         0 FCA_N03601  10k TC=0,0 
-C_FCA_C1         FCA_N03601 N00888  {C_block}  TC=0,0 
-R_FCA_R1         FCA_N03601 VCC  10k TC=0,0 
+X_FCA_U1         FCA_N03866 FCA_N00597 FCA_N00670 VCC 0 0 0 OPA2675
+R_FCA_R2         0 FCA_N03866  10k TC=0,0 
+R_FCA_R1         FCA_N03866 VCC  10k TC=0,0 
 C_FCA_C4         FCA_N04390 0  {C_block}  TC=0,0 
 R_FCA_Rg         FCA_N04390 FCA_N00597  133 TC=0,0 
 R_FCA_Rf         FCA_N00597 FCA_N00670  402 TC=0,0 
-C_FCA_C2         FCA_N03967 FCA_N03601  {C_block}  TC=0,0 
+C_FCA_C2         FCA_N03967 FCA_N03866  {C_block}  TC=0,0 
 C_FCA_C3         FCA_N04274 FCA_N00670  {C_block}  TC=0,0 
-R_FCA_R4         N00457 FCA_N04274  1 TC=0,0 
-V_V2         VEE 0 -6Vdc
-R_R1         0 N00457  1 TC=0,0 
-R_R2         N00888 N00615  50 TC=0,0 
+R_FCA_R4         VFCA FCA_N04274  1 TC=0,0 
+C_FCA_C1         FCA_N03866 V_RXAMP  {C_block}  TC=0,0 
+V_V2         N01950 0 8V
+R_R2         VSOURCE N00615  50 TC=0,0 
+L_PRE_L2         0 PRE_N00368  150nH  
+R_PRE_R2         PRE_N00087 V_FILTER  50 TC=0,0 
+L_PRE_L1         PRE_N00290 V_FILTER  150nH  
+R_PRE_R4         VSOURCE V_FILTER  825 TC=0,0 
+R_PRE_R1         VSOURCE PRE_N00087  50 TC=0,0 
+C_PRE_C2         0 PRE_N00368  62pF  TC=0,0 
+R_PRE_R3         PRE_N00368 PRE_N00087  3 TC=0,0 
+C_PRE_C1         VSOURCE PRE_N00290  62pF  TC=0,0 
+L_LED_L1         LED_N00108 LED_N00200  0.99n  
+R_LED_R2         0 VLED  0.39 TC=0,0 
+C_LED_C2         0 LED_N00200  0.19n  TC=0,0 
+R_LED_R3         VLED LED_N00200  0.54 TC=0,0 
+C_LED_C1         0 VLED  130n  TC=0,0 
+R_LED_R1         VFCA LED_N00108  1.35 TC=0,0 
+R_AMP_PRE_R4         AMP_PRE_N00236 N01950  47 TC=0,0 
+L_AMP_PRE_L1         AMP_PRE_N00270 AMP_PRE_N01130  22n  
+R_AMP_PRE_R1         AMP_PRE_N00121 AMP_PRE_N000900  910 TC=0,0 
+X_AMP_PRE_U1         AMP_PRE_N00270 AMP_PRE_N00121 0 BFR740L3RH
+R_AMP_PRE_R5         AMP_PRE_N01130 V_RXAMP  0.4 TC=0,0 
+C_AMP_PRE_C5         0 AMP_PRE_N00861  4.7p  TC=0,0 
+C_AMP_PRE_C4         0 AMP_PRE_N00270  8.2pF  TC=0,0 
+R_AMP_PRE_R3         AMP_PRE_N00270 AMP_PRE_N00236  160 TC=0,0 
+C_AMP_PRE_C3         AMP_PRE_N00236 0  220nF  TC=0,0 
+C_AMP_PRE_C2         AMP_PRE_N000900 AMP_PRE_N00270  220n  TC=0,0 
+C_AMP_PRE_C1         AMP_PRE_N00121 V_FILTER  1u  TC=0,0 
+R_AMP_PRE_R2         AMP_PRE_N00121 AMP_PRE_N00236  39k TC=0,0 
+L_AMP_PRE_L2         AMP_PRE_N00861 V_RXAMP  9.1n  
 .PARAM  c_block=.1uf
 
 **** RESUMING Trans.cir ****
 .END
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -84,7 +111,69 @@ R_R2         N00888 N00615  50 TC=0,0
           KF  100.000000E-12 
 
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_AMP_PRE_U1.M_BFR740L3RH 
+               NPN             
+  T_Measured   25            
+   T_Current   27            
+       LEVEL    1            
+          IS    1.362000E-15 
+          EG    1.034        
+          BF  632            
+          NF    1.027        
+         VAF  120            
+         IKF     .09421      
+         ISE  140.000000E-15 
+          NE    2.6          
+          BR  100            
+          NR    1            
+         VAR    1.7          
+         IKR    3.500000E-03 
+         ISC    5.000000E-15 
+         ISS    0            
+          RB    2            
+         RBM     .6          
+         IRB  889.000000E-06 
+          RE     .1019       
+          RC    5.14         
+         CJE  314.000000E-15 
+         VJE     .8119       
+         MJE     .1431       
+         CJC   84.190000E-15 
+         VJC     .4412       
+         MJC     .3364       
+        XCJC     .6466       
+         CJS  222.900000E-15 
+         VJS     .4393       
+         MJS     .2684       
+          FC     .8156       
+          TF    1.667000E-12 
+         XTF  200            
+         VTF     .3493       
+         ITF     .3          
+         PTF    1            
+          TR   27.860000E-09 
+         XTB   -2.482        
+         XTI     .808        
+          KF   25.600000E-12 
+          AF    1.798        
+          CN    2.42         
+           D     .87         
+
+
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -103,7 +192,7 @@ R_R2         N00888 N00615  50 TC=0,0
            R    1            
 
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -200,7 +289,7 @@ R_R2         N00888 N00615  50 TC=0,0
         VOFF    -.1          
 
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -227,7 +316,7 @@ R_R2         N00888 N00615  50 TC=0,0
         IOFF    4.7          
 
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -242,29 +331,51 @@ R_R2         N00888 N00615  50 TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  VCC)    6.0000  (  VEE)   -6.0000  (N00457)    0.0000 (N00615)    0.0000     
+(  VCC)   10.0000  ( VFCA)    0.0000  ( VLED)    0.0000  (N00615)    0.0000     
 
-(N00888)    0.0000 (FCA_N00597)    3.0229                (FCA_N00670)    3.0205 
+(N01950)    8.0000 (VSOURCE)    0.0000                   (V_RXAMP)    1.9106    
 
-(FCA_N03601)    3.0250                (FCA_N03967)    0.0000                    
+(V_FILTER)    0.0000                  (FCA_N00597)    5.0286                    
 
-(FCA_N04274)    0.0000                (FCA_N04390)    3.0229                    
+(FCA_N00670)    5.0262                (FCA_N03866)    5.0250                    
 
-(X_FCA_U1.MID)    3.0000              (X_FCA_U1.AOL2)    3.0205                 
+(FCA_N03967)    0.0000                (FCA_N04274)    0.0000                    
 
-(X_FCA_U1.AOL3)    3.0205             (X_FCA_U1.CMRR)    3.0000                 
+(FCA_N04390)    5.0286                (LED_N00108)    0.0000                    
 
-(X_FCA_U1.CREF)   27.0000             (X_FCA_U1.IMON)-6.025E-06                 
+(LED_N00200)    0.0000                (PRE_N00087)    0.0000                    
 
-(X_FCA_U1.SLEW)    3.0205             (X_FCA_U1.ZOUT)    3.0205                 
+(PRE_N00290)    0.0000                (PRE_N00368)    0.0000                    
 
-(X_FCA_U1.PSRRM)    2.9950            (X_FCA_U1.PSRRP)    3.0035                
+(X_FCA_U1.MID)    5.0000              (X_FCA_U1.AOL2)    5.0262                 
 
-(X_FCA_U1.TEMPC)   28.0000            (X_FCA_U1.VCC_B)    5.9970                
+(X_FCA_U1.AOL3)    5.0262             (X_FCA_U1.CMRR)    5.0000                 
 
-(X_FCA_U1.VEE_B)     .0030            (X_FCA_U1.ZOUTL)    3.0205                
+(X_FCA_U1.CREF)   27.0000             (X_FCA_U1.IMON)-6.032E-06                 
 
-(X_FCA_U1.AOLOUT)    3.0205           (X_FCA_U1.PREMID)    3.0000               
+(X_FCA_U1.SLEW)    5.0262             (X_FCA_U1.ZOUT)    5.0262                 
+
+(AMP_PRE_N00121)     .8521            (AMP_PRE_N00236)    6.6120                
+
+(AMP_PRE_N00270)    1.9106            (AMP_PRE_N00861)    1.9106                
+
+(AMP_PRE_N01130)    1.9106            (X_AMP_PRE_U1.4)     .0056                
+
+(X_FCA_U1.PSRRM)    4.9917            (X_FCA_U1.PSRRP)    5.0058                
+
+(X_FCA_U1.TEMPC)   28.0000            (X_FCA_U1.VCC_B)    9.9950                
+
+(X_FCA_U1.VEE_B)     .0050            (X_FCA_U1.ZOUTL)    5.0262                
+
+(AMP_PRE_N000900)     .8521           (X_AMP_PRE_U1.10)    1.9106               
+
+(X_AMP_PRE_U1.11)    1.9106           (X_AMP_PRE_U1.20)     .8521               
+
+(X_AMP_PRE_U1.22)     .8521           (X_AMP_PRE_U1.30)-111.0E-18               
+
+(X_AMP_PRE_U1.33)     .0103           (X_AMP_PRE_U1.44)     .0056               
+
+(X_FCA_U1.AOLOUT)    5.0262           (X_FCA_U1.PREMID)    5.0000               
 
 (X_FCA_U1.X_U1.3)    0.0000           (X_FCA_U1.X_U1.4)    0.0000               
 
@@ -284,37 +395,39 @@ R_R2         N00888 N00615  50 TC=0,0
 
 (X_FCA_U1.X_U4.7)     .8338           (X_FCA_U1.X_U4.8)     .8338               
 
-(X_FCA_U1.N460322)-6.025E-12          (X_FCA_U1.N461004) 6.961E-12              
+(X_AMP_PRE_U1.111)    1.9106          (X_AMP_PRE_U1.222)     .8521              
 
-(X_FCA_U1.N462608)    3.0026          (X_FCA_U1.N463406)    3.0145              
+(X_FCA_U1.N460322)-6.032E-12          (X_FCA_U1.N461004) 6.971E-12              
 
-(X_FCA_U1.N463410)    3.0145          (X_FCA_U1.N463418)    3.0229              
+(X_FCA_U1.N462608)    5.0026          (X_FCA_U1.N463406)    5.0145              
 
-(X_FCA_U1.N465370)     .0138          (X_FCA_U1.N465486) 16.50E-06              
+(X_FCA_U1.N463410)    5.0145          (X_FCA_U1.N463418)    5.0286              
 
-(X_FCA_U1.N505726)   -9.7904          (X_FCA_U1.N516672)    3.0205              
+(X_FCA_U1.N465370)     .0138          (X_FCA_U1.N465486) 16.54E-06              
 
-(X_FCA_U1.N938010)    3.0145          (X_FCA_U1.N940824)    3.5970              
+(X_FCA_U1.N505726)  -16.3170          (X_FCA_U1.N516672)    5.0262              
 
-(X_FCA_U1.N940832)    2.4030          (X_FCA_U1.N956734)    3.0205              
+(X_FCA_U1.N938010)    5.0145          (X_FCA_U1.N940824)    7.5950              
 
-(X_FCA_U1.N956866)    3.0205          (X_FCA_U1.N956884)    3.0205              
+(X_FCA_U1.N940832)    2.4050          (X_FCA_U1.N956734)    5.0262              
 
-(X_FCA_U1.N956892)    3.0205          (X_FCA_U1.N957030)    3.0000              
+(X_FCA_U1.N956866)    5.0262          (X_FCA_U1.N956884)    5.0262              
 
-(X_FCA_U1.N957036)    3.0000          (X_FCA_U1.N957042)    3.0205              
+(X_FCA_U1.N956892)    5.0262          (X_FCA_U1.N957030)    5.0000              
 
-(X_FCA_U1.N957214)    3.0205          (X_FCA_U1.N957264)    3.0205              
+(X_FCA_U1.N957036)    5.0000          (X_FCA_U1.N957042)    5.0262              
 
-(X_FCA_U1.N959235)    3.0229          (X_FCA_U1.N973734)    3.0205              
+(X_FCA_U1.N957214)    5.0262          (X_FCA_U1.N957264)    5.0262              
 
-(X_FCA_U1.N973764)    3.0205          (X_FCA_U1.N973790)    3.0205              
+(X_FCA_U1.N959235)    5.0286          (X_FCA_U1.N973734)    5.0262              
 
-(X_FCA_U1.VCC_CLP)    4.8970          (X_FCA_U1.VEE_CLP)    1.1030              
+(X_FCA_U1.N973764)    5.0262          (X_FCA_U1.N973790)    5.0262              
 
-(X_FCA_U1.N1346042)   11.9820         (X_FCA_U1.N1410320)    3.0205             
+(X_FCA_U1.VCC_CLP)    8.8950          (X_FCA_U1.VEE_CLP)    1.1050              
 
-(X_FCA_U1.N1410360)    3.0205         (X_FCA_U1.N1415236)    3.0205         
+(X_FCA_U1.N1346042)   19.9700         (X_FCA_U1.N1410320)    5.0262             
+
+(X_FCA_U1.N1410360)    5.0262         (X_FCA_U1.N1415236)    5.0262         
 
 
 
@@ -322,23 +435,23 @@ R_R2         N00888 N00615  50 TC=0,0
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -1.680E-02
+    V_V1        -1.703E-02
     V_V3         0.000E+00
-    V_V2         0.000E+00
+    V_V2        -2.953E-02
     X_FCA_U1.V_V14   0.000E+00
     X_FCA_U1.V_VCMH   0.000E+00
     X_FCA_U1.V_VCML   0.000E+00
-    X_FCA_U1.X_H4.VH_H4  -6.025E-06
-    X_FCA_U1.X_W1.VW_W1   1.455E-15
+    X_FCA_U1.X_H4.VH_H4  -6.032E-06
+    X_FCA_U1.X_W1.VW_W1   1.492E-16
     X_FCA_U1.X_W2.VW_W2   0.000E+00
 
-    TOTAL POWER DISSIPATION   1.01E-01  WATTS
+    TOTAL POWER DISSIPATION   4.07E-01  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 01/10/25 22:15:05 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 01/11/25 00:26:17 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "AC-Trans"  [ E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simu
 
@@ -350,5 +463,5 @@ R_R2         N00888 N00615  50 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .44
+  Total job time (using Solver 1)   =         .59
 

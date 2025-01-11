@@ -1,10 +1,12 @@
 (ExpressProject "OPA2675"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[01/10/25]")
+  (SoftwareVersion "23.1-2024 S001-[01/11/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library\opa2675.olb"
+        (Type "Schematic Library"))
+      (File ".\infineon-rftransistor-spice.lib-sm-v02_10-en.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -21,6 +23,8 @@
     (File ".\opa2675-pspicefiles\schematic1\schematic1.net"
       (Type "Report"))
     (File ".\opa2675-pspicefiles\opa2675\opa2675.net"
+      (Type "Report"))
+    (File ".\opa2675-pspicefiles\ac\ac.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
@@ -35,6 +39,9 @@
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User)
+      (File ".\infineon-rftransistor-spice.lib-sm-v02_10-en.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\infineon-rftransistor-spice.lib-sm-v02_10-en.lib"))
       (File ".\OPA2675.lib"
         (Type "PSpiceLibrary")
         (DisplayName ".\OPA2675.lib")))
@@ -45,6 +52,29 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BFR740L3RH
+      (FullPartName "BFR740L3RH.Normal")
+      (LibraryName
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\INFINEON-RFTRANSISTOR-SPICE.LIB-SM-V02_10-EN.OLB")
+      (DeviceIndex "0"))
     (0
       (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -53,27 +83,14 @@
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (PARAM
       (FullPartName "PARAM.Normal")
       (LibraryName
          "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
       (DeviceIndex "0"))
-    (PORTBOTH-L
-      (LibraryName "E:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (OPA2675
       (FullPartName "OPA2675.Convert")
       (LibraryName "C:\USERS\A0232073\DESKTOP\GWL_MODELS\OPA2675\OPA2675.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (VDC
       (FullPartName "VDC.Normal")
@@ -91,18 +108,37 @@
          "AC")
       (Path "Design Resources"
          "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\opa2675.dsn"
+         "FILTER")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\opa2675.dsn"
+         "LED")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\opa2675.dsn"
          "OPA2675")
+      (Path "Design Resources"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\opa2675.dsn"
+         "RX_AMP")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\infineon-rftransistor-spice.lib-sm-v02_10-en.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Model Libraries")
-      (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\opa2675.dsn"
-         "AC"))
+      (Path "PSpice Resources" "Simulation Profiles"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 864 0 590"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1270 0 590"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1279 24 618")
+        (Scroll "901 319")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "E:\ONEDRIVE\UNIVERSIDAD\UTN\MATERIAS\6\PROYECTO_FINAL\KICAD\VLC_HARDWARE\VLC_HARDWARE\TRANSMITTER\FCA\SIMULATIONS\OPA2675\OPA2675.DSN")
+      (Schematic "AC")
+      (Page "AC"))))

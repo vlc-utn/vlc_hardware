@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (23.1.0.d001)
+STATUS:  
+STATUS: Translator started at Friday, January 10, 2025 22:52:25
+INFO(ORSCH-1029): Using existing library 'e:\cadence\pspiceti\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'E:\Onedrive\Universidad\UTN\Materias\6\proyecto_final\Kicad\vlc_hardware\vlc_hardware\Transmitter\FCA\Simulations\OPA2675\Infineon-RFTransistor-SPICE.lib-SM-v02_10-EN.olb'.
+INFO(ORSCH-1029): Using existing library 'E:\Cadence\PSpiceTI\tools\capture\library\pspice\cdn_psp_tipspice.olb'.
+STATUS: Translator stopped at Friday, January 10, 2025 22:52:56
+STATUS: 0 Error messages, 0 Warning messages

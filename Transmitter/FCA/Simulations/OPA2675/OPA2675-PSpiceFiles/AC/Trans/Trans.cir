@@ -6,13 +6,14 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../infineon-rftransistor-spice.lib-sm-v02_10-en.lib" 
 .LIB "../../../OPA2675.lib" 
 * From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
 .lib "nom_pspti.lib" 
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 1us 0 
+.TRAN  0 1us 0 0.001us 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
