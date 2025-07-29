@@ -51,9 +51,9 @@ plot(freq_t3, s21_t3, ...
 
 lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
 lgd.NumColumns = 2;
-title(lgd, "Filtros T", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize1, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize1, Interpreter="latex");
+title(lgd, "T-bridge filters", Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize1, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize1, Interpreter="latex");
 xlim([min(freq_t1), max(freq_t1)])
 grid on;
 fontsize(gca, fsize1, "points");
@@ -76,8 +76,8 @@ plot(freq_bga, s22_bga, ...
 lgd = legend(Interpreter="latex", FontSize=fsize2, Location="east");
 lgd.NumColumns = 3;
 title(lgd, "Amp. BGA616", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_bga), max(freq_bga)])
 grid on;
 fontsize(gca, fsize2, "points");
@@ -100,8 +100,8 @@ plot(freq_tx_amp, s22_tx_amp, ...
 lgd = legend(Interpreter="latex", FontSize=fsize2, Position=[0.69,0.6,0.1,0.1]);
 lgd.NumColumns = 3;
 title(lgd, "Amp. BRF740L3RH", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_tx_amp), max(freq_tx_amp)])
 grid on;
 fontsize(gca, fsize2, "points");
@@ -124,8 +124,8 @@ plot(freq_fca, s22_fca, ...
 lgd = legend(Interpreter="latex", FontSize=fsize2, Location="east");
 lgd.NumColumns = 3;
 title(lgd, "Amp. OPA2675", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_fca), max(freq_fca)])
 grid on;
 fontsize(gca, fsize2, "points");
@@ -148,8 +148,8 @@ plot(freq_ltc, s22_ltc, ...
 lgd = legend(Interpreter="latex", FontSize=fsize2, Location="southeast");
 lgd.NumColumns = 3;
 title(lgd, "TIA LTC6268-10", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_ltc), max(freq_ltc)])
 grid on;
 fontsize(gca, fsize2, "points");
@@ -172,8 +172,8 @@ plot(freq_lmh, s22_lmh, ...
 lgd = legend(Interpreter="latex", FontSize=fsize2, Location="southeast");
 lgd.NumColumns = 3;
 title(lgd, "TIA LMH34400", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_lmh), max(freq_lmh)])
 grid on;
 fontsize(gca, fsize2, "points");
@@ -200,9 +200,9 @@ plot(freq_t3_bga_fca, s21_t3_bga_fca, ...
 
 lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
 lgd.NumColumns = 2;
-title(lgd, "Iteraciones del Tx", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize1, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize1, Interpreter="latex");
+title(lgd, "Tx iterations", Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize1, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize1, Interpreter="latex");
 xlim([min(freq_lmh), max(freq_lmh)])
 grid on;
 fontsize(gca, fsize1, "points");
@@ -221,9 +221,9 @@ plot(freq_t2_bga_t3_fca, s21_t2_bga_t3_fca, ...
 
 lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
 lgd.NumColumns = 2;
-title(lgd, "Tx completo (T2+T3)", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize1, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize1, Interpreter="latex");
+title(lgd, "Complete Tx (T2+T3)", Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize1, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize1, Interpreter="latex");
 xlim([min(freq_lmh), max(freq_lmh)])
 grid on;
 fontsize(gca, fsize1, "points");
@@ -242,9 +242,9 @@ plot(freq_t3_bga_fca_led_sfh_ltc_bga, s21_t3_bga_fca_led_sfh_ltc_bga, ...
 
 lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
 lgd.NumColumns = 2;
-title(lgd, "Tx-Rx (solo T3)", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize1, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize1, Interpreter="latex");
+title(lgd, "Tx-Rx (only T3)", Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize1, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize1, Interpreter="latex");
 xlim([min(freq_t3_bga_fca_led_sfh_ltc_bga), max(freq_t3_bga_fca_led_sfh_ltc_bga)])
 grid on;
 fontsize(gca, fsize1, "points");
@@ -255,19 +255,19 @@ set(gca,'TickLabelInterpreter','latex');
 
 fig10 = figure(WindowState=window);
 plot(freq_t2_bga_t3_fca_led_sfh_ltc_bga, s11_t2_bga_t3_fca_led_sfh_ltc_bga, ...
-    LineWidth=3.5, Marker="square", MarkerSize=20, ...
+    LineWidth=lwidth, Marker="square", MarkerSize=msize1, ...
     DisplayName="$|S_{11}|$", MarkerIndices=1:mindex:length(freq_t2_bga_t3_fca_led_sfh_ltc_bga)); hold on;
 plot(freq_t2_bga_t3_fca_led_sfh_ltc_bga, s21_t2_bga_t3_fca_led_sfh_ltc_bga, ...
-    LineWidth=3.5, Marker="x", MarkerSize=20, ...
+    LineWidth=lwidth, Marker="x", MarkerSize=msize1, ...
     DisplayName="$|S_{21}|$", MarkerIndices=1:mindex:length(freq_t2_bga_t3_fca_led_sfh_ltc_bga)); hold on;
 
-lgd = legend(Interpreter="latex", FontSize=fsize2, Location="southeast");
+lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
 lgd.NumColumns = 1;
-ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
+ylabel("S-parameters [dB]", FontSize=fsize1, Interpreter="latex");
+xlabel("Frequency [MHz]", FontSize=fsize1, Interpreter="latex");
 xlim([min(freq_t3_bga_fca_led_sfh_ltc_bga), max(freq_t3_bga_fca_led_sfh_ltc_bga)])
 grid on;
-fontsize(gca, fsize2, "points");
+fontsize(gca, fsize1, "points");
 set(gca,'TickLabelInterpreter','latex');
 
 %% Saving as pdf
